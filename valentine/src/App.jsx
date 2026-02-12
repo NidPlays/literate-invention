@@ -1,5 +1,77 @@
 import React, { useState, useEffect } from 'react';
 
+const phrases = [
+  "No",
+  "Are you sure? (本気？)",
+  "Really sure? (진짜로?)",
+  "Think again! (考え直して！)",
+  "Last chance! (最後のチャンス！)",
+  "Surely not? (まさか...)",
+  "You might regret this! (後悔するよ！)",
+  "Give it another thought!",
+  "Are you absolutely certain?",
+  "This could be a mistake!",
+  "Have a heart! (心はないの？)",
+  "Don't be so cold! (冷たくしないで！)",
+  "Change of heart?",
+  "Wouldn't you reconsider?",
+  "Is that your final answer?",
+  "You're breaking my heart ;(",
+  "Pls? (お願い/제발)",
+  "Pretty pls? (頼むよ〜)",
+  "I'm gonna cry... (泣いちゃうよ)",
+  "Ok, I'm sad now (ㅠㅠ)"
+];
+
+const MochiCharacter = ({ mood, size = 220 }) => (
+  <svg width={size} height={size} viewBox="0 0 200 200" style={{ filter: 'drop-shadow(0 8px 24px rgba(199,140,160,0.25))' }}>
+    <defs>
+      <linearGradient id="body" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stopColor="#fff" />
+        <stop offset="100%" stopColor="#FFF5F8" />
+      </linearGradient>
+    </defs>
+    <ellipse cx="100" cy="168" rx="60" ry="10" fill="#F0E0E8" opacity="0.4" />
+    <circle cx="100" cy="108" r="82" fill="url(#body)" stroke="#F2C4D0" strokeWidth="1.5" />
+    <circle cx="58" cy="118" r="11" fill="#FFCAD8" opacity="0.55" />
+    <circle cx="142" cy="118" r="11" fill="#FFCAD8" opacity="0.55" />
+    {mood === 'happy' ? (
+      <g>
+        <path d="M 50 88 Q 63 72 76 88" stroke="#3a3a3a" strokeWidth="4.5" fill="none" strokeLinecap="round" />
+        <path d="M 124 88 Q 137 72 150 88" stroke="#3a3a3a" strokeWidth="4.5" fill="none" strokeLinecap="round" />
+        <path d="M 82 116 Q 100 136 118 116" stroke="#3a3a3a" strokeWidth="4.5" fill="none" strokeLinecap="round" />
+      </g>
+    ) : mood === 'worried' ? (
+      <g>
+        <circle cx="68" cy="92" r="7" fill="#3a3a3a" />
+        <circle cx="132" cy="92" r="7" fill="#3a3a3a" />
+        <circle cx="70" cy="90" r="2.5" fill="#fff" />
+        <circle cx="134" cy="90" r="2.5" fill="#fff" />
+        <path d="M 58 78 L 78 82" stroke="#3a3a3a" strokeWidth="3" strokeLinecap="round" />
+        <path d="M 142 78 L 122 82" stroke="#3a3a3a" strokeWidth="3" strokeLinecap="round" />
+        <ellipse cx="100" cy="124" rx="5" ry="7" fill="#3a3a3a" />
+        <path d="M 155 76 Q 158 90 155 100" stroke="#A8D8C8" strokeWidth="3.5" fill="none" strokeLinecap="round" />
+      </g>
+    ) : mood === 'crying' ? (
+      <g>
+        <path d="M 56 92 L 80 92" stroke="#3a3a3a" strokeWidth="4" strokeLinecap="round" />
+        <path d="M 120 92 L 144 92" stroke="#3a3a3a" strokeWidth="4" strokeLinecap="round" />
+        <path d="M 68 102 Q 62 118 68 132" stroke="#A8D8C8" strokeWidth="4" fill="rgba(168,216,200,0.2)" strokeLinecap="round" />
+        <path d="M 132 102 Q 138 118 132 132" stroke="#A8D8C8" strokeWidth="4" fill="rgba(168,216,200,0.2)" strokeLinecap="round" />
+        <path d="M 84 126 Q 92 121 100 124 Q 108 127 116 122" stroke="#3a3a3a" strokeWidth="3.5" fill="none" strokeLinecap="round" />
+      </g>
+    ) : (
+      <g>
+        <circle cx="68" cy="92" r="7.5" fill="#3a3a3a" />
+        <circle cx="132" cy="92" r="7.5" fill="#3a3a3a" />
+        <circle cx="70" cy="90" r="2.5" fill="#fff" />
+        <circle cx="134" cy="90" r="2.5" fill="#fff" />
+        <path d="M 88 118 Q 100 130 112 118" stroke="#3a3a3a" strokeWidth="4" fill="none" strokeLinecap="round" />
+      </g>
+    )}
+  </svg>
+);
+
 const ValentineApp = () => {
   const [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
@@ -7,29 +79,6 @@ const ValentineApp = () => {
   const [noButtonPosition, setNoButtonPosition] = useState(null);
   const [noButtonHidden, setNoButtonHidden] = useState(false);
   const [noButtonFading, setNoButtonFading] = useState(false);
-
-  const phrases = [
-    "No",
-    "Are you sure? (本気？)",
-    "Really sure? (진짜로?)",
-    "Think again! (考え直して！)",
-    "Last chance! (最後のチャンス！)",
-    "Surely not? (まさか...)",
-    "You might regret this! (後悔するよ！)",
-    "Give it another thought!",
-    "Are you absolutely certain?",
-    "This could be a mistake!",
-    "Have a heart! (心はないの？)",
-    "Don't be so cold! (冷たくしないで！)",
-    "Change of heart?",
-    "Wouldn't you reconsider?",
-    "Is that your final answer?",
-    "You're breaking my heart ;(",
-    "Pls? (お願い/제발)",
-    "Pretty pls? (頼むよ〜)",
-    "I'm gonna cry... (泣いちゃうよ)",
-    "Ok, I'm sad now (ㅠㅠ)"
-  ];
 
   const handleNoClick = () => {
     setNoCount(noCount + 1);
@@ -55,16 +104,15 @@ const ValentineApp = () => {
     return `${0.6 * m}em ${1.3 * m}em`;
   };
 
-  const [petals, setPetals] = useState([]);
-  useEffect(() => {
-    setPetals(Array.from({ length: 20 }).map((_, i) => ({
+  const [petals] = useState(() =>
+    Array.from({ length: 20 }).map((_, i) => ({
       id: i,
       left: Math.random() * 100,
       duration: Math.random() * 6 + 8,
       delay: Math.random() * 10,
       size: Math.random() * 8 + 10,
-    })));
-  }, []);
+    }))
+  );
 
   useEffect(() => {
     if (currentTextIndex === phrases.length - 1 && noCount > 0) {
@@ -73,55 +121,6 @@ const ValentineApp = () => {
       return () => { clearTimeout(fadeTimer); clearTimeout(hideTimer); };
     }
   }, [currentTextIndex, noCount]);
-
-  const MochiCharacter = ({ mood, size = 220 }) => (
-    <svg width={size} height={size} viewBox="0 0 200 200" style={{ filter: 'drop-shadow(0 8px 24px rgba(199,140,160,0.25))' }}>
-      <defs>
-        <linearGradient id="body" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stopColor="#fff" />
-          <stop offset="100%" stopColor="#FFF5F8" />
-        </linearGradient>
-      </defs>
-      <ellipse cx="100" cy="168" rx="60" ry="10" fill="#F0E0E8" opacity="0.4" />
-      <circle cx="100" cy="108" r="82" fill="url(#body)" stroke="#F2C4D0" strokeWidth="1.5" />
-      <circle cx="58" cy="118" r="11" fill="#FFCAD8" opacity="0.55" />
-      <circle cx="142" cy="118" r="11" fill="#FFCAD8" opacity="0.55" />
-      {mood === 'happy' ? (
-        <g>
-          <path d="M 50 88 Q 63 72 76 88" stroke="#3a3a3a" strokeWidth="4.5" fill="none" strokeLinecap="round" />
-          <path d="M 124 88 Q 137 72 150 88" stroke="#3a3a3a" strokeWidth="4.5" fill="none" strokeLinecap="round" />
-          <path d="M 82 116 Q 100 136 118 116" stroke="#3a3a3a" strokeWidth="4.5" fill="none" strokeLinecap="round" />
-        </g>
-      ) : mood === 'worried' ? (
-        <g>
-          <circle cx="68" cy="92" r="7" fill="#3a3a3a" />
-          <circle cx="132" cy="92" r="7" fill="#3a3a3a" />
-          <circle cx="70" cy="90" r="2.5" fill="#fff" />
-          <circle cx="134" cy="90" r="2.5" fill="#fff" />
-          <path d="M 58 78 L 78 82" stroke="#3a3a3a" strokeWidth="3" strokeLinecap="round" />
-          <path d="M 142 78 L 122 82" stroke="#3a3a3a" strokeWidth="3" strokeLinecap="round" />
-          <ellipse cx="100" cy="124" rx="5" ry="7" fill="#3a3a3a" />
-          <path d="M 155 76 Q 158 90 155 100" stroke="#A8D8C8" strokeWidth="3.5" fill="none" strokeLinecap="round" />
-        </g>
-      ) : mood === 'crying' ? (
-        <g>
-          <path d="M 56 92 L 80 92" stroke="#3a3a3a" strokeWidth="4" strokeLinecap="round" />
-          <path d="M 120 92 L 144 92" stroke="#3a3a3a" strokeWidth="4" strokeLinecap="round" />
-          <path d="M 68 102 Q 62 118 68 132" stroke="#A8D8C8" strokeWidth="4" fill="rgba(168,216,200,0.2)" strokeLinecap="round" />
-          <path d="M 132 102 Q 138 118 132 132" stroke="#A8D8C8" strokeWidth="4" fill="rgba(168,216,200,0.2)" strokeLinecap="round" />
-          <path d="M 84 126 Q 92 121 100 124 Q 108 127 116 122" stroke="#3a3a3a" strokeWidth="3.5" fill="none" strokeLinecap="round" />
-        </g>
-      ) : (
-        <g>
-          <circle cx="68" cy="92" r="7.5" fill="#3a3a3a" />
-          <circle cx="132" cy="92" r="7.5" fill="#3a3a3a" />
-          <circle cx="70" cy="90" r="2.5" fill="#fff" />
-          <circle cx="134" cy="90" r="2.5" fill="#fff" />
-          <path d="M 88 118 Q 100 130 112 118" stroke="#3a3a3a" strokeWidth="4" fill="none" strokeLinecap="round" />
-        </g>
-      )}
-    </svg>
-  );
 
   const getMood = () => {
     if (yesPressed) return 'happy';
