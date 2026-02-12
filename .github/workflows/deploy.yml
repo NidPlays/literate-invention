@@ -30,6 +30,10 @@ jobs:
         run: npm ci
         working-directory: valentine
 
+      - name: Lint
+        run: npm run lint
+        working-directory: valentine
+
       - name: Test
         run: npm test
         working-directory: valentine
