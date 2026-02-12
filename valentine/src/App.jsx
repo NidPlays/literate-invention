@@ -72,6 +72,19 @@ const MochiCharacter = ({ mood, size = 220 }) => (
   </svg>
 );
 
+const parallaxItems = [
+  { emoji: '\u{1F497}', x: 15, y: 20, speed: 3.5, depth: 'near' },
+  { emoji: '\u2728', x: 80, y: 15, speed: 5.0, depth: 'far' },
+  { emoji: '\u{1F338}', x: 10, y: 75, speed: 4.2, depth: 'mid' },
+  { emoji: '\u{1F495}', x: 85, y: 70, speed: 3.2, depth: 'near' },
+  { emoji: '\u2728', x: 50, y: 10, speed: 4.8, depth: 'far' },
+  { emoji: '\u{1F338}', x: 30, y: 85, speed: 3.8, depth: 'mid' },
+  { emoji: '\u{1F497}', x: 70, y: 35, speed: 4.5, depth: 'far' },
+  { emoji: '\u2728', x: 22, y: 50, speed: 3.0, depth: 'near' },
+  { emoji: '\u{1F495}', x: 60, y: 80, speed: 3.6, depth: 'mid' },
+  { emoji: '\u{1F338}', x: 92, y: 42, speed: 4.0, depth: 'far' },
+];
+
 const ValentineApp = () => {
   const [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
@@ -98,10 +111,39 @@ const ValentineApp = () => {
     });
   };
 
-  const getYesButtonSize = () => Math.min(noCount * 16 + 18, 56);
-  const getYesButtonPadding = () => {
-    const m = getYesButtonSize() / 18;
-    return `${0.6 * m}em ${1.3 * m}em`;
+  const progress = Math.min(noCount / 19, 1);
+
+  const getYesButtonStyle = () => {
+    if (noCount === 0) {
+      return { fontSize: '18px', padding: '0.6em 1.3em' };
+    }
+    const t = progress;
+    const width = 15 + t * 85;
+    const height = 7 + t * 93;
+    const borderRadius = (1 - t) * 60;
+    const fontSize = 18 + t * 42;
+    const glow = t;
+
+    return {
+      position: 'fixed',
+      top: '50%',
+      left: '50%',
+      transform: 'translate(-50%, -50%)',
+      width: `${width}vw`,
+      height: `${height}vh`,
+      borderRadius: `${borderRadius}px`,
+      fontSize: `${fontSize}px`,
+      padding: 0,
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      zIndex: 100,
+      boxShadow: `
+        0 0 ${glow * 80}px ${glow * 30}px rgba(124,205,176,${(0.15 + glow * 0.4).toFixed(2)}),
+        0 0 ${glow * 120}px ${glow * 60}px rgba(157,216,192,${(glow * 0.2).toFixed(2)})
+      `,
+      transition: 'all 0.7s cubic-bezier(0.34, 1.56, 0.64, 1)',
+    };
   };
 
   const [petals] = useState(() =>
@@ -225,6 +267,48 @@ const ValentineApp = () => {
         }
         .btn-yes:active { transform: scale(0.97); }
         .btn-yes.pulse { animation: pulse-ring 2s ease-out infinite; }
+
+        .btn-yes-growing {
+          background: linear-gradient(135deg, #9DD8C0 0%, #7CCDB0 25%, #85D4B5 50%, #9DD8C0 75%, #7CCDB0 100%);
+          background-size: 400% 400%;
+          animation: pulse-ring 2s ease-out infinite, yes-gradient-shift 4s ease-in-out infinite;
+        }
+        .btn-yes-growing:hover {
+          transform: translate(-50%, -50%) scale(1.02);
+          box-shadow: inherit;
+        }
+        .btn-yes-growing:active {
+          transform: translate(-50%, -50%) scale(0.99);
+        }
+
+        @keyframes yes-gradient-shift {
+          0%, 100% { background-position: 0% 50%; }
+          25% { background-position: 100% 0%; }
+          50% { background-position: 100% 100%; }
+          75% { background-position: 0% 100%; }
+        }
+
+        @keyframes parallax-near {
+          0%, 100% { transform: translate(0, 0) rotate(0deg) scale(1); }
+          25% { transform: translate(15px, -25px) rotate(8deg) scale(1.1); }
+          50% { transform: translate(-10px, -40px) rotate(-5deg) scale(1.05); }
+          75% { transform: translate(20px, -15px) rotate(6deg) scale(1.08); }
+        }
+
+        @keyframes parallax-mid {
+          0%, 100% { transform: translate(0, 0) rotate(0deg); }
+          33% { transform: translate(-8px, -18px) rotate(-4deg); }
+          66% { transform: translate(12px, -28px) rotate(5deg); }
+        }
+
+        @keyframes parallax-far {
+          0%, 100% { transform: translate(0, 0) rotate(0deg); }
+          50% { transform: translate(5px, -12px) rotate(3deg); }
+        }
+
+        .parallax-near { animation: parallax-near ease-in-out infinite; }
+        .parallax-mid { animation: parallax-mid ease-in-out infinite; }
+        .parallax-far { animation: parallax-far ease-in-out infinite; }
 
         .btn-no {
           background: linear-gradient(135deg, #F5C0D0 0%, #ECA5B8 100%);
@@ -415,11 +499,44 @@ const ValentineApp = () => {
 
             <div className="stagger-3" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center', gap: '1.25rem' }}>
               <button
-                className={`btn-yes ${noCount > 0 ? 'pulse' : ''}`}
-                style={{ fontSize: `${getYesButtonSize()}px`, padding: getYesButtonPadding() }}
+                className={`btn-yes ${noCount > 0 ? 'pulse' : ''} ${noCount > 0 ? 'btn-yes-growing' : ''}`}
+                style={getYesButtonStyle()}
                 onClick={() => setYesPressed(true)}
               >
-                Yes! はい!
+                {noCount > 3 && (
+                  <div style={{ position: 'absolute', inset: 0, overflow: 'hidden', pointerEvents: 'none', borderRadius: 'inherit' }}>
+                    {parallaxItems.map((item, i) => {
+                      const itemOpacity = Math.min(Math.max(progress - 0.2, 0) * 2.5, 0.7);
+                      return (
+                        <span
+                          key={i}
+                          className={`parallax-${item.depth}`}
+                          style={{
+                            position: 'absolute',
+                            left: `${item.x}%`,
+                            top: `${item.y}%`,
+                            fontSize: `${1.2 + progress * 1.5}rem`,
+                            opacity: itemOpacity,
+                            animationDuration: `${item.speed}s`,
+                            animationDelay: `${i * 0.15}s`,
+                            transition: 'opacity 0.6s ease, font-size 0.6s ease',
+                          }}
+                        >
+                          {item.emoji}
+                        </span>
+                      );
+                    })}
+                  </div>
+                )}
+                <span style={{
+                  position: 'relative',
+                  zIndex: 2,
+                  textShadow: progress > 0.4 ? `0 2px ${Math.round(10 + progress * 20)}px rgba(255,255,255,${(0.3 + progress * 0.4).toFixed(2)})` : 'none',
+                  transition: 'text-shadow 0.5s ease',
+                  whiteSpace: 'nowrap',
+                }}>
+                  Yes! はい!
+                </span>
               </button>
 
               {!noButtonHidden && (
