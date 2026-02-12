@@ -438,60 +438,54 @@ const ValentineApp = () => {
             </div>
 
             <h1 className="hanbok-title text-5xl lg:text-8xl mb-8 leading-tight" style={{ color: '#FF8FA3' }}>
-              야호! 알고 있었어!<br/>
-              <span className="text-4xl lg:text-6xl mt-6 block" style={{ color: '#85E0C8' }}>Saranghae! &#40;사랑해&#41;</span>
-              <span className="text-3xl lg:text-5xl mt-4 block korean-serif" style={{ color: '#E6D5F5' }}>大好き Daisuki!</span>
+              Yay!! I knew it!<br/>
+              <span className="text-4xl lg:text-6xl mt-6 block" style={{ color: '#85E0C8' }}>사랑해 Saranghae!</span>
+              <span className="text-3xl lg:text-5xl mt-4 block korean-serif" style={{ color: '#E6D5F5' }}>大好き!</span>
             </h1>
 
             {/* BOJAGI COUPON CARD - Korean wrapping cloth inspired */}
-            <div className="bojagi-card p-10 rounded-3xl transform -rotate-1 hover:rotate-0 max-w-lg w-full mx-4 mt-10 relative cursor-pointer group hanbok-pattern">
+            <div className="bojagi-card p-8 rounded-3xl transform -rotate-1 hover:rotate-0 max-w-md w-full mx-4 mt-10 relative cursor-pointer group hanbok-pattern">
               {/* Korean cloud pattern corner decorations */}
               <div className="absolute top-4 right-4 w-16 h-16 opacity-20" style={{
                 background: 'radial-gradient(circle, var(--hanbok-lavender) 20%, transparent 20%)',
                 backgroundSize: '8px 8px'
               }}></div>
 
-              <div className="absolute top-3 right-3 text-white text-xs px-4 py-2 rounded-full font-bold z-10 korean-serif" style={{
+              <div className="absolute top-3 right-3 text-white text-xs px-3 py-1 rounded-full font-bold z-10 korean-serif" style={{
                 background: 'linear-gradient(135deg, #FF8FA3 0%, #FFB3D9 100%)',
                 boxShadow: '0 4px 12px rgba(255, 143, 163, 0.4)'
               }}>
-                영원히 유효 ∞
+                FOREVER ∞
               </div>
 
               {/* Traditional ticket perforations */}
               <div className="absolute -left-4 top-1/2 w-8 h-8 rounded-full" style={{ background: 'var(--washi-cream)' }}></div>
               <div className="absolute -right-4 top-1/2 w-8 h-8 rounded-full" style={{ background: 'var(--washi-cream)' }}></div>
 
-              <div className="flex items-center gap-8 relative z-0">
-                 <div className="text-7xl" style={{ animation: 'origami-float 3s ease-in-out infinite' }}>🎁</div>
+              <div className="flex items-center gap-6 relative z-0">
+                 <div className="text-6xl" style={{ animation: 'origami-float 3s ease-in-out infinite' }}>🎁</div>
                  <div className="text-left flex-1">
-                    <h2 className="text-3xl font-bold tracking-wide hanbok-title mb-2" style={{ color: 'var(--silk-coral)' }}>
-                      발렌타인 선물
+                    <h2 className="text-2xl font-bold tracking-wide hanbok-title mb-1" style={{ color: 'var(--silk-coral)' }}>
+                      Valentine Gift
                     </h2>
-                    <p className="text-sm korean-serif mb-2" style={{ color: 'var(--ink-black)', opacity: 0.7 }}>
-                      Valentine's Day Gift
-                    </p>
-                    <div className="flex items-baseline gap-2">
-                      <p className="text-6xl font-extrabold hanbok-title" style={{ color: 'var(--ink-black)' }}>$50</p>
-                      <span className="text-lg font-bold korean-serif" style={{ color: 'var(--silk-jade)' }}>선물</span>
+                    <div className="flex items-baseline gap-2 my-2">
+                      <p className="text-5xl font-extrabold hanbok-title" style={{ color: 'var(--ink-black)' }}>$50</p>
+                      <span className="text-sm font-bold korean-serif" style={{ color: 'var(--silk-jade)' }}>OFF</span>
                     </div>
-                    <p className="text-sm korean-serif font-semibold leading-relaxed mt-2" style={{ color: 'var(--silk-coral)' }}>
-                      무엇이든 살 수 있어요!<br/>
-                      <span className="text-xs" style={{ color: 'var(--ink-black)', opacity: 0.6 }}>
-                        (Makeup, Food, Clothes, etc.)
-                      </span>
+                    <p className="text-xs korean-serif font-semibold leading-relaxed" style={{ color: 'var(--ink-black)', opacity: 0.6 }}>
+                      Makeup, Food, Clothes, etc.
                     </p>
                  </div>
               </div>
 
-              <div className="mt-6 pt-4 text-xs flex justify-between items-center korean-serif" style={{
+              <div className="mt-4 pt-3 text-xs flex justify-between items-center korean-serif" style={{
                 borderTop: '2px dashed rgba(255, 179, 217, 0.3)',
                 color: 'var(--ink-black)',
                 opacity: 0.6
               }}>
-                <span className="font-mono">ID: 사랑-9000</span>
+                <span className="font-mono">ID: LOVE-9000</span>
                 <span className="group-hover:opacity-100 transition-opacity" style={{ color: 'var(--silk-coral)' }}>
-                  *다음에 만날 때 사용 가능 ♡
+                  *Redeemable anytime ♡
                 </span>
               </div>
             </div>
@@ -503,10 +497,7 @@ const ValentineApp = () => {
             </div>
 
             <p className="mt-12 text-3xl korean-serif font-semibold" style={{ color: 'var(--silk-coral)' }}>
-              2월 14일에 만나요! ♡
-            </p>
-            <p className="text-xl mt-2 korean-serif" style={{ color: 'var(--ink-black)', opacity: 0.6 }}>
-              See you on the 14th, cutie!
+              See you on the 14th, cutie! ♡
             </p>
           </div>
         ) : (
@@ -586,14 +577,11 @@ const ValentineApp = () => {
               </div>
             </div>
 
-            <h1 className="hanbok-title text-5xl lg:text-8xl mb-8 leading-tight" style={{ color: 'var(--silk-coral)' }}>
-              내 발렌타인이 되어줄래?
-            </h1>
-            <p className="korean-serif text-2xl lg:text-4xl mb-4" style={{ color: 'var(--hanbok-lavender)' }}>
-              バレンタインになってくれる？
-            </p>
-            <p className="korean-serif text-xl lg:text-3xl mb-10" style={{ color: 'var(--ink-black)', opacity: 0.5 }}>
+            <h1 className="hanbok-title text-5xl lg:text-8xl mb-4 leading-tight" style={{ color: 'var(--silk-coral)' }}>
               Will you be my Valentine?
+            </h1>
+            <p className="korean-serif text-xl lg:text-3xl mb-10" style={{ color: 'var(--hanbok-lavender)', opacity: 0.8 }}>
+              バレンタインになってくれる？
             </p>
 
             <div className="flex flex-col lg:flex-row items-center justify-center gap-10 mt-16 w-full px-4">
@@ -629,10 +617,7 @@ const ValentineApp = () => {
                  color: 'var(--silk-coral)',
                  animation: 'origami-float 2s ease-in-out infinite'
                }}>
-                  ( "네" 버튼이 점점 커지고 있어요... 😉 )<br/>
-                  <span className="text-base" style={{ color: 'var(--ink-black)', opacity: 0.5 }}>
-                    The "Yes" button is getting pretty big... hint hint
-                  </span>
+                  ( The "Yes" button is getting pretty big... hint hint 😉 )
                </div>
             )}
           </div>
@@ -650,7 +635,7 @@ const ValentineApp = () => {
         border: '2px solid rgba(255, 179, 217, 0.3)'
       }}>
         <Cherry size={18} />
-        <span>사랑으로 만든 • Made with ♡</span>
+        <span>Made with love ♡</span>
         <Heart size={18} fill="currentColor" />
       </div>
 
