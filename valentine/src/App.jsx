@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Heart, Cherry } from 'lucide-react';
 
 const ValentineApp = () => {
   const [noCount, setNoCount] = useState(0);
@@ -7,7 +6,6 @@ const ValentineApp = () => {
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [noButtonPosition, setNoButtonPosition] = useState(null);
 
-  // Japanese/Korean/English mixed phrases for the "No" button
   const phrases = [
     "No",
     "Are you sure? (本気？)",
@@ -16,7 +14,7 @@ const ValentineApp = () => {
     "Last chance! (最後のチャンス！)",
     "Surely not? (まさか...)",
     "You might regret this! (後悔するよ！)",
-    "Give it another thought! (もう一度考えて！)",
+    "Give it another thought!",
     "Are you absolutely certain?",
     "This could be a mistake!",
     "Have a heart! (心はないの？)",
@@ -31,15 +29,11 @@ const ValentineApp = () => {
     "Ok, I'm sad now (ㅠㅠ)"
   ];
 
-  // Logic to handle the "No" button click
   const handleNoClick = () => {
     setNoCount(noCount + 1);
     setCurrentTextIndex(prev => (prev + 1) % phrases.length);
-
-    // Move the button to a random position for fun
-    const randomX = Math.random() * 70 + 15;
-    const randomY = Math.random() * 70 + 15;
-
+    const randomX = Math.random() * 60 + 20;
+    const randomY = Math.random() * 60 + 20;
     setNoButtonPosition({
       position: 'fixed',
       left: `${randomX}%`,
@@ -48,597 +42,400 @@ const ValentineApp = () => {
     });
   };
 
-  // Calculate the size of the Yes button
-  const getYesButtonSize = () => {
-    const basePx = 18;
-    const growthPx = 20;
-    const maxSize = 64;
-    return Math.min(noCount * growthPx + basePx, maxSize);
-  };
-
-  // Calculate padding based on button size
+  const getYesButtonSize = () => Math.min(noCount * 16 + 18, 56);
   const getYesButtonPadding = () => {
-    const baseSize = getYesButtonSize();
-    const paddingMultiplier = baseSize / 18;
-    return `${0.7 * paddingMultiplier}em ${1.4 * paddingMultiplier}em`;
+    const m = getYesButtonSize() / 18;
+    return `${0.6 * m}em ${1.3 * m}em`;
   };
 
-  // Generate random cherry blossoms with varied sizes
   const [petals, setPetals] = useState([]);
   useEffect(() => {
-    const newPetals = Array.from({ length: 35 }).map((_, i) => ({
+    setPetals(Array.from({ length: 20 }).map((_, i) => ({
       id: i,
       left: Math.random() * 100,
-      animationDuration: Math.random() * 8 + 7,
-      delay: Math.random() * 8,
-      size: Math.random() * 10 + 12,
-      opacity: Math.random() * 0.4 + 0.5
-    }));
-    setPetals(newPetals);
+      duration: Math.random() * 6 + 8,
+      delay: Math.random() * 10,
+      size: Math.random() * 8 + 10,
+    })));
   }, []);
 
+  const MochiCharacter = ({ mood, size = 220 }) => (
+    <svg width={size} height={size} viewBox="0 0 200 200" style={{ filter: 'drop-shadow(0 8px 24px rgba(199,140,160,0.25))' }}>
+      <defs>
+        <linearGradient id="body" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stopColor="#fff" />
+          <stop offset="100%" stopColor="#FFF5F8" />
+        </linearGradient>
+      </defs>
+      <ellipse cx="100" cy="168" rx="60" ry="10" fill="#F0E0E8" opacity="0.4" />
+      <circle cx="100" cy="108" r="82" fill="url(#body)" stroke="#F2C4D0" strokeWidth="1.5" />
+      <circle cx="58" cy="118" r="11" fill="#FFCAD8" opacity="0.55" />
+      <circle cx="142" cy="118" r="11" fill="#FFCAD8" opacity="0.55" />
+      {mood === 'happy' ? (
+        <g>
+          <path d="M 50 88 Q 63 72 76 88" stroke="#3a3a3a" strokeWidth="4.5" fill="none" strokeLinecap="round" />
+          <path d="M 124 88 Q 137 72 150 88" stroke="#3a3a3a" strokeWidth="4.5" fill="none" strokeLinecap="round" />
+          <path d="M 82 116 Q 100 136 118 116" stroke="#3a3a3a" strokeWidth="4.5" fill="none" strokeLinecap="round" />
+        </g>
+      ) : mood === 'worried' ? (
+        <g>
+          <circle cx="68" cy="92" r="7" fill="#3a3a3a" />
+          <circle cx="132" cy="92" r="7" fill="#3a3a3a" />
+          <circle cx="70" cy="90" r="2.5" fill="#fff" />
+          <circle cx="134" cy="90" r="2.5" fill="#fff" />
+          <path d="M 58 78 L 78 82" stroke="#3a3a3a" strokeWidth="3" strokeLinecap="round" />
+          <path d="M 142 78 L 122 82" stroke="#3a3a3a" strokeWidth="3" strokeLinecap="round" />
+          <ellipse cx="100" cy="124" rx="5" ry="7" fill="#3a3a3a" />
+          <path d="M 155 76 Q 158 90 155 100" stroke="#A8D8C8" strokeWidth="3.5" fill="none" strokeLinecap="round" />
+        </g>
+      ) : mood === 'crying' ? (
+        <g>
+          <path d="M 56 92 L 80 92" stroke="#3a3a3a" strokeWidth="4" strokeLinecap="round" />
+          <path d="M 120 92 L 144 92" stroke="#3a3a3a" strokeWidth="4" strokeLinecap="round" />
+          <path d="M 68 102 Q 62 118 68 132" stroke="#A8D8C8" strokeWidth="4" fill="rgba(168,216,200,0.2)" strokeLinecap="round" />
+          <path d="M 132 102 Q 138 118 132 132" stroke="#A8D8C8" strokeWidth="4" fill="rgba(168,216,200,0.2)" strokeLinecap="round" />
+          <path d="M 84 126 Q 92 121 100 124 Q 108 127 116 122" stroke="#3a3a3a" strokeWidth="3.5" fill="none" strokeLinecap="round" />
+        </g>
+      ) : (
+        <g>
+          <circle cx="68" cy="92" r="7.5" fill="#3a3a3a" />
+          <circle cx="132" cy="92" r="7.5" fill="#3a3a3a" />
+          <circle cx="70" cy="90" r="2.5" fill="#fff" />
+          <circle cx="134" cy="90" r="2.5" fill="#fff" />
+          <path d="M 88 118 Q 100 130 112 118" stroke="#3a3a3a" strokeWidth="4" fill="none" strokeLinecap="round" />
+        </g>
+      )}
+    </svg>
+  );
+
+  const getMood = () => {
+    if (yesPressed) return 'happy';
+    if (noCount === 0) return 'neutral';
+    if (noCount < 5) return 'worried';
+    return 'crying';
+  };
+
   return (
-    <div className="min-h-screen relative overflow-hidden font-sans">
-
-      {/* CSS for Korean/Japanese Aesthetic */}
+    <div style={{
+      minHeight: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      position: 'relative',
+      overflow: 'hidden',
+      background: 'linear-gradient(160deg, #FFF9FB 0%, #FFF0F4 35%, #F8F0FF 65%, #F0FBF8 100%)',
+    }}>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Shippori+Mincho:wght@400;600;800&family=Black+Han+Sans&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@400;500;600;700&family=Noto+Serif+JP:wght@400;700&display=swap');
 
-        :root {
-          --hanbok-pink: #FFB3D9;
-          --hanbok-mint: #B8E6D5;
-          --hanbok-yellow: #FFF4B8;
-          --hanbok-lavender: #E6D5F5;
-          --washi-cream: #FFF8F0;
-          --silk-coral: #FF8FA3;
-          --silk-jade: #85E0C8;
-          --ink-black: #2D2D2D;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
-          font-family: 'Shippori Mincho', serif;
-          background: linear-gradient(165deg, var(--washi-cream) 0%, #FFF0F8 30%, #F0F8FF 70%, var(--hanbok-mint) 100%);
-          background-attachment: fixed;
+          font-family: 'DM Sans', sans-serif;
+          -webkit-font-smoothing: antialiased;
         }
 
-        .hanbok-title {
-          font-family: 'Black Han Sans', sans-serif;
-          letter-spacing: 0.05em;
-          text-shadow:
-            3px 3px 0px rgba(255, 179, 217, 0.3),
-            -1px -1px 0px rgba(184, 230, 213, 0.2);
+        @keyframes sakura {
+          0% { transform: translateY(-5vh) translateX(0) rotate(0deg); opacity: 0.8; }
+          25% { transform: translateY(25vh) translateX(12px) rotate(90deg); }
+          50% { transform: translateY(50vh) translateX(-8px) rotate(180deg); opacity: 0.6; }
+          75% { transform: translateY(75vh) translateX(16px) rotate(270deg); }
+          100% { transform: translateY(105vh) translateX(4px) rotate(360deg); opacity: 0; }
         }
 
-        .korean-serif {
-          font-family: 'Gowun Batang', serif;
+        @keyframes gentle-float {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-12px); }
         }
 
-        /* Washi paper texture overlay */
-        .washi-texture {
+        @keyframes fade-up {
+          from { opacity: 0; transform: translateY(20px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulse-ring {
+          0% { box-shadow: 0 4px 16px rgba(168,216,200,0.4), 0 0 0 0 rgba(168,216,200,0.5); }
+          70% { box-shadow: 0 4px 16px rgba(168,216,200,0.4), 0 0 0 16px rgba(168,216,200,0); }
+          100% { box-shadow: 0 4px 16px rgba(168,216,200,0.4), 0 0 0 0 rgba(168,216,200,0); }
+        }
+
+        @keyframes shimmer {
+          0% { background-position: -200% center; }
+          100% { background-position: 200% center; }
+        }
+
+        .petal {
           position: fixed;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background-image:
-            repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,255,255,0.03) 2px, rgba(255,255,255,0.03) 4px),
-            repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(255,255,255,0.03) 2px, rgba(255,255,255,0.03) 4px);
+          border-radius: 100% 0 100% 0;
+          background: linear-gradient(135deg, #FFD6E4 30%, #FFBDD0 100%);
+          animation: sakura linear infinite;
           pointer-events: none;
           z-index: 1;
           opacity: 0.6;
         }
 
-        /* Silk gradient backgrounds */
-        .silk-gradient {
-          background: linear-gradient(135deg,
-            var(--hanbok-pink) 0%,
-            var(--silk-coral) 25%,
-            var(--hanbok-lavender) 50%,
-            var(--hanbok-mint) 75%,
-            var(--silk-jade) 100%
-          );
-          background-size: 400% 400%;
-          animation: silk-shimmer 15s ease infinite;
+        .content { position: relative; z-index: 10; text-align: center; padding: 2rem 1.5rem; max-width: 600px; width: 100%; }
+
+        .title {
+          font-family: 'Cormorant Garamond', serif;
+          font-weight: 700;
+          color: #C4627A;
+          line-height: 1.15;
+          letter-spacing: -0.02em;
         }
 
-        @keyframes silk-shimmer {
-          0%, 100% { background-position: 0% 50%; }
-          50% { background-position: 100% 50%; }
+        .subtitle {
+          font-family: 'Noto Serif JP', serif;
+          color: #C4A0B0;
+          font-weight: 400;
         }
 
-        /* Cherry blossom petals - more realistic */
-        @keyframes sakura-fall {
-          0% {
-            transform: translateY(-10vh) translateX(0) rotate(0deg);
-            opacity: 1;
-          }
-          20% {
-            transform: translateY(20vh) translateX(10px) rotate(90deg);
-          }
-          40% {
-            transform: translateY(40vh) translateX(-5px) rotate(180deg);
-          }
-          60% {
-            transform: translateY(60vh) translateX(15px) rotate(270deg);
-          }
-          80% {
-            transform: translateY(80vh) translateX(-10px) rotate(360deg);
-          }
-          100% {
-            transform: translateY(110vh) translateX(5px) rotate(450deg);
-            opacity: 0;
-          }
-        }
-
-        .sakura-petal {
-          position: absolute;
-          background: radial-gradient(ellipse at center, #FFD4E5 0%, #FFB3D9 50%, #FF8FA3 100%);
-          border-radius: 100% 0% 100% 0%;
-          animation: sakura-fall linear infinite;
-          filter: drop-shadow(0 1px 2px rgba(255, 143, 163, 0.3));
-          z-index: 2;
-        }
-
-        /* Origami fold animations */
-        @keyframes origami-float {
-          0%, 100% {
-            transform: translateY(0) rotate(0deg) scale(1);
-          }
-          33% {
-            transform: translateY(-20px) rotate(3deg) scale(1.05);
-          }
-          66% {
-            transform: translateY(-10px) rotate(-2deg) scale(0.98);
-          }
-        }
-
-        .origami-float {
-          animation: origami-float 4s ease-in-out infinite;
-        }
-
-        /* Hanbok-inspired buttons */
-        .hanbok-button-yes {
-          background: linear-gradient(135deg, var(--silk-jade) 0%, var(--hanbok-mint) 100%);
-          box-shadow:
-            0 8px 24px rgba(133, 224, 200, 0.4),
-            inset 0 2px 0 rgba(255, 255, 255, 0.5),
-            inset 0 -2px 8px rgba(0, 0, 0, 0.1);
+        .btn-yes {
+          background: linear-gradient(135deg, #9DD8C0 0%, #7CCDB0 100%);
+          color: #fff;
+          border: none;
+          border-radius: 60px;
+          cursor: pointer;
+          font-family: 'DM Sans', sans-serif;
+          font-weight: 700;
+          letter-spacing: 0.03em;
+          transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+          box-shadow: 0 4px 16px rgba(124,205,176,0.35);
           position: relative;
           overflow: hidden;
-          border: 3px solid rgba(255, 255, 255, 0.6);
-          transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
         }
-
-        .hanbok-button-yes::before {
-          content: '';
-          position: absolute;
-          top: -50%;
-          left: -50%;
-          width: 200%;
-          height: 200%;
-          background: linear-gradient(
-            45deg,
-            transparent 30%,
-            rgba(255, 255, 255, 0.3) 50%,
-            transparent 70%
-          );
-          transform: rotate(45deg);
-          animation: silk-shine 3s linear infinite;
+        .btn-yes:hover {
+          transform: translateY(-3px) scale(1.04);
+          box-shadow: 0 8px 28px rgba(124,205,176,0.5);
         }
+        .btn-yes:active { transform: scale(0.97); }
+        .btn-yes.pulse { animation: pulse-ring 2s ease-out infinite; }
 
-        @keyframes silk-shine {
-          0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
-          100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
-        }
-
-        .hanbok-button-yes:hover {
-          transform: translateY(-4px) scale(1.05);
-          box-shadow:
-            0 12px 32px rgba(133, 224, 200, 0.6),
-            inset 0 2px 0 rgba(255, 255, 255, 0.7);
-        }
-
-        .hanbok-button-yes.pulsing {
-          animation: hanbok-pulse 2s ease-in-out infinite;
-        }
-
-        @keyframes hanbok-pulse {
-          0%, 100% {
-            box-shadow:
-              0 8px 24px rgba(133, 224, 200, 0.4),
-              0 0 0 0 rgba(133, 224, 200, 0.7);
-          }
-          50% {
-            box-shadow:
-              0 12px 32px rgba(133, 224, 200, 0.6),
-              0 0 0 20px rgba(133, 224, 200, 0);
-          }
-        }
-
-        .hanbok-button-no {
-          background: linear-gradient(135deg, #FFB3D9 0%, var(--silk-coral) 100%);
-          box-shadow:
-            0 8px 20px rgba(255, 143, 163, 0.35),
-            inset 0 2px 0 rgba(255, 255, 255, 0.4),
-            inset 0 -2px 8px rgba(0, 0, 0, 0.1);
-          position: relative;
-          overflow: hidden;
-          border: 3px solid rgba(255, 255, 255, 0.5);
+        .btn-no {
+          background: linear-gradient(135deg, #F5C0D0 0%, #ECA5B8 100%);
+          color: #fff;
+          border: none;
+          border-radius: 60px;
+          padding: 0.85em 2em;
+          cursor: pointer;
+          font-family: 'DM Sans', sans-serif;
+          font-weight: 600;
+          font-size: 1rem;
+          letter-spacing: 0.02em;
           transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+          box-shadow: 0 4px 14px rgba(236,165,184,0.3);
+        }
+        .btn-no:hover {
+          transform: translateY(-2px) scale(1.03);
+          box-shadow: 0 6px 20px rgba(236,165,184,0.45);
         }
 
-        .hanbok-button-no:hover {
-          transform: translateY(-3px) scale(1.03);
-          box-shadow:
-            0 10px 28px rgba(255, 143, 163, 0.5),
-            inset 0 2px 0 rgba(255, 255, 255, 0.5);
-        }
-
-        .hanbok-button-no.teasing {
-          animation: no-flutter 1.2s ease-in-out infinite;
-        }
-
-        @keyframes no-flutter {
-          0%, 100% {
-            transform: rotate(0deg);
-            box-shadow: 0 8px 20px rgba(255, 143, 163, 0.35);
-          }
-          25% {
-            transform: rotate(-2deg) scale(1.02);
-            box-shadow: 0 12px 28px rgba(255, 143, 163, 0.5);
-          }
-          75% {
-            transform: rotate(2deg) scale(1.02);
-            box-shadow: 0 12px 28px rgba(255, 143, 163, 0.5);
-          }
-        }
-
-        /* Traditional Korean coupon card with bojagi (wrapping cloth) style */
-        .bojagi-card {
-          background:
-            linear-gradient(135deg, rgba(255, 248, 240, 0.98) 0%, rgba(255, 244, 235, 0.98) 100%);
-          border: 4px solid transparent;
-          border-image: linear-gradient(
-            135deg,
-            var(--hanbok-pink) 0%,
-            var(--hanbok-lavender) 25%,
-            var(--hanbok-mint) 50%,
-            var(--hanbok-yellow) 75%,
-            var(--silk-coral) 100%
-          ) 1;
-          box-shadow:
-            0 20px 60px rgba(255, 143, 163, 0.2),
-            inset 0 2px 0 rgba(255, 255, 255, 0.8),
-            inset 0 0 40px rgba(255, 179, 217, 0.1);
+        .coupon {
+          background: #fff;
+          border-radius: 20px;
+          padding: 2rem 2rem 1.5rem;
+          max-width: 380px;
+          width: 100%;
+          margin: 2.5rem auto 0;
           position: relative;
-          backdrop-filter: blur(10px);
-          transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+          box-shadow: 0 8px 40px rgba(199,140,160,0.12), 0 1px 3px rgba(199,140,160,0.08);
+          border: 1.5px solid rgba(242,196,208,0.4);
+          transition: all 0.4s ease;
+          overflow: hidden;
         }
-
-        .bojagi-card::before {
+        .coupon:hover {
+          transform: translateY(-6px);
+          box-shadow: 0 16px 56px rgba(199,140,160,0.2), 0 1px 3px rgba(199,140,160,0.1);
+        }
+        .coupon::before, .coupon::after {
           content: '';
           position: absolute;
-          top: -4px;
-          left: -4px;
-          right: -4px;
-          bottom: -4px;
-          background: linear-gradient(
-            135deg,
-            var(--hanbok-pink) 0%,
-            var(--hanbok-lavender) 25%,
-            var(--hanbok-mint) 50%,
-            var(--hanbok-yellow) 75%,
-            var(--silk-coral) 100%
-          );
-          background-size: 300% 300%;
-          animation: bojagi-shimmer 8s ease infinite;
-          z-index: -1;
-          border-radius: 1.5rem;
-          opacity: 0.6;
+          width: 24px;
+          height: 24px;
+          background: linear-gradient(160deg, #FFF9FB 0%, #FFF0F4 35%, #F8F0FF 65%, #F0FBF8 100%);
+          border-radius: 50%;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        .coupon::before { left: -12px; }
+        .coupon::after { right: -12px; }
+
+        .coupon-shimmer {
+          position: absolute;
+          top: 0; left: 0; right: 0;
+          height: 4px;
+          background: linear-gradient(90deg, #F5C0D0, #A8D8C8, #D0C0E8, #FFE4B8, #F5C0D0);
+          background-size: 200% 100%;
+          animation: shimmer 4s linear infinite;
         }
 
-        @keyframes bojagi-shimmer {
-          0%, 100% { background-position: 0% 50%; }
-          50% { background-position: 100% 50%; }
+        .hint-text {
+          animation: gentle-float 3s ease-in-out infinite;
+          color: #C4A0B0;
         }
 
-        .bojagi-card:hover {
-          transform: translateY(-12px) rotate(1deg);
-          box-shadow:
-            0 30px 80px rgba(255, 143, 163, 0.35),
-            inset 0 2px 0 rgba(255, 255, 255, 0.9);
+        .footer-pill {
+          position: fixed;
+          bottom: 1.25rem;
+          left: 50%;
+          transform: translateX(-50%);
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          padding: 0.4rem 1.25rem;
+          border-radius: 100px;
+          background: rgba(255,255,255,0.7);
+          backdrop-filter: blur(12px);
+          border: 1px solid rgba(242,196,208,0.3);
+          font-size: 0.75rem;
+          color: #C4A0B0;
+          font-family: 'DM Sans', sans-serif;
+          z-index: 20;
         }
 
-        /* Traditional Korean pattern decorations */
-        .hanbok-pattern {
-          background-image:
-            radial-gradient(circle at 20% 50%, rgba(255, 179, 217, 0.1) 0%, transparent 50%),
-            radial-gradient(circle at 80% 80%, rgba(184, 230, 213, 0.1) 0%, transparent 50%),
-            radial-gradient(circle at 40% 20%, rgba(255, 244, 184, 0.1) 0%, transparent 50%);
-        }
-
-        /* Paper fold effect */
-        .paper-fold {
-          background: linear-gradient(
-            to bottom right,
-            rgba(255, 255, 255, 0.3) 0%,
-            transparent 50%
-          );
-        }
+        .stagger-1 { animation: fade-up 0.6s ease both; animation-delay: 0.1s; }
+        .stagger-2 { animation: fade-up 0.6s ease both; animation-delay: 0.25s; }
+        .stagger-3 { animation: fade-up 0.6s ease both; animation-delay: 0.4s; }
+        .stagger-4 { animation: fade-up 0.6s ease both; animation-delay: 0.55s; }
+        .stagger-5 { animation: fade-up 0.6s ease both; animation-delay: 0.7s; }
       `}</style>
 
-      {/* Washi paper texture overlay */}
-      <div className="washi-texture" />
-
-      {/* Animated silk gradient background */}
-      <div className="silk-gradient fixed inset-0 opacity-20" style={{ zIndex: 0 }} />
-
-      {/* Cherry Blossom Petals - Enhanced */}
-      {petals.map((petal) => (
-        <div
-          key={petal.id}
-          className="sakura-petal"
-          style={{
-            left: `${petal.left}%`,
-            width: `${petal.size}px`,
-            height: `${petal.size}px`,
-            animationDuration: `${petal.animationDuration}s`,
-            animationDelay: `${petal.delay}s`,
-            opacity: petal.opacity
-          }}
-        />
+      {/* Sakura petals */}
+      {petals.map(p => (
+        <div key={p.id} className="petal" style={{
+          left: `${p.left}%`,
+          width: p.size,
+          height: p.size,
+          animationDuration: `${p.duration}s`,
+          animationDelay: `${p.delay}s`,
+        }} />
       ))}
 
-      {/* Main Card Content */}
-      <div className="relative z-10 text-center p-6 lg:p-12 max-w-5xl w-full mx-auto">
-
+      <div className="content">
         {yesPressed ? (
-          /* SUCCESS STATE */
-          <div className="flex flex-col items-center w-full" style={{ animation: 'origami-float 4s ease-in-out infinite' }}>
-            <div className="relative mb-8 lg:mb-12">
-               {/* Happy Mochi Character SVG - Enhanced with Hanbok colors */}
-               <svg width="300" height="300" viewBox="0 0 200 200" className="mx-auto" style={{ filter: 'drop-shadow(0 10px 30px rgba(255, 179, 217, 0.4))' }}>
-                {/* Soft glow background */}
-                <circle cx="100" cy="110" r="95" fill="url(#happyGlow)" opacity="0.3" />
-
-                <defs>
-                  <radialGradient id="happyGlow">
-                    <stop offset="0%" stopColor="#FFB3D9" />
-                    <stop offset="100%" stopColor="#B8E6D5" />
-                  </radialGradient>
-                  <linearGradient id="mochiGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                    <stop offset="0%" stopColor="#FFFFFF" />
-                    <stop offset="100%" stopColor="#FFF8F0" />
-                  </linearGradient>
-                </defs>
-
-                {/* Body with gradient */}
-                <circle cx="100" cy="110" r="90" fill="url(#mochiGradient)" stroke="#FFB3D9" strokeWidth="2" />
-                <ellipse cx="100" cy="170" rx="70" ry="15" fill="#E6D5F5" opacity="0.4" />
-
-                {/* Hanbok-colored cheeks */}
-                <circle cx="55" cy="115" r="14" fill="#FFB3D9" opacity="0.7" />
-                <circle cx="145" cy="115" r="14" fill="#FFB3D9" opacity="0.7" />
-
-                {/* Happy Eyes */}
-                <path d="M 45 90 Q 60 70 75 90" stroke="#2D2D2D" strokeWidth="6" fill="none" strokeLinecap="round" />
-                <path d="M 125 90 Q 140 70 155 90" stroke="#2D2D2D" strokeWidth="6" fill="none" strokeLinecap="round" />
-
-                {/* Big happy smile */}
-                <path d="M 80 115 Q 100 140 120 115" stroke="#2D2D2D" strokeWidth="6" fill="none" strokeLinecap="round" />
-
-                {/* Floating hearts with hanbok colors */}
-                <g style={{ animation: 'origami-float 3s ease-in-out infinite' }}>
-                   <path d="M160 50 L170 40 L180 50 L170 60 Z" fill="#FF8FA3" />
-                   <path d="M30 60 L40 50 L50 60 L40 70 Z" fill="#85E0C8" />
-                   <circle cx="165" cy="80" r="6" fill="#FFF4B8" />
-                   <circle cx="45" cy="90" r="5" fill="#E6D5F5" />
-                </g>
-              </svg>
+          /* ---- SUCCESS ---- */
+          <div>
+            <div className="stagger-1" style={{ animation: 'gentle-float 3.5s ease-in-out infinite' }}>
+              <MochiCharacter mood="happy" size={200} />
             </div>
 
-            <h1 className="hanbok-title text-5xl lg:text-8xl mb-8 leading-tight" style={{ color: '#FF8FA3' }}>
-              Yay!! I knew it!<br/>
-              <span className="text-4xl lg:text-6xl mt-6 block" style={{ color: '#85E0C8' }}>사랑해 Saranghae!</span>
-              <span className="text-3xl lg:text-5xl mt-4 block korean-serif" style={{ color: '#E6D5F5' }}>大好き!</span>
+            <h1 className="title stagger-2" style={{ fontSize: 'clamp(2.2rem, 6vw, 3.8rem)', marginTop: '1.5rem' }}>
+              Yay!! I knew it!
             </h1>
+            <p className="subtitle stagger-3" style={{ fontSize: 'clamp(1rem, 3vw, 1.5rem)', marginTop: '0.75rem' }}>
+              사랑해 &middot; 大好き
+            </p>
 
-            {/* BOJAGI COUPON CARD - Korean wrapping cloth inspired */}
-            <div className="bojagi-card p-8 rounded-3xl transform -rotate-1 hover:rotate-0 max-w-md w-full mx-4 mt-10 relative cursor-pointer group hanbok-pattern">
-              {/* Korean cloud pattern corner decorations */}
-              <div className="absolute top-4 right-4 w-16 h-16 opacity-20" style={{
-                background: 'radial-gradient(circle, var(--hanbok-lavender) 20%, transparent 20%)',
-                backgroundSize: '8px 8px'
-              }}></div>
+            {/* Coupon Card */}
+            <div className="coupon stagger-4">
+              <div className="coupon-shimmer" />
 
-              <div className="absolute top-3 right-3 text-white text-xs px-3 py-1 rounded-full font-bold z-10 korean-serif" style={{
-                background: 'linear-gradient(135deg, #FF8FA3 0%, #FFB3D9 100%)',
-                boxShadow: '0 4px 12px rgba(255, 143, 163, 0.4)'
-              }}>
-                FOREVER ∞
+              <div style={{ position: 'absolute', top: 12, right: 14, background: 'linear-gradient(135deg, #ECA5B8, #F5C0D0)', color: '#fff', fontSize: '0.65rem', fontWeight: 700, padding: '3px 10px', borderRadius: 100, fontFamily: "'DM Sans', sans-serif", letterSpacing: '0.05em' }}>
+                VALID FOREVER
               </div>
 
-              {/* Traditional ticket perforations */}
-              <div className="absolute -left-4 top-1/2 w-8 h-8 rounded-full" style={{ background: 'var(--washi-cream)' }}></div>
-              <div className="absolute -right-4 top-1/2 w-8 h-8 rounded-full" style={{ background: 'var(--washi-cream)' }}></div>
-
-              <div className="flex items-center gap-6 relative z-0">
-                 <div className="text-6xl" style={{ animation: 'origami-float 3s ease-in-out infinite' }}>🎁</div>
-                 <div className="text-left flex-1">
-                    <h2 className="text-2xl font-bold tracking-wide hanbok-title mb-1" style={{ color: 'var(--silk-coral)' }}>
-                      Valentine Gift
-                    </h2>
-                    <div className="flex items-baseline gap-2 my-2">
-                      <p className="text-5xl font-extrabold hanbok-title" style={{ color: 'var(--ink-black)' }}>$50</p>
-                      <span className="text-sm font-bold korean-serif" style={{ color: 'var(--silk-jade)' }}>OFF</span>
-                    </div>
-                    <p className="text-xs korean-serif font-semibold leading-relaxed" style={{ color: 'var(--ink-black)', opacity: 0.6 }}>
-                      Makeup, Food, Clothes, etc.
-                    </p>
-                 </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem', textAlign: 'left' }}>
+                <div style={{ fontSize: '2.8rem', flexShrink: 0, animation: 'gentle-float 2.5s ease-in-out infinite' }}>
+                  🎁
+                </div>
+                <div style={{ flex: 1 }}>
+                  <div style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 700, fontSize: '1.1rem', color: '#C4627A', letterSpacing: '0.04em' }}>
+                    Valentine Gift
+                  </div>
+                  <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.35rem', margin: '0.2rem 0' }}>
+                    <span style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 700, fontSize: '2.4rem', color: '#3a3a3a', lineHeight: 1 }}>$50</span>
+                    <span style={{ fontSize: '0.75rem', fontWeight: 600, color: '#7CCDB0' }}>OFF</span>
+                  </div>
+                  <div style={{ fontSize: '0.72rem', color: '#B0A0A8' }}>
+                    Makeup, Food, Clothes &mdash; anything!
+                  </div>
+                </div>
               </div>
 
-              <div className="mt-4 pt-3 text-xs flex justify-between items-center korean-serif" style={{
-                borderTop: '2px dashed rgba(255, 179, 217, 0.3)',
-                color: 'var(--ink-black)',
-                opacity: 0.6
-              }}>
-                <span className="font-mono">ID: LOVE-9000</span>
-                <span className="group-hover:opacity-100 transition-opacity" style={{ color: 'var(--silk-coral)' }}>
-                  *Redeemable anytime ♡
-                </span>
+              <div style={{ borderTop: '1.5px dashed rgba(242,196,208,0.35)', marginTop: '1rem', paddingTop: '0.75rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '0.65rem', color: '#C4A0B0' }}>
+                <span style={{ fontFamily: 'monospace', letterSpacing: '0.05em' }}>I-LOVE-YOU-9000</span>
+                <span>Redeemable anytime ♡</span>
               </div>
             </div>
 
-            <div className="flex gap-8 items-center justify-center mt-12 text-7xl">
-               <span style={{ animation: 'origami-float 2s ease-in-out infinite', animationDelay: '0s' }}>🌸</span>
-               <span style={{ animation: 'origami-float 2s ease-in-out infinite', animationDelay: '0.3s' }}>💗</span>
-               <span style={{ animation: 'origami-float 2s ease-in-out infinite', animationDelay: '0.6s' }}>🍡</span>
+            <div className="stagger-5" style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', marginTop: '2rem', fontSize: '2.5rem' }}>
+              {['🌸', '💗', '🍡'].map((e, i) => (
+                <span key={i} style={{ animation: `gentle-float 2.5s ease-in-out infinite`, animationDelay: `${i * 0.25}s` }}>{e}</span>
+              ))}
             </div>
 
-            <p className="mt-12 text-3xl korean-serif font-semibold" style={{ color: 'var(--silk-coral)' }}>
+            <p className="stagger-5" style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: '1.3rem', color: '#C4627A', marginTop: '1.5rem', fontStyle: 'italic' }}>
               See you on the 14th, cutie! ♡
             </p>
           </div>
         ) : (
-          /* QUESTION STATE */
-          <div className="flex flex-col items-center">
-
-            <div className="mb-12 relative transition-all duration-500">
-              {/* Dynamic Mochi Character SVG - Hanbok themed */}
-              <svg width="340" height="340" viewBox="0 0 200 200" className="mx-auto" style={{
-                filter: 'drop-shadow(0 15px 40px rgba(255, 179, 217, 0.3))',
-                animation: noCount > 3 ? 'origami-float 2s ease-in-out infinite' : 'none'
-              }}>
-                <defs>
-                  <linearGradient id="mochiBody" x1="0%" y1="0%" x2="0%" y2="100%">
-                    <stop offset="0%" stopColor="#FFFFFF" />
-                    <stop offset="100%" stopColor="#FFF8F0" />
-                  </linearGradient>
-                  <radialGradient id="softGlow">
-                    <stop offset="0%" stopColor={noCount > 5 ? "#FFB3D9" : "#B8E6D5"} stopOpacity="0.3" />
-                    <stop offset="100%" stopColor="transparent" />
-                  </radialGradient>
-                </defs>
-
-                {/* Soft background glow */}
-                <circle cx="100" cy="110" r="100" fill="url(#softGlow)" />
-
-                {/* Body */}
-                <circle cx="100" cy="110" r="90" fill="url(#mochiBody)" stroke="#FFB3D9" strokeWidth="2" />
-                <ellipse cx="100" cy="170" rx="70" ry="15" fill="#E6D5F5" opacity="0.3" />
-
-                {/* Hanbok-colored cheeks */}
-                <circle cx="55" cy="120" r="12" fill="#FFB3D9" opacity="0.7" />
-                <circle cx="145" cy="120" r="12" fill="#FFB3D9" opacity="0.7" />
-
-                {noCount === 0 ? (
-                  // Neutral/Hopeful Face
-                  <g>
-                    <circle cx="65" cy="95" r="9" fill="#2D2D2D" />
-                    <circle cx="135" cy="95" r="9" fill="#2D2D2D" />
-                    {/* Sparkle in eyes */}
-                    <circle cx="68" cy="92" r="3" fill="white" />
-                    <circle cx="138" cy="92" r="3" fill="white" />
-                    <path d="M 88 120 Q 100 132 112 120" stroke="#2D2D2D" strokeWidth="5" fill="none" strokeLinecap="round" />
-                  </g>
-                ) : noCount < 5 ? (
-                  // Worried Face
-                  <g>
-                    <ellipse cx="65" cy="95" rx="9" ry="10" fill="#2D2D2D" />
-                    <ellipse cx="135" cy="95" rx="9" ry="10" fill="#2D2D2D" />
-                    <path d="M 125 78 L 145 83" stroke="#2D2D2D" strokeWidth="4" strokeLinecap="round" />
-                    <path d="M 75 78 L 55 83" stroke="#2D2D2D" strokeWidth="4" strokeLinecap="round" />
-                    <ellipse cx="100" cy="125" rx="6" ry="8" fill="#2D2D2D" />
-                    {/* Sweat drop */}
-                    <path d="M 160 75 Q 165 90 162 105" stroke="#B8E6D5" strokeWidth="5" fill="none" strokeLinecap="round" />
-                    <circle cx="162" cy="108" r="4" fill="#B8E6D5" />
-                  </g>
-                ) : (
-                  // Crying Face
-                  <g>
-                     <path d="M 52 95 L 78 95" stroke="#2D2D2D" strokeWidth="5" strokeLinecap="round" />
-                     <path d="M 122 95 L 148 95" stroke="#2D2D2D" strokeWidth="5" strokeLinecap="round" />
-                     {/* Tears with hanbok colors */}
-                     <path d="M 65 105 Q 58 125 65 142" stroke="#B8E6D5" strokeWidth="5" fill="rgba(184, 230, 213, 0.3)" />
-                     <path d="M 135 105 Q 142 125 135 142" stroke="#B8E6D5" strokeWidth="5" fill="rgba(184, 230, 213, 0.3)" />
-                     {/* Sad mouth */}
-                     <path d="M 82 130 Q 92 125 100 123 T 118 130" stroke="#2D2D2D" strokeWidth="5" fill="none" strokeLinecap="round" />
-                  </g>
-                )}
-              </svg>
-
-              {/* Floating cherry blossoms around head */}
-              <div className="absolute -top-8 -right-8" style={{ animation: 'origami-float 3s ease-in-out infinite' }}>
-                <div className="text-5xl">🌸</div>
-              </div>
-              <div className="absolute -top-6 -left-6" style={{ animation: 'origami-float 3s ease-in-out infinite', animationDelay: '0.5s' }}>
-                <div className="text-4xl">✨</div>
-              </div>
+          /* ---- QUESTION ---- */
+          <div>
+            <div className="stagger-1" style={{ marginBottom: '2rem', position: 'relative', display: 'inline-block' }}>
+              <MochiCharacter mood={getMood()} size={noCount > 3 ? 240 : 220} />
+              {noCount === 0 && (
+                <>
+                  <span style={{ position: 'absolute', top: -8, right: -4, fontSize: '1.8rem', animation: 'gentle-float 3s ease-in-out infinite' }}>🌸</span>
+                  <span style={{ position: 'absolute', top: 4, left: -8, fontSize: '1.4rem', animation: 'gentle-float 3s ease-in-out infinite', animationDelay: '0.6s' }}>✨</span>
+                </>
+              )}
             </div>
 
-            <h1 className="hanbok-title text-5xl lg:text-8xl mb-4 leading-tight" style={{ color: 'var(--silk-coral)' }}>
+            <h1 className="title stagger-2" style={{ fontSize: 'clamp(2rem, 6vw, 3.8rem)' }}>
               Will you be my Valentine?
             </h1>
-            <p className="korean-serif text-xl lg:text-3xl mb-10" style={{ color: 'var(--hanbok-lavender)', opacity: 0.8 }}>
+            <p className="subtitle stagger-3" style={{ fontSize: 'clamp(0.9rem, 2.5vw, 1.25rem)', marginTop: '0.6rem', marginBottom: '2.5rem' }}>
               バレンタインになってくれる？
             </p>
 
-            <div className="flex flex-col lg:flex-row items-center justify-center gap-10 mt-16 w-full px-4">
-              {/* YES BUTTON - Hanbok inspired */}
+            <div className="stagger-3" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center', gap: '1.25rem' }}>
               <button
-                className={`hanbok-button-yes text-white font-bold rounded-full whitespace-nowrap flex-shrink-0 korean-serif tracking-wide
-                  ${noCount > 0 ? "pulsing" : ""}`}
-                style={{
-                  fontSize: `${getYesButtonSize()}px`,
-                  padding: getYesButtonPadding(),
-                  textShadow: '0 2px 4px rgba(0,0,0,0.2)'
-                }}
+                className={`btn-yes ${noCount > 0 ? 'pulse' : ''}`}
+                style={{ fontSize: `${getYesButtonSize()}px`, padding: getYesButtonPadding() }}
                 onClick={() => setYesPressed(true)}
               >
-                네! Yes! はい!
+                Yes! はい!
               </button>
 
-              {/* NO BUTTON - Hanbok inspired */}
               <button
+                className="btn-no"
                 onClick={handleNoClick}
                 style={noButtonPosition ? { ...noButtonPosition, zIndex: 50 } : {}}
-                className={`hanbok-button-no text-white font-bold py-5 px-10 rounded-full korean-serif text-lg lg:text-2xl flex-shrink-0 tracking-wide ${
-                  noCount > 5 ? "teasing" : ""
-                }`}
               >
-                {noCount === 0 ? "아니요 No" : phrases[currentTextIndex]}
+                {noCount === 0 ? 'No' : phrases[currentTextIndex]}
               </button>
             </div>
 
-            {/* Funny Helper text if they persist on No */}
             {noCount > 3 && (
-               <div className="mt-12 korean-serif text-lg lg:text-xl font-medium" style={{
-                 color: 'var(--silk-coral)',
-                 animation: 'origami-float 2s ease-in-out infinite'
-               }}>
-                  ( The "Yes" button is getting pretty big... hint hint 😉 )
-               </div>
+              <p className="hint-text" style={{ marginTop: '2rem', fontSize: '0.9rem' }}>
+                ( The "Yes" button is getting pretty big... hint hint 😉 )
+              </p>
             )}
           </div>
         )}
       </div>
 
-      {/* Decorative Footer with Korean/Japanese elements */}
-      <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 flex items-center gap-3 korean-serif text-sm z-20" style={{
-        color: 'var(--silk-coral)',
-        opacity: 0.6,
-        background: 'rgba(255, 248, 240, 0.8)',
-        padding: '0.5rem 1.5rem',
-        borderRadius: '2rem',
-        backdropFilter: 'blur(10px)',
-        border: '2px solid rgba(255, 179, 217, 0.3)'
+      <div style={{
+        display: 'flex',
+        alignItems: 'center',
+        gap: '0.5rem',
+        padding: '0.4rem 1.25rem',
+        borderRadius: 100,
+        background: 'rgba(255,255,255,0.7)',
+        backdropFilter: 'blur(12px)',
+        border: '1px solid rgba(242,196,208,0.3)',
+        fontSize: '0.75rem',
+        color: '#C4A0B0',
+        fontFamily: "'DM Sans', sans-serif",
+        zIndex: 20,
+        marginTop: '2rem',
+        marginBottom: '1.5rem',
       }}>
-        <Cherry size={18} />
-        <span>Made with love ♡</span>
-        <Heart size={18} fill="currentColor" />
+        <span>🌸</span>
+        <span>Made with Love — Nid (+ Claude + Gemini)</span>
+        <span>♡</span>
       </div>
-
     </div>
   );
 };
