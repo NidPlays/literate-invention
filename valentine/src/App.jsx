@@ -33,7 +33,7 @@ const ValentineApp = () => {
 
   const handleNoClick = () => {
     setNoCount(noCount + 1);
-    setCurrentTextIndex(prev => (prev + 1) % phrases.length);
+    setCurrentTextIndex(prev => Math.min(prev + 1, phrases.length - 1));
     const randomX = Math.random() * 60 + 20;
     const randomY = Math.random() * 60 + 20;
     setNoButtonPosition({
