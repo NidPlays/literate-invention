@@ -5,6 +5,8 @@ const ValentineApp = () => {
   const [yesPressed, setYesPressed] = useState(false);
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [noButtonPosition, setNoButtonPosition] = useState(null);
+  const [noButtonHidden, setNoButtonHidden] = useState(false);
+  const [noButtonFading, setNoButtonFading] = useState(false);
 
   const phrases = [
     "No",
@@ -58,6 +60,14 @@ const ValentineApp = () => {
       size: Math.random() * 8 + 10,
     })));
   }, []);
+
+  useEffect(() => {
+    if (currentTextIndex === phrases.length - 1 && noCount > 0) {
+      const fadeTimer = setTimeout(() => setNoButtonFading(true), 1200);
+      const hideTimer = setTimeout(() => setNoButtonHidden(true), 2000);
+      return () => { clearTimeout(fadeTimer); clearTimeout(hideTimer); };
+    }
+  }, [currentTextIndex, noCount]);
 
   const MochiCharacter = ({ mood, size = 220 }) => (
     <svg width={size} height={size} viewBox="0 0 200 200" style={{ filter: 'drop-shadow(0 8px 24px rgba(199,140,160,0.25))' }}>
@@ -270,6 +280,16 @@ const ValentineApp = () => {
           animation: shimmer 4s linear infinite;
         }
 
+        @keyframes fade-out {
+          from { opacity: 1; transform: scale(1); }
+          to { opacity: 0; transform: scale(0.8); }
+        }
+
+        .btn-no-fading {
+          animation: fade-out 0.8s ease forwards;
+          pointer-events: none;
+        }
+
         .hint-text {
           animation: gentle-float 3s ease-in-out infinite;
           color: #C4A0B0;
@@ -398,13 +418,15 @@ const ValentineApp = () => {
                 Yes! はい!
               </button>
 
-              <button
-                className="btn-no"
-                onClick={handleNoClick}
-                style={noButtonPosition ? { ...noButtonPosition, zIndex: 50 } : {}}
-              >
-                {noCount === 0 ? 'No' : phrases[currentTextIndex]}
-              </button>
+              {!noButtonHidden && (
+                <button
+                  className={`btn-no ${noButtonFading ? 'btn-no-fading' : ''}`}
+                  onClick={handleNoClick}
+                  style={noButtonPosition ? { ...noButtonPosition, zIndex: 50 } : {}}
+                >
+                  {noCount === 0 ? 'No' : phrases[currentTextIndex]}
+                </button>
+              )}
             </div>
 
             {noCount > 3 && (
