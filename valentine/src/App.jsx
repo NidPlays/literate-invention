@@ -34,8 +34,13 @@ const ValentineApp = () => {
   const handleNoClick = () => {
     setNoCount(noCount + 1);
     setCurrentTextIndex(prev => Math.min(prev + 1, phrases.length - 1));
-    const randomX = Math.random() * 60 + 20;
-    const randomY = Math.random() * 60 + 20;
+    const prevX = noButtonPosition ? parseFloat(noButtonPosition.left) : 50;
+    const prevY = noButtonPosition ? parseFloat(noButtonPosition.top) : 50;
+    let randomX, randomY;
+    do {
+      randomX = Math.random() * 80 + 10;
+      randomY = Math.random() * 70 + 15;
+    } while (Math.abs(randomX - prevX) < 25 && Math.abs(randomY - prevY) < 20);
     setNoButtonPosition({
       position: 'fixed',
       left: `${randomX}%`,

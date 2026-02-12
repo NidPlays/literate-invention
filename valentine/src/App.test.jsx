@@ -75,7 +75,7 @@ describe('ValentineApp', () => {
     expect(screen.getByText(/hint hint/)).toBeInTheDocument();
   });
 
-  it('displays the coupon card after accepting', async () => {
+  it('displays the coupon card with all details after clicking Yes', async () => {
     const user = userEvent.setup({ advanceTimers: vi.advanceTimersByTime });
     render(<ValentineApp />);
 
@@ -84,6 +84,26 @@ describe('ValentineApp', () => {
     expect(screen.getByText('Valentine Gift')).toBeInTheDocument();
     expect(screen.getByText('$50')).toBeInTheDocument();
     expect(screen.getByText('I-LOVE-YOU-9000')).toBeInTheDocument();
+    expect(screen.getByText('VALID FOREVER')).toBeInTheDocument();
+    expect(screen.getByText(/Redeemable anytime/)).toBeInTheDocument();
+  });
+
+  it('No button moves to a different position on each click', async () => {
+    const user = userEvent.setup({ advanceTimers: vi.advanceTimersByTime });
+    render(<ValentineApp />);
+
+    await user.click(getNoButton());
+    const pos1 = getNoButton().style.left;
+
+    // Click several times and collect positions
+    const positions = new Set([pos1]);
+    for (let i = 0; i < 5; i++) {
+      await user.click(getNoButton());
+      positions.add(getNoButton().style.left);
+    }
+
+    // Should have moved to at least 3 distinct horizontal positions
+    expect(positions.size).toBeGreaterThanOrEqual(3);
   });
 
   it('cycles through all No phrases without wrapping back', async () => {

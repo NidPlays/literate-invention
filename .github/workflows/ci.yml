@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: valentine/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: valentine
+
+      - name: Lint
+        run: npm run lint
+        working-directory: valentine
+
+      - name: Test
+        run: npm test
+        working-directory: valentine
+
+      - name: Build
+        run: npm run build
+        working-directory: valentine
