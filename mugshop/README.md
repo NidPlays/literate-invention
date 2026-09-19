@@ -37,6 +37,37 @@ npm run lint
 npm run build   # → dist/, served at /literate-invention/mugshop/
 ```
 
+## Keeping the catalogue current
+
+`.github/workflows/refresh-catalog.yml` re-reads every studio's feed each Monday
+(04:00 UTC) and commits `src/data/catalog.json` if anything moved. Run it by hand
+from the Actions tab — with **Report what changed without committing it** ticked
+for a dry run — or locally:
+
+```sh
+node scripts/refresh-catalog.mjs --dry-run   # report only
+node scripts/refresh-catalog.mjs             # write changes
+```
+
+It refreshes stock, price and sale price, and drops products that have gone from
+a studio's feed. It does not add newly listed mugs — everything in the shop stays
+hand-picked.
+
+Three things it deliberately won't do:
+
+- **Punish a studio for being down.** If a feed fails or comes back suspiciously
+  short, that studio's mugs are left exactly as they are and the job fails loudly,
+  rather than marking them all sold out.
+- **Ship data that breaks the app.** Lint, tests and the build run against the new
+  catalogue before anything is committed.
+- **Accept a change that looks like a bug.** It refuses to write if too much of the
+  catalogue vanishes at once, if a studio's stock empties in one go, or if a price
+  moves by more than 3×. `scripts/catalog-merge.js` holds those rules and
+  `scripts/catalog-merge.test.js` covers them.
+
+Because a push made with `GITHUB_TOKEN` doesn't trigger other workflows, the
+refresh calls the deploy workflow directly once it commits.
+
 ## Where the catalogue comes from
 
 `src/data/catalog.json` is a snapshot of each studio's public product feed

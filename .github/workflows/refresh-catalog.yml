@@ -1,0 +1,106 @@
+name: Weekly catalogue refresh
+
+on:
+  schedule:
+    # Mondays 04:00 UTC — 09:30 IST, so a bad run is visible over morning coffee.
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Report what changed without committing it
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: catalogue-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      committed: ${{ steps.commit.outputs.committed }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: mugshop/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: mugshop
+
+      # Allowed to fail: an unreachable studio still leaves the other five refreshed,
+      # and the job is failed at the end so the failure is not silent.
+      - name: Re-read every studio's product feed
+        id: refresh
+        continue-on-error: true
+        working-directory: mugshop
+        env:
+          REFRESH_REPORT_FILE: ${{ runner.temp }}/catalogue-report.txt
+        run: node scripts/refresh-catalog.mjs ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Did the catalogue change?
+        id: diff
+        run: |
+          if git diff --quiet -- mugshop/src/data/catalog.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --stat -- mugshop/src/data/catalog.json
+          fi
+
+      # The new data ships to the site, so it has to pass the same bar a human change does.
+      - name: Check the app still builds and passes with the new data
+        if: steps.diff.outputs.changed == 'true'
+        working-directory: mugshop
+        run: |
+          npm run lint
+          npm test
+          npm run build
+
+      - name: Commit the refreshed catalogue
+        id: commit
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add mugshop/src/data/catalog.json
+          {
+            echo "chore(mugshop): weekly catalogue refresh"
+            echo
+            echo "Stock and prices re-read from the studios' own product feeds."
+            echo
+            cat "${{ runner.temp }}/catalogue-report.txt" 2>/dev/null || true
+          } > "${{ runner.temp }}/commit-message.txt"
+          git commit -F "${{ runner.temp }}/commit-message.txt"
+          # main may have moved while the feeds were being read.
+          git pull --rebase origin main
+          git push
+          echo "committed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Fail the run if a studio could not be reached
+        if: always() && steps.refresh.outcome == 'failure'
+        run: |
+          echo "The refresh script exited non-zero — see its step above for which studio failed" >&2
+          echo "or which guard refused the change. Anything that could be verified has been committed." >&2
+          exit 1
+
+  # A push made with GITHUB_TOKEN does not trigger other workflows, so the deploy
+  # is called directly rather than left to deploy.yml's push trigger.
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.committed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
