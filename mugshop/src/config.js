@@ -1,5 +1,5 @@
 // ── The only file you need to touch to personalise the shop ──────────────
-export const HER_NAME = 'Gorgeous'
+export const HER_NAME = 'babe'
 
 // Shown on the picks screen, right at the bottom. Keep it short and soppy.
 export const CLOSING_NOTE =
