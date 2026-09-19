@@ -37,6 +37,18 @@ describe('the shop', () => {
     expect(resultCount()).toBeGreaterThan(0)
   })
 
+  it('hides sold-out mugs by default and shows them when asked', async () => {
+    const user = userEvent.setup()
+    render(<App />)
+    const soldOut = catalog.filter((p) => p.soldOut).length
+    expect(soldOut).toBeGreaterThan(0)
+    const inStock = resultCount()
+    expect(screen.queryByText('sold out')).toBeNull()
+
+    await user.click(screen.getByRole('button', { name: /in stock only|showing sold out/ }))
+    expect(resultCount()).toBe(inStock + soldOut)
+  })
+
   it('filters by brand chip', async () => {
     const user = userEvent.setup()
     render(<App />)
