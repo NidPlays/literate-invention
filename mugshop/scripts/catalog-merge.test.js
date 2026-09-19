@@ -1,5 +1,13 @@
 import { describe, expect, it } from 'vitest'
-import { checkGuards, countChanges, isHealthyFeed, mergeCatalog, summarise } from './catalog-merge.js'
+import {
+  addNewProducts,
+  checkAdditions,
+  checkGuards,
+  countChanges,
+  isHealthyFeed,
+  mergeCatalog,
+  summarise,
+} from './catalog-merge.js'
 
 const mug = (over = {}) => ({
   id: 'craftribal-1',
@@ -140,5 +148,45 @@ describe('checkGuards', () => {
     expect(checkGuards(catalog, [mug({ price: 0 })], empty).ok).toBe(false)
     expect(checkGuards(catalog, [mug({ images: [] })], empty).ok).toBe(false)
     expect(checkGuards(catalog, [mug({ url: '' })], empty).ok).toBe(false)
+  })
+})
+
+describe('addNewProducts', () => {
+  const healthy = new Set(['craftribal', 'klaylist'])
+
+  it('appends mugs the catalogue has never seen', () => {
+    const fresh = mug({ id: 'craftribal-2', title: 'New Mug' })
+    const { next, added } = addNewProducts([mug()], [mug(), fresh], healthy)
+    expect(next).toHaveLength(2)
+    expect(added).toEqual([fresh])
+  })
+
+  it('ignores candidates from a studio whose feed failed', () => {
+    const fresh = mug({ id: 'saabi-house-9', brand: 'saabi-house' })
+    const { next, added } = addNewProducts([mug()], [fresh], healthy)
+    expect(added).toHaveLength(0)
+    expect(next).toHaveLength(1)
+  })
+
+  it('does not add the same product twice in one run', () => {
+    const fresh = mug({ id: 'craftribal-2' })
+    const { added } = addNewProducts([], [fresh, fresh], healthy)
+    expect(added).toHaveLength(1)
+  })
+})
+
+describe('checkAdditions', () => {
+  it('allows a normal drop', () => {
+    expect(checkAdditions(Array(700).fill(mug()), Array(30).fill(mug())).ok).toBe(true)
+  })
+
+  it('refuses a flood that suggests the rules broke', () => {
+    const { ok, problems } = checkAdditions(Array(700).fill(mug()), Array(200).fill(mug()))
+    expect(ok).toBe(false)
+    expect(problems.join(' ')).toMatch(/over the limit/)
+  })
+
+  it('keeps a floor so a small catalogue can still grow', () => {
+    expect(checkAdditions([mug()], Array(30).fill(mug())).ok).toBe(true)
   })
 })

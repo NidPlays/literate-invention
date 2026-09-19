@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import Ticker from './components/Ticker.jsx'
 import ProductCard from './components/ProductCard.jsx'
 import ProductSheet from './components/ProductSheet.jsx'
@@ -32,6 +32,8 @@ export default function App() {
   const [toast, setToast] = useState(null)
   const [flies, setFlies] = useState([])
   const taps = useRef(0)
+  const sentinel = useRef(null)
+  const lastLoad = useRef(0)
 
   const results = useMemo(
     () => filterProducts({ query, brands, vibes, maxPrice, sort, onlyHearted, hearted, inStockOnly: hideSoldOut }),
@@ -42,6 +44,26 @@ export default function App() {
   const shown = paging.key === filterKey ? paging.n : PAGE
 
   const toastTimer = useRef(0)
+  const more = useCallback(() => setPaging({ key: filterKey, n: shown + PAGE }), [filterKey, shown])
+
+  // Load the next page as she reaches the bottom; the button below stays as a
+  // manual fallback and as a count of what's left.
+  useEffect(() => {
+    const node = sentinel.current
+    if (!node || shown >= results.length || typeof IntersectionObserver === 'undefined') return
+    const observer = new IntersectionObserver(
+      (entries) => {
+        // One batch at a time, however eagerly the observer fires.
+        if (!entries[0]?.isIntersecting || Date.now() - lastLoad.current < 400) return
+        lastLoad.current = Date.now()
+        more()
+      },
+      { rootMargin: '400px' },
+    )
+    observer.observe(node)
+    return () => observer.disconnect()
+  }, [more, shown, results.length])
+
   const say = useCallback((message) => {
     setToast(message)
     window.clearTimeout(toastTimer.current)
@@ -230,9 +252,10 @@ export default function App() {
                 />
               ))}
             </div>
+            <div ref={sentinel} aria-hidden="true" />
             {shown < results.length && (
               <div style={{ textAlign: 'center', marginTop: 22 }}>
-                <button className="btn ghost" onClick={() => setPaging({ key: filterKey, n: shown + PAGE })}>
+                <button className="btn ghost" onClick={more}>
                   show me more ({results.length - shown} left)
                 </button>
               </div>

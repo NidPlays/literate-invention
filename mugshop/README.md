@@ -49,9 +49,18 @@ node scripts/refresh-catalog.mjs --dry-run   # report only
 node scripts/refresh-catalog.mjs             # write changes
 ```
 
-It refreshes stock, price and sale price, and drops products that have gone from
-a studio's feed. It does not add newly listed mugs — everything in the shop stays
-hand-picked.
+It refreshes stock, price and sale price, drops products that have gone from a
+studio's feed, and adds mugs listed since the last run. Which products qualify
+lives in `scripts/catalog-rules.js`, shared with the full rebuild so the two can't
+disagree.
+
+To rebuild the catalogue from scratch — after adding a studio, or changing what
+counts as a mug:
+
+```sh
+node scripts/rebuild-catalog.mjs --dry-run
+node scripts/rebuild-catalog.mjs
+```
 
 Three things it deliberately won't do:
 
@@ -61,8 +70,9 @@ Three things it deliberately won't do:
 - **Ship data that breaks the app.** Lint, tests and the build run against the new
   catalogue before anything is committed.
 - **Accept a change that looks like a bug.** It refuses to write if too much of the
-  catalogue vanishes at once, if a studio's stock empties in one go, or if a price
-  moves by more than 3×. `scripts/catalog-merge.js` holds those rules and
+  catalogue vanishes at once, if a studio's stock empties in one go, if a price
+  moves by more than 3×, or if a single run would add more products than a real
+  drop plausibly contains. `scripts/catalog-merge.js` holds those rules and
   `scripts/catalog-merge.test.js` covers them.
 
 Because a push made with `GITHUB_TOKEN` doesn't trigger other workflows, the
@@ -71,6 +81,6 @@ refresh calls the deploy workflow directly once it commits.
 ## Where the catalogue comes from
 
 `src/data/catalog.json` is a snapshot of each studio's public product feed
-(`/products.json`), filtered down to drinkware, de-duplicated and capped at 30
-pieces per studio. Prices and stock were correct at the time of the snapshot —
-the product links always show the live truth.
+(`/products.json`), filtered down to drinkware and de-duplicated — every mug they
+list, not a sample. Prices and stock were correct at the time of the snapshot; the
+product links always show the live truth.

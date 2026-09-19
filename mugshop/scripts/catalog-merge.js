@@ -138,6 +138,29 @@ export function checkGuards(catalog, next, report, limits = {}) {
   return { ok: problems.length === 0, problems }
 }
 
+/**
+ * Append mugs a studio has listed since the last run. Only studios whose feed
+ * we trust contribute, and only products the shared rules already accepted.
+ */
+export function addNewProducts(catalog, candidates, healthyBrands) {
+  const known = new Set(catalog.map((p) => p.id))
+  const added = []
+  for (const entry of candidates) {
+    if (!healthyBrands.has(entry.brand) || known.has(entry.id)) continue
+    known.add(entry.id)
+    added.push(entry)
+  }
+  return { next: [...catalog, ...added], added }
+}
+
+/** A sudden flood of new products means the rules broke, not that a studio had a big week. */
+export function checkAdditions(catalog, added, { maxShare = 0.2, floor = 40 } = {}) {
+  const limit = Math.max(floor, Math.floor(catalog.length * maxShare))
+  return added.length > limit
+    ? { ok: false, problems: [`${added.length} new products in one run, over the limit of ${limit}`] }
+    : { ok: true, problems: [] }
+}
+
 /** One-line-per-fact summary used for the commit body and the job summary. */
 export function formatReport(report) {
   const lines = []
@@ -150,12 +173,17 @@ export function formatReport(report) {
   list(report.backInStock, 'Back in stock', (r) => `${r.title} — ${r.brand}`)
   list(report.priceChanged, 'Price changed', (r) => `${r.title} — ₹${r.from} → ₹${r.to}`)
   list(report.delisted, 'Removed (gone from the feed)', (r) => `${r.title} — ${r.brand}`)
+  list(report.added || [], 'Newly listed', (r) => `${r.title} — ${r.brand} — ₹${r.price}`)
   if (report.skipped.length) lines.push(`Left untouched (studio unreachable): ${report.skipped.length}`)
   return lines.join('\n')
 }
 
 export function countChanges(report) {
   return (
-    report.soldOut.length + report.backInStock.length + report.priceChanged.length + report.delisted.length
+    report.soldOut.length +
+    report.backInStock.length +
+    report.priceChanged.length +
+    report.delisted.length +
+    (report.added?.length || 0)
   )
 }
