@@ -28,6 +28,13 @@ export const BRANDS = {
     blurb: 'Desi-coded mugs — kadak chai, evil eyes, lids, sippers, snack-plate combos.',
     accent: '#c2763a',
   },
+  myaha: {
+    name: 'Myaha',
+    site: 'https://www.myahaliving.com',
+    city: 'India',
+    blurb: 'Grown-up tableware — the Moss coffee range, espresso cups and glassware sets.',
+    accent: '#4f7a66',
+  },
   'saabi-house': {
     name: 'Saabi House',
     site: 'https://saabihouse.in',
@@ -38,3 +45,17 @@ export const BRANDS = {
 }
 
 export const BRAND_ORDER = Object.keys(BRANDS)
+
+// On the list, but they don't make drinkware — credited, not shoppable.
+export const OTHER_STUDIOS = [
+  {
+    name: 'Sāh',
+    site: 'https://sah-studio.com',
+    blurb: 'Wabi, Nok and Florene vases, planters and urns. Beautiful — but no mugs or cups in their shop.',
+  },
+  {
+    name: 'Dophari',
+    site: 'https://dophari.com',
+    blurb: 'Sculptural lamps, pendants and vases. Also no drinkware, so nothing of theirs is in the grid.',
+  },
+]

@@ -15,6 +15,11 @@ Nothing is sold here. Every photo, price and link comes from the brand's own sho
 | The Strange Co | https://thestrangeco.com |
 | Craftribal | https://craftribal.com |
 | Saabi House | https://saabihouse.in |
+| Myaha | https://www.myahaliving.com |
+
+Two more from the original list make no drinkware, so they are credited in the
+footer rather than stocked: [Sāh](https://sah-studio.com) (vases, planters, urns)
+and [Dophari](https://dophari.com) (lighting and vases).
 
 ## Personalising it
 

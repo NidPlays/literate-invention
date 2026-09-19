@@ -4,7 +4,7 @@ import ProductCard from './components/ProductCard.jsx'
 import ProductSheet from './components/ProductSheet.jsx'
 import BagDrawer from './components/BagDrawer.jsx'
 import PicksScreen from './components/PicksScreen.jsx'
-import { BRANDS, BRAND_ORDER } from './data/brands.js'
+import { BRANDS, BRAND_ORDER, OTHER_STUDIOS } from './data/brands.js'
 import { filterProducts, PRICE_MAX, PRODUCTS, rupees, useBag, useStored, VIBES } from './lib/shop.js'
 import { HER_NAME, LOVE_NOTES, SECRET_NOTE } from './config.js'
 
@@ -236,6 +236,14 @@ export default function App() {
                 {BRANDS[slug].name} ↗
               </a>
               <div>{BRANDS[slug].blurb}</div>
+            </div>
+          ))}
+          {OTHER_STUDIOS.map((studio) => (
+            <div className="studio" key={studio.name}>
+              <a href={studio.site} target="_blank" rel="noreferrer noopener">
+                {studio.name} ↗
+              </a>
+              <div>{studio.blurb}</div>
             </div>
           ))}
           <p className="studio" style={{ gridColumn: '1 / -1' }}>
