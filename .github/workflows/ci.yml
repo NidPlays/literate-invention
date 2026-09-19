@@ -7,6 +7,10 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        app: [valentine, mugshop]
     steps:
       - uses: actions/checkout@v4
 
@@ -14,20 +18,20 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: valentine/package-lock.json
+          cache-dependency-path: ${{ matrix.app }}/package-lock.json
 
       - name: Install dependencies
         run: npm ci
-        working-directory: valentine
+        working-directory: ${{ matrix.app }}
 
       - name: Lint
         run: npm run lint
-        working-directory: valentine
+        working-directory: ${{ matrix.app }}
 
       - name: Test
         run: npm test
-        working-directory: valentine
+        working-directory: ${{ matrix.app }}
 
       - name: Build
         run: npm run build
-        working-directory: valentine
+        working-directory: ${{ matrix.app }}
