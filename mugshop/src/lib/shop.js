@@ -4,6 +4,8 @@ import { BRANDS } from '../data/brands.js'
 
 export const PRODUCTS = catalog.filter((p) => BRANDS[p.brand])
 
+export const SOLD_OUT_COUNT = PRODUCTS.filter((p) => p.soldOut).length
+
 export const VIBES = [...new Set(PRODUCTS.flatMap((p) => p.vibes))].sort()
 
 export const PRICE_MAX = Math.max(...PRODUCTS.map((p) => p.price))
@@ -69,9 +71,10 @@ const SORTS = {
 // A stable pseudo-random "most loved" order, so the grid isn't just brand-by-brand.
 const loved = new Map(PRODUCTS.map((p, i) => [p.id, ((i * 2654435761) % 1000) / 1000]))
 
-export function filterProducts({ query, brands, vibes, maxPrice, sort, onlyHearted, hearted }) {
+export function filterProducts({ query, brands, vibes, maxPrice, sort, onlyHearted, hearted, inStockOnly }) {
   const q = query.trim().toLowerCase()
   const rows = PRODUCTS.filter((p) => {
+    if (inStockOnly && p.soldOut) return false
     if (brands.length && !brands.includes(p.brand)) return false
     if (vibes.length && !p.vibes.some((v) => vibes.includes(v))) return false
     if (maxPrice && p.price > maxPrice) return false

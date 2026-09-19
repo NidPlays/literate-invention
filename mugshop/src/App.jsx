@@ -5,7 +5,7 @@ import ProductSheet from './components/ProductSheet.jsx'
 import BagDrawer from './components/BagDrawer.jsx'
 import PicksScreen from './components/PicksScreen.jsx'
 import { BRANDS, BRAND_ORDER, OTHER_STUDIOS } from './data/brands.js'
-import { filterProducts, PRICE_MAX, PRODUCTS, rupees, useBag, useStored, VIBES } from './lib/shop.js'
+import { filterProducts, PRICE_MAX, PRODUCTS, SOLD_OUT_COUNT, rupees, useBag, useStored, VIBES } from './lib/shop.js'
 import { HER_NAME, LOVE_NOTES, SECRET_NOTE } from './config.js'
 
 const PAGE = 24
@@ -17,6 +17,8 @@ export default function App() {
   const [maxPrice, setMaxPrice] = useState(PRICE_MAX)
   const [sort, setSort] = useState('love')
   const [onlyHearted, setOnlyHearted] = useState(false)
+  const [hideSoldOut, setHideSoldOut] = useState(false)
+  const soldOutCount = SOLD_OUT_COUNT
   // How many cards are visible. Keyed on the filters, so changing a filter
   // rewinds the page count without an effect.
   const [paging, setPaging] = useState({ key: '', n: PAGE })
@@ -32,11 +34,11 @@ export default function App() {
   const taps = useRef(0)
 
   const results = useMemo(
-    () => filterProducts({ query, brands, vibes, maxPrice, sort, onlyHearted, hearted }),
-    [query, brands, vibes, maxPrice, sort, onlyHearted, hearted],
+    () => filterProducts({ query, brands, vibes, maxPrice, sort, onlyHearted, hearted, inStockOnly: hideSoldOut }),
+    [query, brands, vibes, maxPrice, sort, onlyHearted, hearted, hideSoldOut],
   )
 
-  const filterKey = JSON.stringify([query, brands, vibes, maxPrice, sort, onlyHearted])
+  const filterKey = JSON.stringify([query, brands, vibes, maxPrice, sort, onlyHearted, hideSoldOut])
   const shown = paging.key === filterKey ? paging.n : PAGE
 
   const toastTimer = useRef(0)
@@ -138,6 +140,14 @@ export default function App() {
           ))}
         </div>
         <div className="chips" style={{ paddingTop: 0 }}>
+          <button
+            className="chip stock"
+            data-on={hideSoldOut}
+            aria-pressed={hideSoldOut}
+            onClick={() => setHideSoldOut((v) => !v)}
+          >
+            hide sold out{soldOutCount > 0 && ` (${soldOutCount})`}
+          </button>
           {VIBES.map((v) => (
             <button
               key={v}
@@ -201,6 +211,7 @@ export default function App() {
                 setVibes([])
                 setMaxPrice(PRICE_MAX)
                 setOnlyHearted(false)
+                setHideSoldOut(false)
               }}
             >
               reset everything

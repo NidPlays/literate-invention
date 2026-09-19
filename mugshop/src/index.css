@@ -157,6 +157,8 @@ a { color: inherit; }
   border-color: var(--ink);
 }
 .chip.vibe[data-on='true'] { background: var(--hot); border-color: var(--hot); }
+.chip.stock { border-style: dashed; }
+.chip.stock[data-on='true'] { background: #edf3ea; border-color: #6b7f5e; border-style: solid; color: #3f5240; }
 
 /* ── layout ───────────────────────────────────────────────── */
 .wrap { max-width: 1280px; margin: 0 auto; padding: 0 12px 120px; }
