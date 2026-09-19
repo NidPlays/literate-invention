@@ -4,7 +4,7 @@ import { BRANDS } from '../data/brands.js'
 
 export const PRODUCTS = catalog.filter((p) => BRANDS[p.brand])
 
-export const IN_STOCK = PRODUCTS.filter((p) => !p.soldOut)
+export const SOLD_OUT_COUNT = PRODUCTS.filter((p) => p.soldOut).length
 
 export const VIBES = [...new Set(PRODUCTS.flatMap((p) => p.vibes))].sort()
 

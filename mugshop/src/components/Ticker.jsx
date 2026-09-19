@@ -1,9 +1,9 @@
-import { IN_STOCK } from '../lib/shop.js'
+import { PRODUCTS } from '../lib/shop.js'
 import { BRAND_ORDER } from '../data/brands.js'
 
 const LINES = [
   'handmade · small batch · from real Indian studios',
-  `${BRAND_ORDER.length} studios. ${IN_STOCK.length} mugs. one girl with excellent taste.`,
+  `${BRAND_ORDER.length} studios. ${PRODUCTS.length} mugs. one girl with excellent taste.`,
   'free delivery (by me, to your hands)',
   'every mug links to the actual shop — nothing here is fake',
   'no returns on the boyfriend',
