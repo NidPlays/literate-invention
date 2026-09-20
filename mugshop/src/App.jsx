@@ -88,6 +88,23 @@ export default function App() {
     [hearted, setHearted, say],
   )
 
+  // Where the open mug sits in what she's looking at right now, so the sheet
+  // can page through the same list the grid shows — hearted-only included.
+  const openIndex = open ? results.findIndex((p) => p.id === open.id) : -1
+  const hasPrev = openIndex > 0
+  const hasNext = openIndex >= 0 && openIndex < results.length - 1
+
+  const step = useCallback(
+    (delta) => {
+      const next = results[openIndex + delta]
+      if (openIndex < 0 || !next) return
+      setOpen(next)
+      // Keep the grid behind the sheet in step, so closing lands on a card.
+      if (openIndex + delta >= shown) more()
+    },
+    [results, openIndex, shown, more],
+  )
+
   const add = useCallback(
     (product) => {
       bag.add(product.id)
@@ -308,6 +325,11 @@ export default function App() {
           onHeart={heart}
           onAdd={add}
           onClose={() => setOpen(null)}
+          onNext={() => step(1)}
+          onPrev={() => step(-1)}
+          hasNext={hasNext}
+          hasPrev={hasPrev}
+          position={openIndex >= 0 ? { i: openIndex + 1, total: results.length } : null}
         />
       )}
 
