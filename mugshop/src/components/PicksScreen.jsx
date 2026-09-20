@@ -33,6 +33,20 @@ export default function PicksScreen({ bag, hearted, onBack }) {
 
   return (
     <div className="picks">
+      <header className="header picks-header">
+        <div className="header-row">
+          <button className="logo" onClick={onBack} aria-label="Back to MUG STREET">
+            MUG <em>STREET</em>
+          </button>
+          <span className="picks-header-sum">
+            {bag.count} {bag.count === 1 ? 'thing' : 'things'} · {rupees(bag.total)}
+          </span>
+          <button className="btn ghost" onClick={onBack}>
+            ← keep shopping
+          </button>
+        </div>
+      </header>
+
       <div className="picks-inner">
         <h1>{HER_NAME}’s picks 🤍</h1>
         <p className="sub">
