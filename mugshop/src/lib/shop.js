@@ -80,8 +80,12 @@ export function filterProducts({ query, brands, vibes, maxPrice, sort, onlyHeart
     if (maxPrice && p.price > maxPrice) return false
     if (onlyHearted && !hearted.includes(p.id)) return false
     if (!q) return true
-    const hay = `${p.title} ${BRANDS[p.brand].name} ${p.vibes.join(' ')} ${p.blurb}`.toLowerCase()
-    return q.split(/\s+/).every((word) => hay.includes(word))
+    // Match on word starts, not anywhere: "cat" should find a cat mug, not a delicate one.
+    const words = `${p.title} ${BRANDS[p.brand].name} ${p.vibes.join(' ')} ${p.blurb}`
+      .toLowerCase()
+      .split(/[^a-z0-9]+/)
+      .filter(Boolean)
+    return q.split(/\s+/).every((term) => words.some((word) => word.startsWith(term)))
   }).map((p) => ({ ...p, love: loved.get(p.id) ?? 0 }))
 
   return rows.sort(SORTS[sort] || SORTS.love)

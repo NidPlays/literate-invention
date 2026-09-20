@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it } from 'vitest'
-import { render, screen, within } from '@testing-library/react'
+import { act, render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import App from './App.jsx'
 import catalog from './data/catalog.json'
@@ -47,6 +47,26 @@ describe('the shop', () => {
 
     await user.click(screen.getByRole('button', { name: /hide sold out/ }))
     expect(resultCount()).toBe(all - soldOut)
+  })
+
+  it('matches search terms at word starts, not inside other words', async () => {
+    const user = userEvent.setup()
+    render(<App />)
+    await user.type(screen.getByLabelText('Search mugs'), 'cat')
+    const titles = screen.getAllByRole('button', { name: /^Open / }).map((b) => b.getAttribute('aria-label'))
+    expect(titles.length).toBeGreaterThan(0)
+    expect(titles.join(' ').toLowerCase()).not.toMatch(/delicate|category/)
+  })
+
+  it('loads more mugs as she reaches the bottom', async () => {
+    render(<App />)
+    const first = screen.getAllByRole('button', { name: /^Open / }).length
+    expect(first).toBeLessThan(catalog.length)
+
+    await act(async () => {
+      globalThis.TestIntersectionObserver.scrollIntoView()
+    })
+    expect(screen.getAllByRole('button', { name: /^Open / }).length).toBeGreaterThan(first)
   })
 
   it('filters by brand chip', async () => {

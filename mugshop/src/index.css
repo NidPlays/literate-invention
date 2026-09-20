@@ -161,7 +161,14 @@ a { color: inherit; }
 .chip.stock[data-on='true'] { background: #edf3ea; border-color: #6b7f5e; border-style: solid; color: #3f5240; }
 
 /* ── layout ───────────────────────────────────────────────── */
-.wrap { max-width: 1280px; margin: 0 auto; padding: 0 12px 120px; }
+.wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 12px 120px;
+  /* Cards are appended at the bottom as she scrolls. Without this, Chrome's scroll
+     anchoring keeps the viewport pinned to the end and the loader retriggers itself. */
+  overflow-anchor: none;
+}
 
 .hero {
   margin: 12px 4px 16px;
