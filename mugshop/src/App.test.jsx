@@ -101,4 +101,18 @@ describe('the shop', () => {
     expect(link.getAttribute('href')).toMatch(/^https:\/\//)
     expect(link).toHaveAttribute('target', '_blank')
   })
+
+  it('keeps the logo bar on the picks screen and goes back from it', async () => {
+    const user = userEvent.setup()
+    render(<App />)
+    await user.click(screen.getAllByRole('button', { name: /^Open / })[0])
+    const dialog = screen.getByRole('dialog')
+    await user.click(within(dialog).getByRole('button', { name: /^add · ₹/ }))
+
+    await user.click(screen.getByRole('button', { name: 'done picking' }))
+    const logo = screen.getByRole('button', { name: 'Back to MUG STREET' })
+
+    await user.click(logo)
+    expect(screen.getByLabelText('Search mugs')).not.toBeNull()
+  })
 })
