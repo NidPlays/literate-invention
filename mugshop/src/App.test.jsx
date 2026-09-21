@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it } from 'vitest'
-import { act, render, screen, within } from '@testing-library/react'
+import { act, fireEvent, render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import App from './App.jsx'
 import catalog from './data/catalog.json'
@@ -100,6 +100,97 @@ describe('the shop', () => {
     const link = screen.getAllByRole('link')[0]
     expect(link.getAttribute('href')).toMatch(/^https:\/\//)
     expect(link).toHaveAttribute('target', '_blank')
+  })
+
+  // The sheet's reels gesture: a touch drag past an edge of the scrolling body.
+  const drag = (dy) => {
+    const body = document.querySelector('.sheet-body')
+    const touch = (type, y) => {
+      const event = new Event(type, { bubbles: true, cancelable: true })
+      event.touches = type === 'touchstart' || type === 'touchmove' ? [{ clientY: y }] : []
+      fireEvent(body, event)
+    }
+    touch('touchstart', 400)
+    touch('touchmove', 400 + dy)
+    touch('touchend', 400 + dy)
+  }
+  const sheetTitle = () => within(screen.getByRole('dialog')).getByRole('heading', { level: 3 }).textContent
+  const sheetCount = () => document.querySelector('.sheet-count').textContent
+
+  it('scrolls on to the next mug and back on phone-sized screens', async () => {
+    const user = userEvent.setup()
+    globalThis.setViewportWidth(390)
+    render(<App />)
+    await user.click(screen.getAllByRole('button', { name: /^Open / })[0])
+    const first = sheetTitle()
+    expect(sheetCount()).toMatch(/^1 \//)
+
+    // A short tug is just an elastic pull — she stays on this mug.
+    await act(async () => drag(-40))
+    expect(sheetTitle()).toBe(first)
+
+    // A real drag up at the bottom moves her on, with the slide-up animation.
+    await act(async () => drag(-260))
+    const second = sheetTitle()
+    expect(second).not.toBe(first)
+    expect(sheetCount()).toMatch(/^2 \//)
+    expect(document.querySelector('.reel').getAttribute('data-enter')).toBe('up')
+
+    // Dragging down at the top takes her back.
+    await act(async () => drag(260))
+    expect(sheetTitle()).toBe(first)
+    expect(document.querySelector('.reel').getAttribute('data-enter')).toBe('down')
+  })
+
+  it('does not run past the ends of the list', async () => {
+    const user = userEvent.setup()
+    globalThis.setViewportWidth(390)
+    render(<App />)
+    await user.click(screen.getAllByRole('button', { name: /^Open / })[0])
+    const first = sheetTitle()
+
+    // Already on the first mug: there is nothing before it.
+    await act(async () => drag(260))
+    expect(sheetTitle()).toBe(first)
+    expect(sheetCount()).toMatch(/^1 \//)
+  })
+
+  it('pages through the hearted mugs only, when that filter is on', async () => {
+    const user = userEvent.setup()
+    globalThis.setViewportWidth(390)
+    render(<App />)
+    const hearts = screen.getAllByRole('button', { name: /^Heart / })
+    await user.click(hearts[0])
+    await user.click(hearts[3])
+    await user.click(screen.getByLabelText('Show only hearted'))
+
+    const cards = screen.getAllByRole('button', { name: /^Open / })
+    expect(cards).toHaveLength(2)
+    await user.click(cards[0])
+    expect(sheetCount()).toBe('1 / 2')
+
+    await act(async () => drag(-260))
+    expect(sheetCount()).toBe('2 / 2')
+
+    // The list ends here, because the shop behind it does too.
+    await act(async () => drag(-260))
+    expect(sheetCount()).toBe('2 / 2')
+  })
+
+  it('leaves the gesture off on desktop, where arrow keys page instead', async () => {
+    const user = userEvent.setup()
+    globalThis.setViewportWidth(1200)
+    render(<App />)
+    await user.click(screen.getAllByRole('button', { name: /^Open / })[0])
+    const first = sheetTitle()
+
+    await act(async () => drag(-260))
+    expect(sheetTitle()).toBe(first)
+
+    await user.keyboard('{ArrowRight}')
+    expect(sheetTitle()).not.toBe(first)
+    await user.keyboard('{ArrowLeft}')
+    expect(sheetTitle()).toBe(first)
   })
 
   it('keeps the logo bar on the picks screen and goes back from it', async () => {

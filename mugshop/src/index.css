@@ -368,9 +368,50 @@ a { color: inherit; }
   flex: none;
 }
 .sheet-head h2 { margin: 0; font-family: var(--serif); font-weight: 400; font-size: 19px; }
-.sheet-body { overflow: auto; padding: 16px; flex: 1; }
+.sheet-head-end { display: flex; align-items: center; gap: 10px; }
+.sheet-count { font-size: 12px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+/* The sheet is its own scroll world — pulling past an edge must not drag the
+   page (or the browser's pull-to-refresh) along with it. */
+.sheet-body { overflow: auto; padding: 16px; flex: 1; overscroll-behavior: contain; }
 .sheet-foot { border-top: 1px solid var(--line); padding: 14px 16px; flex: none; background: var(--bg-2); }
 .close { background: none; border: 0; font-size: 22px; line-height: 1; padding: 4px 8px; }
+
+/* ── reels-style paging inside the sheet ──────────────────── */
+.reel { transition: transform .32s cubic-bezier(.2, .8, .3, 1); will-change: transform; }
+.reel[data-enter='up'] { animation: reel-up .34s cubic-bezier(.2, .8, .3, 1); }
+.reel[data-enter='down'] { animation: reel-down .34s cubic-bezier(.2, .8, .3, 1); }
+@keyframes reel-up {
+  from { transform: translateY(46px); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+@keyframes reel-down {
+  from { transform: translateY(-46px); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+.reel-note {
+  margin: 14px 0 0;
+  font-size: 12px;
+  color: var(--ink-2);
+  opacity: .75;
+}
+.reel-hint {
+  position: absolute;
+  left: 50%;
+  z-index: 2;
+  padding: 7px 14px;
+  border-radius: 999px;
+  background: rgba(36, 28, 23, .9);
+  color: #fff;
+  font-size: 12px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .16s ease, transform .16s ease, background .16s ease;
+}
+.reel-hint.next { bottom: 84px; transform: translate(-50%, 10px) scale(.92); }
+.reel-hint.prev { top: 60px; transform: translate(-50%, -10px) scale(.92); }
+.reel-hint[data-on='true'] { opacity: 1; transform: translate(-50%, 0) scale(1); }
+.reel-hint[data-ready='true'] { background: var(--hot); }
 
 /* ── product detail ───────────────────────────────────────── */
 .detail { display: grid; gap: 16px; }
