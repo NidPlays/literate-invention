@@ -4904,31 +4904,13 @@
   ]
  },
  {
-  "id": "klaylist-6895466905649",
-  "brand": "klaylist",
-  "title": "hoop tea cup",
-  "url": "https://klaylist.com/products/hoop-tea-cup",
-  "price": 395,
-  "compareAt": null,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/yellowhoopcup.jpg?v=1776673298",
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/hoopcupsstacked.jpg?v=1776673298",
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/hoopcupcloseup.jpg?v=1776673298"
-  ],
-  "blurb": "220ml handmade ceramic coffee mug featuring a unique hoop handle. Available in yellow and green, suitable for both hot and cold beverages",
-  "vibes": [
-   "everyday"
-  ]
- },
- {
   "id": "klaylist-6892837208113",
   "brand": "klaylist",
   "title": "Hoop coffee mug - cherry red",
   "url": "https://klaylist.com/products/hoop-tea-and-coffee-mug-red",
   "price": 425,
   "compareAt": null,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/hoopteacupstacked.jpg?v=1741602222",
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/hoopteacupred.jpg?v=1741602222",
@@ -4946,7 +4928,7 @@
   "url": "https://klaylist.com/products/orb-coffee-mug-with-splatter-effect",
   "price": 445,
   "compareAt": null,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/coffee-mug-with-splatter-effect.jpg?v=1775475647",
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/coffee-mug-white-and-black.jpg?v=1775475679",
@@ -5001,7 +4983,7 @@
   "url": "https://klaylist.com/products/long-arm-ceramic-coffee-mug",
   "price": 445,
   "compareAt": null,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/handmade-coffee-cup-long-handle-two.jpg?v=1725692432",
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/brown-long-handle-coffee-mug-stoneware.jpg?v=1741590974",
@@ -5129,7 +5111,7 @@
   "url": "https://klaylist.com/products/unibody-mug",
   "price": 545,
   "compareAt": null,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/RON2164.jpg?v=1741504127",
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/RON2171.jpg?v=1741504127",
@@ -5878,7 +5860,7 @@
   "url": "https://craftribal.com/products/cup-of-sunshine-1",
   "price": 199,
   "compareAt": 399,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/Cup-of-Sunshine-1.webp?v=1689762823",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/Cup-of-Sunshine-2.webp?v=1689762823",
@@ -6062,7 +6044,7 @@
   "url": "https://craftribal.com/products/ghost-mug-1",
   "price": 249,
   "compareAt": 499,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/96_79769489-c861-45d0-912a-7080da4e64ad.jpg?v=1726239738",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/97_723ee522-ccae-4d77-9b7d-a5f6394f7b97.jpg?v=1757492082"
@@ -6279,7 +6261,7 @@
   "url": "https://craftribal.com/products/pouch-mug-pink",
   "price": 249,
   "compareAt": 699,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_02_45_19PM.png?v=1787303751",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_02_45_06PM.png?v=1787303751"
@@ -6330,7 +6312,7 @@
   "url": "https://craftribal.com/products/pouch-mug-yellow-1",
   "price": 249,
   "compareAt": 699,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_02_52_40PM.png?v=1787304217",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPT_Image_Aug_21_2026_02_54_01_PM.png?v=1787304268"
@@ -9689,7 +9671,7 @@
   "url": "https://craftribal.com/products/black-bow-sipper-copy",
   "price": 499,
   "compareAt": 650,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageJul25_2026_01_24_53PM.png?v=1784966109",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageJul25_2026_01_24_02PM.png?v=1784966109"
@@ -12583,7 +12565,7 @@
   "url": "https://saabihouse.in/products/small-daisy-tumbler",
   "price": 419,
   "compareAt": 599,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/pomelli_photoshoot_image_9_16_0426_15.jpg?v=1777616402",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/pomelli_photoshoot_image_9_16_0426_14.jpg?v=1777616402",
@@ -13133,7 +13115,7 @@
   "url": "https://saabihouse.in/products/mom-❤️-cup-saucer-set",
   "price": 549,
   "compareAt": 999,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/0DB0F997-005A-43C8-B6B2-85764D0C97F4_1_201_a_931215d1-f48c-4066-9fcc-7d5b2545a113.jpg?v=1778001203",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/C8AD9239-D847-42C7-A015-A3CC5E8738AF_1_201_a_106a70ef-3c0f-431b-99b4-5fed0303924b.jpg?v=1778001203",
@@ -13686,6 +13668,24 @@
   "vibes": [
    "hearts & love",
    "pastel"
+  ]
+ },
+ {
+  "id": "klaylist-6975311314993",
+  "brand": "klaylist",
+  "title": "Cloud coffee mug",
+  "url": "https://klaylist.com/products/cloud-coffee-mug-ceramic",
+  "price": 445,
+  "compareAt": null,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/ceramic-cloud-coffee-mug-handmade.jpg?v=1725636503",
+   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/ceramic-cloud-mug-microwavable.jpg?v=1725636502",
+   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/cloud-coffee-mug-stoneware.jpg?v=1725636503"
+  ],
+  "blurb": "This handmade coffee mug, featuring embossed clouds and pastel blue color, is ideal for enjoying both hot and cold beverages",
+  "vibes": [
+   "chai & coffee"
   ]
  }
 ]
