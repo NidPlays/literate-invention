@@ -300,23 +300,6 @@
   ]
  },
  {
-  "id": "house-of-ceramics-8729495273621",
-  "brand": "house-of-ceramics",
-  "title": "Sunny Citrus Mug",
-  "url": "https://www.houseofceramics.in/products/sunny-citrus-mug",
-  "price": 375,
-  "compareAt": 999,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250307-WA0029.jpg?v=1741359836",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250307-WA0028.jpg?v=1741359836"
-  ],
-  "blurb": "Material: Ceramic Color: Multi-color Capacity: 300 ML Package Content: 1 Coffee Mug Item Dimensions - LxWxH: Mug: 5.5inc. Diameter X 4.5inc ht. Finish: Gloss Feature: Freezer, Dishwasher & Microwave Safe Disclaimer: The",
-  "vibes": [
-   "everyday"
-  ]
- },
- {
   "id": "house-of-ceramics-8703158157461",
   "brand": "house-of-ceramics",
   "title": "3D Pink Bow Coffee Mug",
@@ -685,23 +668,6 @@
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20251125-WA0217.jpg?v=1764222379"
   ],
   "blurb": "Material: Ceramic Color: Multi-color Capacity: 300 ML Package Content : 1 Coffee Mug Item Dimensions: 5inc. Diameter X 3.5inc ht. approx. Finish: Glossy Feature: Freezer, Dishwasher & Microwave Safe Disclaimer: The actua",
-  "vibes": [
-   "everyday"
-  ]
- },
- {
-  "id": "house-of-ceramics-8978086396053",
-  "brand": "house-of-ceramics",
-  "title": "Bells & Brew Mug",
-  "url": "https://www.houseofceramics.in/products/bells-brew-mug",
-  "price": 385,
-  "compareAt": 1799,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20251125-WA0207.jpg?v=1764222379",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Bells_Brew_Mug.jpg?v=1764222381"
-  ],
-  "blurb": "Material: Ceramic Color: Multi-color Capacity: 300 ML Package Content : 1 Coffee Mug Item Dimensions: 4.5inc. Diameter X 4inc ht. Finish: Glossy Feature: Freezer, Dishwasher & Microwave Safe Disclaimer: The actual produc",
   "vibes": [
    "everyday"
   ]
@@ -2941,7 +2907,7 @@
   "brand": "house-of-ceramics",
   "title": "Ruby Love Note Mug",
   "url": "https://www.houseofceramics.in/products/ruby-love-note-mug",
-  "price": 475,
+  "price": 425,
   "compareAt": 999,
   "soldOut": false,
   "images": [
@@ -3246,7 +3212,7 @@
   "url": "https://www.houseofceramics.in/products/minty-book-love-mug",
   "price": 499,
   "compareAt": 999,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Minty_Book_Love_Mug_4.jpg?v=1788980870",
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Minty_Book_Love_Mug_5.jpg?v=1788980869",
@@ -3797,24 +3763,6 @@
   "blurb": "Sip in style with the Diet Coke Fizz Sipper — a hand-painted ceramic mug inspired by the iconic Diet Coke can. A fun, retro collectible for your daily drinks! Product Details: Material: Ceramic Color: Multi-color Finish:",
   "vibes": [
    "everyday"
-  ]
- },
- {
-  "id": "house-of-ceramics-9232978739349",
-  "brand": "house-of-ceramics",
-  "title": "Cherished Hearts Tea Cup & Saucer Set (Set of 2)",
-  "url": "https://www.houseofceramics.in/products/amour-scallop-tea-cup-saucer-set-set-of-2",
-  "price": 599,
-  "compareAt": 1099,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Cherished_Hearts_Tea_Cup_Saucer_Set_Set_of_2_1.jpg?v=1780426422",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Cherished_Hearts_Tea_Cup_Saucer_Set_Set_of_2_4.jpg?v=1780426421",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Cherished_Hearts_Tea_Cup_Saucer_Set_Set_of_2_2.jpg?v=1780426421"
-  ],
-  "blurb": "A beautifully romantic handmade ceramic tea cup and saucer set featuring hand-painted red hearts scattered across the white body, with an elegant scalloped rim in bold red. The petal-ridged form and heartfelt detailing m",
-  "vibes": [
-   "sets & combos"
   ]
  },
  {
@@ -4822,7 +4770,7 @@
   "url": "https://klaylist.com/products/orb-coffee-mug-with-splatter-effect",
   "price": 445,
   "compareAt": null,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/coffee-mug-with-splatter-effect.jpg?v=1775475647",
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/coffee-mug-white-and-black.jpg?v=1775475679",
@@ -4877,7 +4825,7 @@
   "url": "https://klaylist.com/products/long-arm-ceramic-coffee-mug",
   "price": 445,
   "compareAt": null,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/handmade-coffee-cup-long-handle-two.jpg?v=1725692432",
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/brown-long-handle-coffee-mug-stoneware.jpg?v=1741590974",
@@ -4938,24 +4886,6 @@
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/3tierblack.jpg?v=1741504113"
   ],
   "blurb": "A mug as big as your desire for coffee, holds up to 500ml of any beverage, available in three colors",
-  "vibes": [
-   "everyday"
-  ]
- },
- {
-  "id": "klaylist-6895609446449",
-  "brand": "klaylist",
-  "title": "Bubble mug - chrome edition",
-  "url": "https://klaylist.com/products/three-tier-mug-chrome-edition",
-  "price": 525,
-  "compareAt": null,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/threetiermug.jpg?v=1713450383",
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/3tiermugchrome.jpg?v=1713450401",
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/threetiermugchrome.jpg?v=1713450410"
-  ],
-  "blurb": "A mug as big as your desire for coffee, holds up to 500ml of any beverage, finished in our Chrome™ texture",
   "vibes": [
    "everyday"
   ]
@@ -5127,24 +5057,6 @@
   ]
  },
  {
-  "id": "klaylist-6895427059761",
-  "brand": "klaylist",
-  "title": "Cavity coffee mug",
-  "url": "https://klaylist.com/products/cavity-coffee-mug",
-  "price": 645,
-  "compareAt": null,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/ceramic-cavity-coffee-mug-handmade.jpg?v=1725982206",
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/cavity-coffee-mug-and-saucer-set.jpg?v=1725982206",
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/cavity-mug-and-bubble-saucer-white.jpg?v=1775475359"
-  ],
-  "blurb": "Start your mornings with our handcrafted cavity mug. Its wide mouth is perfect for frothy lattes, cappuccinos, and more, while the cavity handle design ensures a comfortable grip",
-  "vibes": [
-   "chai & coffee"
-  ]
- },
- {
   "id": "klaylist-6895499378737",
   "brand": "klaylist",
   "title": "Warped Mug set",
@@ -5224,7 +5136,7 @@
   "url": "https://klaylist.com/products/oblong-cup-set-olive",
   "price": 695,
   "compareAt": null,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/oblongteacupolivetop.jpg?v=1741504396",
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/oblongteacupsstoneware.jpg?v=1748454410",
@@ -5243,7 +5155,7 @@
   "url": "https://klaylist.com/products/cavity-mug-chrome-edition",
   "price": 745,
   "compareAt": null,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/cavity-coffee-mug-white-chrome-edition.jpg?v=1726498362",
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/cavity-latte-mug-chrome.jpg?v=1726498404",
@@ -5279,7 +5191,7 @@
   "url": "https://klaylist.com/products/ceramic-breakfast-bowl-mug-set-with-coaster",
   "price": 1295,
   "compareAt": null,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/ceramic-breakfast-set-by-klaylist.jpg?v=1763447570",
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/ceramic-mug-and-coaster-for-breakfast.jpg?v=1763447570",
@@ -5369,7 +5281,7 @@
   "url": "https://thestrangeco.com/products/the-winter-journey-cups",
   "price": 400,
   "compareAt": null,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0503/3351/5925/files/Dark_Bg_9.png?v=1733479531",
    "https://cdn.shopify.com/s/files/1/0503/3351/5925/files/Dark_Bg_86_1.png?v=1733479531",
@@ -5736,7 +5648,7 @@
   "url": "https://craftribal.com/products/hand-painted-bohemian-cups-face-line-art-1",
   "price": 199,
   "compareAt": 399,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/mugs-3.webp?v=1690025815",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/mugs-5.webp?v=1690025815",
@@ -5754,7 +5666,7 @@
   "url": "https://craftribal.com/products/chirpy-birdie-mug",
   "price": 199,
   "compareAt": 499,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageSep9_2026_04_29_45PM.png?v=1788951600"
   ],
@@ -5802,7 +5714,7 @@
   "url": "https://craftribal.com/products/grey-diamond-mug",
   "price": 199,
   "compareAt": 399,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageSep9_2026_03_19_16PM.png?v=1788947379"
   ],
@@ -5923,7 +5835,7 @@
   "url": "https://craftribal.com/products/rose-on-the-handle-mug-1",
   "price": 249,
   "compareAt": 399,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/9_d6758a84-b935-495d-a3f3-0dda65bc25f7.jpg?v=1737635117",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/10_45ac8245-8bbf-4df9-a3cd-9a2f107603b6.jpg?v=1737635117",
@@ -6053,7 +5965,7 @@
   "url": "https://craftribal.com/products/little-daisy-mug-white",
   "price": 249,
   "compareAt": 499,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/7DD56DAF-EE62-4D46-BAB7-8F8AF30191C0.jpg?v=1773733328",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/48BA56A8-468C-4C84-91B3-0E9835325C4E.jpg?v=1773733790",
@@ -6072,7 +5984,7 @@
   "url": "https://craftribal.com/products/pouch-mug-pink",
   "price": 249,
   "compareAt": 699,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_02_45_19PM.png?v=1787303751",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_02_45_06PM.png?v=1787303751"
@@ -6106,7 +6018,7 @@
   "url": "https://craftribal.com/products/pouch-mug-green-1",
   "price": 249,
   "compareAt": 699,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_02_59_23PM.png?v=1787304656",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_02_59_33PM.png?v=1787304656"
@@ -6497,7 +6409,7 @@
   "url": "https://craftribal.com/products/royal-blue-pedestal-mug",
   "price": 299,
   "compareAt": 499,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageSep4_2026_04_23_12PM.png?v=1788519217"
   ],
@@ -6631,7 +6543,7 @@
   "url": "https://craftribal.com/products/songbird-mug",
   "price": 299,
   "compareAt": 499,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageSep9_2026_01_55_56PM.png?v=1788942401"
   ],
@@ -6731,7 +6643,7 @@
   "url": "https://craftribal.com/products/tulip-mug-1",
   "price": 299,
   "compareAt": 485,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/25.jpg?v=1737538094",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/26_0ad5fbca-9c78-4566-a922-3ab12d9ecbe4.jpg?v=1737538094"
@@ -6748,7 +6660,7 @@
   "url": "https://craftribal.com/products/pink-flower-mug",
   "price": 299,
   "compareAt": 489,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageSep8_2026_05_41_38PM.png?v=1788869519"
   ],
@@ -7942,7 +7854,7 @@
   "url": "https://craftribal.com/products/garden-glow-cup-green",
   "price": 365,
   "compareAt": 499,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/61_e7d13c91-1fa3-4663-897b-b78d51716f3b.jpg?v=1755093021",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/96_7ba7c533-ec6a-4dc4-83db-043ac5013d7e.jpg?v=1755093021"
@@ -7977,7 +7889,7 @@
   "url": "https://craftribal.com/products/garden-glow-cup",
   "price": 365,
   "compareAt": 499,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/64_0ead0068-d33b-4d2a-88c8-cb14efe36318.jpg?v=1755093021",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/90_049326bf-ea44-461f-b134-7031edc41f0e.jpg?v=1755093021"
@@ -8223,7 +8135,7 @@
   "url": "https://craftribal.com/products/yellow-pumpkin-mug-with-lid",
   "price": 399,
   "compareAt": 699,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2026-05-11at5.08.33PM.jpg?v=1778499857",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2026-05-11at5.08.34PM.jpg?v=1778499857",
@@ -8934,7 +8846,7 @@
   "url": "https://craftribal.com/products/copy-of-abstract-face-mug",
   "price": 399,
   "compareAt": 1800,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/0A5C78FF-E5C8-4E9F-ACF0-3A4616F10F46.jpg?v=1711005611",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/FEA78F7B-BF49-403C-8278-C6CFC98D5BAD.jpg?v=1711005611",
@@ -9329,7 +9241,7 @@
   "url": "https://craftribal.com/products/black-bow-sipper-copy",
   "price": 499,
   "compareAt": 650,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageJul25_2026_01_24_53PM.png?v=1784966109",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageJul25_2026_01_24_02PM.png?v=1784966109"
@@ -12041,7 +11953,7 @@
   "url": "https://saabihouse.in/products/bond-beyond-distance-ceramic-mug",
   "price": 419,
   "compareAt": 559,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Gemini_Generated_Image_3b2v6v3b2v6v3b2v.jpg?v=1786642118",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Gemini_Generated_Image_pnyu4epnyu4epnyu.jpg?v=1786642356",
@@ -12535,7 +12447,7 @@
   "url": "https://saabihouse.in/products/tiny-oranges-pinterest-cup-saucer-set",
   "price": 499,
   "compareAt": 699,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Gemini_Generated_Image_lgxl4rlgxl4rlgxl_b72174f3-469d-4263-92ab-560fbcc86f47.png?v=1765299818",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Gemini_Generated_Image_fwptvbfwptvbfwpt.jpg?v=1780741105",
@@ -12607,7 +12519,7 @@
   "url": "https://saabihouse.in/products/mono-lines-dots-ceramic-coffee-mug-set-set-of-2",
   "price": 529,
   "compareAt": 699,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/IMG_0476.jpg?v=1783778613",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/IMG_0477.jpg?v=1783778613",
@@ -12957,8 +12869,8 @@
   "brand": "saabi-house",
   "title": "Coca Cola Ceramic Tumbler with Straw",
   "url": "https://saabihouse.in/products/coca-cola-ceramic-tumbler-with-straw",
-  "price": 749,
-  "compareAt": null,
+  "price": 699,
+  "compareAt": 999,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/ChatGPTImageAug27_2026_12_48_12AM.png?v=1787771911",
@@ -12975,7 +12887,7 @@
   "brand": "saabi-house",
   "title": "Diet Coke Ceramic Tumbler with Straw",
   "url": "https://saabihouse.in/products/diet-coke-ceramic-tumbler-with-straw-1",
-  "price": 799,
+  "price": 699,
   "compareAt": 999,
   "soldOut": false,
   "images": [
@@ -13343,25 +13255,6 @@
   ]
  },
  {
-  "id": "craftribal-9776768123169",
-  "brand": "craftribal",
-  "title": "Pink Checkered Bloom Mug",
-  "url": "https://craftribal.com/products/pink-checkered-bloom-mug",
-  "price": 399,
-  "compareAt": null,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/55_747f7699-c09c-43c0-9e27-29aca78aa874.jpg?v=1737538094",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/54_9d4125d6-e63d-4d9a-9f2a-8d26262571ca.jpg?v=1731932319",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/56_644336b5-a222-4ebd-a1f1-8171bb8d2cf3.jpg?v=1737538094"
-  ],
-  "blurb": "Featuring a sophisticated checkered design and delicate embossed flowers, this cup blends classic patterns with nature-inspired elegance. Perfect for adding a touch of style to your morning routine or as a thoughtful gif",
-  "vibes": [
-   "florals",
-   "pastel"
-  ]
- },
- {
   "id": "craftribal-8975219097889",
   "brand": "craftribal",
   "title": "Love's Spectrum Mug (Multi Heart)",
@@ -13469,7 +13362,7 @@
   "brand": "saabi-house",
   "title": "Pepsi Ceramic Tumbler with Straw",
   "url": "https://saabihouse.in/products/pepsi-ceramic-tumbler-with-straw",
-  "price": 749,
+  "price": 699,
   "compareAt": null,
   "soldOut": false,
   "images": [
@@ -13497,6 +13390,262 @@
   "blurb": "Product Description Enjoy your favorite beverages in style with our Glass Can Tumbler with Bamboo Lid & Straw . Featuring a sleek can-shaped design, reusable glass straw, and natural bamboo lid, this aesthetic glass cup ",
   "vibes": [
    "with a lid"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15407488499861",
+  "brand": "house-of-ceramics",
+  "title": "Mughal Garden Wooden Lid Airtight Jar",
+  "url": "https://www.houseofceramics.in/products/mughal-garden-wooden-lid-airtight-jar",
+  "price": 645,
+  "compareAt": 1199,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Mughal_Garden_Wooden_Lid_Airtight_Jar_1.jpg?v=1791117950",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Mughal_Garden_Wooden_Lid_Airtight_Jar_2.jpg?v=1791117950"
+  ],
+  "blurb": "Regal and timeless! The Mughal Garden Wooden Lid Airtight Jar is a hand-painted ceramic jar with an intricate Mughal garden design and a wooden lid — glossy finish, perfect for storing spices, sugar, tea, or any kitchen ",
+  "vibes": [
+   "florals",
+   "with a lid"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15406115586197",
+  "brand": "house-of-ceramics",
+  "title": "Midnight Cravings Noodle Pot",
+  "url": "https://www.houseofceramics.in/products/midnight-cravings-noodle-pot",
+  "price": 625,
+  "compareAt": 1199,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Midnight_Cravings_Noodle_Pot_3.jpg?v=1791042044",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Midnight_Cravings_Noodle_Pot_1.jpg?v=1791042044",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Midnight_Cravings_Noodle_Pot_2.jpg?v=1791042044"
+  ],
+  "blurb": "Cravings just got darker! The Midnight Cravings Noodle Pot is a hand-painted ceramic noodle pot with a dramatic midnight design — glossy finish, perfect for noodles, ramen, soups, or snacks. Product Details: Material: Ce",
+  "vibes": [
+   "everyday"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15406115356821",
+  "brand": "house-of-ceramics",
+  "title": "Aqua Cravings Noodle Pot",
+  "url": "https://www.houseofceramics.in/products/aqua-cravings-noodle-pot",
+  "price": 625,
+  "compareAt": 1199,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Aqua_Cravings_Noodle_Pot_3.jpg?v=1791042044",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Aqua_Cravings_Noodle_Pot_1.jpg?v=1791042044",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Aqua_Cravings_Noodle_Pot_2.jpg?v=1791042044"
+  ],
+  "blurb": "Slurp in style! The Aqua Cravings Noodle Pot is a hand-painted ceramic noodle pot with a cool aqua design — glossy finish, perfect for noodles, ramen, soups, or snacks. Product Details: Material: Ceramic Color: Multi-col",
+  "vibes": [
+   "everyday"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15406105428117",
+  "brand": "house-of-ceramics",
+  "title": "Rustic Ember Kulhad",
+  "url": "https://www.houseofceramics.in/products/rustic-ember-kulhad",
+  "price": 425,
+  "compareAt": 899,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Rustic_Ember_Kulhad_3.jpg?v=1791040850",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Rustic_Ember_Kulhad_1.jpg?v=1791040850",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Rustic_Ember_Kulhad_2.jpg?v=1791040850"
+  ],
+  "blurb": "Earthy and warm! The Rustic Ember Kulhad is a set of 2 hand-painted ceramic kulhad cups with a beautiful rustic ember design — glossy finish, perfect for chai, coffee, or lassi. Product Details: Material: Ceramic Color: ",
+  "vibes": [
+   "minimal"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15406105329813",
+  "brand": "house-of-ceramics",
+  "title": "Rose Mocha Kulhad",
+  "url": "https://www.houseofceramics.in/products/rose-mocha-kulhad",
+  "price": 425,
+  "compareAt": 899,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Rose_Mocha_Kulhad_3.jpg?v=1791040850",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Rose_Mocha_Kulhad_2.jpg?v=1791040850",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Rose_Mocha_Kulhad_1.jpg?v=1791040850"
+  ],
+  "blurb": "Soft and romantic! The Rose Mocha Kulhad is a set of 2 hand-painted ceramic kulhad cups with a delicate rose mocha design — glossy finish, perfect for chai, coffee, or lassi. Product Details: Material: Ceramic Color: Mul",
+  "vibes": [
+   "florals"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15406105198741",
+  "brand": "house-of-ceramics",
+  "title": "Midnight Indigo Kulhad",
+  "url": "https://www.houseofceramics.in/products/midnight-indigo-kulhad",
+  "price": 425,
+  "compareAt": 899,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Midnight_Indigo_Kulhad_3.jpg?v=1791040850",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Midnight_Indigo_Kulhad_1.jpg?v=1791040850",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Midnight_Indigo_Kulhad_2.jpg?v=1791040850"
+  ],
+  "blurb": "Deep, moody and beautiful! The Midnight Indigo Kulhad is a set of 2 hand-painted ceramic kulhad cups with a rich midnight indigo design — glossy finish, perfect for chai, coffee, or lassi. Product Details: Material: Cera",
+  "vibes": [
+   "bold & blue"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15406105034901",
+  "brand": "house-of-ceramics",
+  "title": "Honey Mist Kulhad",
+  "url": "https://www.houseofceramics.in/products/honey-mist-kulhad",
+  "price": 425,
+  "compareAt": 899,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Honey_Mist_Kulhad_3.jpg?v=1791040850",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Honey_Mist_Kulhad_1.jpg?v=1791040850",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Honey_Mist_Kulhad_2.jpg?v=1791040849"
+  ],
+  "blurb": "Sip chai the traditional way with a modern twist! The Honey Mist Kulhad is a set of 2 hand-painted ceramic kulhad cups with a warm honey mist design — glossy finish, perfect for chai, coffee, or lassi. Product Details: M",
+  "vibes": [
+   "everyday"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15406103363733",
+  "brand": "house-of-ceramics",
+  "title": "Cocoa Buddy Sack Mug",
+  "url": "https://www.houseofceramics.in/products/cocoa-buddy-sack-mug",
+  "price": 425,
+  "compareAt": 899,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Cocoa_Buddy_Mug_3.jpg?v=1791039778",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Cocoa_Buddy_Mug_1.jpg?v=1791039778",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Cocoa_Buddy_Mug_2.jpg?v=1791039778"
+  ],
+  "blurb": "Warm and cosy! The Cocoa Buddy Sack Mug is a hand-painted ceramic mug with a charming cocoa buddy design — glossy finish, perfect for your favourite hot beverages. Product Details: Material: Ceramic Color: Multi-color Fi",
+  "vibes": [
+   "everyday"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15406100021397",
+  "brand": "house-of-ceramics",
+  "title": "Partners in Crime Brother Sister – Sage Mug Duo",
+  "url": "https://www.houseofceramics.in/products/partners-in-crime-brother-sister-sage-mug-duo",
+  "price": 850,
+  "compareAt": 1799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Partners_in_Crime_Brother_Sister_Sage_Mug_Duo_5.jpg?v=1791039778",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Partners_in_Crime_Brother_Sister_Sage_Mug_Duo_1.jpg?v=1791039778",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Partners_in_Crime_Brother_Sister_Sage_Mug_Duo_2.jpg?v=1791039778"
+  ],
+  "blurb": "For siblings who do everything together! The Partners in Crime Brother Sister – Sage Mug Duo is a set of 2 hand-painted ceramic mugs in fresh sage tones — the perfect gift for a brother-sister duo who share everything, i",
+  "vibes": [
+   "matcha green",
+   "sets & combos"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15406099988629",
+  "brand": "house-of-ceramics",
+  "title": "Like Father, Like Son – Blue Mug Duo",
+  "url": "https://www.houseofceramics.in/products/like-father-like-son-blue-mug-duo",
+  "price": 850,
+  "compareAt": 1799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Like_Father_Like_Son_Blue_Mug_Duo_6.jpg?v=1791039778",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Like_Father_Like_Son_Blue_Mug_Duo_2.jpg?v=1791039778",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Like_Father_Like_Son_Blue_Mug_Duo_5.jpg?v=1791039778"
+  ],
+  "blurb": "For the best duo! The Like Father, Like Son – Blue Mug Duo is a set of 2 hand-painted ceramic mugs in bold blue tones — one for dad and one for his little champ. A perfect gifting set for Father's Day or any special occa",
+  "vibes": [
+   "sets & combos",
+   "bold & blue"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15406099955861",
+  "brand": "house-of-ceramics",
+  "title": "Like Mother, Like Daughter – Blush Mug Duo",
+  "url": "https://www.houseofceramics.in/products/like-mother-like-daughter-blush-mug-duo",
+  "price": 850,
+  "compareAt": 1799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Like_Mother_Like_Daughter_Blush_Mug_Duo_6.jpg?v=1791039778",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Like_Mother_Like_Daughter_Blush_Mug_Duo_2.jpg?v=1791039778",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Like_Mother_Like_Daughter_Blush_Mug_Duo_1.jpg?v=1791039778"
+  ],
+  "blurb": "Celebrate the most special bond! The Like Mother, Like Daughter – Blush Mug Duo is a set of 2 hand-painted ceramic mugs in soft blush tones — one for mom and one for her mini-me. A perfect gifting set for Mother's Day or",
+  "vibes": [
+   "sets & combos",
+   "pastel"
+  ]
+ },
+ {
+  "id": "craftribal-10573822787873",
+  "brand": "craftribal",
+  "title": "Desi Tropicana Mug & Plate Set",
+  "url": "https://craftribal.com/products/desi-tropicana-mug-plate-set",
+  "price": 849,
+  "compareAt": 999,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_3250_9057f577-6958-4e39-aef0-62c79c4b0d18.jpg?v=1791019859",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_3249_e342f6cf-ca8f-4aa7-9fc5-92171fe34a72.jpg?v=1791019859",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_3247_6077a9f6-30ab-4501-90d5-8aa4323e0f9f.jpg?v=1791019859"
+  ],
+  "blurb": "Bring a little tropical sunshine and desi charm to your table with the Craftribal Desi Tropicana Mug & Plate Set . Featuring beautiful hand-painted floral and palm-inspired artwork , this ceramic duo blends Indian-inspir",
+  "vibes": [
+   "sets & combos",
+   "desi"
+  ]
+ },
+ {
+  "id": "craftribal-10573821247777",
+  "brand": "craftribal",
+  "title": "Desi Tropicana Mug",
+  "url": "https://craftribal.com/products/desi-tropicana-mug",
+  "price": 449,
+  "compareAt": null,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_3247.jpg?v=1791018973",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_3248.jpg?v=1791018973",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_3250.jpg?v=1791018973"
+  ],
+  "blurb": "Add a touch of festive charm and Indian elegance to your everyday beverage rituals with the Craftribal Handpainted Lotus Mug . Beautifully adorned with delicate hand-painted lotus artwork , this ceramic mug brings a warm",
+  "vibes": [
+   "desi"
+  ]
+ },
+ {
+  "id": "craftribal-10572388663585",
+  "brand": "craftribal",
+  "title": "Little Mug Candle Holder",
+  "url": "https://craftribal.com/products/little-mug-candle-holder",
+  "price": 329,
+  "compareAt": 2299,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_3221_d40d1476-41c3-4c58-87c2-d1a5e67ca2f7.jpg?v=1790931815",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_3222_076e0d33-2a91-469f-8c4d-120939d8d37a.jpg?v=1790931815",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_3223_845618a4-ebaa-44be-8f7c-e68b29e9a418.jpg?v=1790931815"
+  ],
+  "blurb": "Add a warm and cosy touch to your space with the Craftribal Little Mug Ceramic Candle Holder . Designed in a charming mini mug-inspired shape with a cute handle, this handcrafted ceramic candle holder combines playful de",
+  "vibes": [
+   "everyday"
   ]
  }
 ]
