@@ -1495,23 +1495,6 @@
   ]
  },
  {
-  "id": "house-of-ceramics-9232799760533",
-  "brand": "house-of-ceramics",
-  "title": "Summer Melon Ceramic Mug",
-  "url": "https://www.houseofceramics.in/products/summer-melon-ceramic-mug",
-  "price": 399,
-  "compareAt": 799,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Summer_Melon_Ceramic_Mug_1.jpg?v=1780415796",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Summer_Melon_Ceramic_Mug_2.jpg?v=1780415797"
-  ],
-  "blurb": "Fresh, juicy and full of summer vibes — the Summer Melon Ceramic Mug is inspired by everyone's favourite summer fruit! Featuring a stunning hand-painted watermelon design with bold red stripes, scattered black seeds and ",
-  "vibes": [
-   "everyday"
-  ]
- },
- {
   "id": "house-of-ceramics-9232790093973",
   "brand": "house-of-ceramics",
   "title": "Fruity Delight Chunky Mug-Orange",
@@ -2431,7 +2414,7 @@
   "url": "https://www.houseofceramics.in/products/red-mushroom-magic-coffee-mug-with-lid",
   "price": 425,
   "compareAt": 1199,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2026-03-29_at_4.47.39_PM.jpg?v=1774783972",
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250907-WA0080.jpg?v=1774783972",
@@ -2451,7 +2434,7 @@
   "url": "https://www.houseofceramics.in/products/pour-your-love-red-mug-copy",
   "price": 425,
   "compareAt": 799,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Pour_Your_Love_Red_Mug.jpg?v=1772185189",
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2026-02-25_at_11.42.39_AM_2.jpg?v=1772185200",
@@ -4154,8 +4137,8 @@
   "brand": "house-of-ceramics",
   "title": "Meadow Morning Tales Set",
   "url": "https://www.houseofceramics.in/products/meadow-morning-tales-set",
-  "price": 725,
-  "compareAt": 1599,
+  "price": 625,
+  "compareAt": 1299,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Meadow_Morning_Tales_Set_3.jpg?v=1788614088",
@@ -4172,8 +4155,8 @@
   "brand": "house-of-ceramics",
   "title": "Berry Love Set",
   "url": "https://www.houseofceramics.in/products/berry-love-set",
-  "price": 725,
-  "compareAt": 1599,
+  "price": 625,
+  "compareAt": 1299,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Strawberry_Mornings_Set_2.jpg?v=1788614087",
@@ -4191,8 +4174,8 @@
   "brand": "house-of-ceramics",
   "title": "Strawberry Mornings Set",
   "url": "https://www.houseofceramics.in/products/strawberry-mornings-set",
-  "price": 725,
-  "compareAt": 1599,
+  "price": 625,
+  "compareAt": 1299,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Berry_Love_Set.jpg?v=1788614085",
@@ -4378,8 +4361,8 @@
   "brand": "house-of-ceramics",
   "title": "Blush Heart Combo Set (Set of 2)",
   "url": "https://www.houseofceramics.in/products/blush-heart-mug-bowl-combo-set",
-  "price": 875,
-  "compareAt": 1799,
+  "price": 750,
+  "compareAt": 1650,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Blush_Heart_Combo_Set_Set_of_2.jpg?v=1780432337",
@@ -4752,7 +4735,7 @@
   "url": "https://klaylist.com/products/hoop-tea-and-coffee-mug-red",
   "price": 425,
   "compareAt": null,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/hoopteacupstacked.jpg?v=1741602222",
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/hoopteacupred.jpg?v=1741602222",
@@ -4768,7 +4751,7 @@
   "brand": "klaylist",
   "title": "Orb coffee mug",
   "url": "https://klaylist.com/products/orb-coffee-mug-with-splatter-effect",
-  "price": 445,
+  "price": 480,
   "compareAt": null,
   "soldOut": false,
   "images": [
@@ -4797,25 +4780,6 @@
   "blurb": "Available in a classic ivory color, this mug features handles on both sides and is ideal for coffee, tea, hot chocolate, or any other beverage",
   "vibes": [
    "chai & coffee"
-  ]
- },
- {
-  "id": "klaylist-6975311413297",
-  "brand": "klaylist",
-  "title": "Heart coffee mug",
-  "url": "https://klaylist.com/products/heart-coffee-mug-ceramic",
-  "price": 445,
-  "compareAt": null,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/ceramic-coffee-mug-with-hearts.jpg?v=1725648592",
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/heart-coffee-mug-microwavable-pink-handmade.jpg?v=1725638524",
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/heart-tea-mug-ceramic-handmade.jpg?v=1725648323"
-  ],
-  "blurb": "This handmade coffee mug, adorned with heart embossing and a pastel pink color, is great for enjoying both hot and cold beverages",
-  "vibes": [
-   "chai & coffee",
-   "hearts & love"
   ]
  },
  {
@@ -4888,25 +4852,6 @@
   "blurb": "A mug as big as your desire for coffee, holds up to 500ml of any beverage, available in three colors",
   "vibes": [
    "everyday"
-  ]
- },
- {
-  "id": "klaylist-7066631077937",
-  "brand": "klaylist",
-  "title": "Unibody coffee mug - Speckled white",
-  "url": "https://klaylist.com/products/unibody-coffee-mug-speckled-white-300ml",
-  "price": 545,
-  "compareAt": null,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/unibody-mug-speckled-white_1a03e2bc-69c8-4c71-bb63-dc7956492b5f.jpg?v=1760368137",
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/unibody-coffee-mug-white.jpg?v=1760368137",
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/unibody-mug-speckled-white.jpg?v=1760368162"
-  ],
-  "blurb": "Crafted with a smooth unibody form, this mug is your go-to for coffee, tea, and everything in between, now available in speckled white",
-  "vibes": [
-   "chai & coffee",
-   "minimal"
   ]
  },
  {
@@ -5189,7 +5134,7 @@
   "brand": "klaylist",
   "title": "Breakfast bowl & mug set - Chequered",
   "url": "https://klaylist.com/products/ceramic-breakfast-bowl-mug-set-with-coaster",
-  "price": 1295,
+  "price": 1395,
   "compareAt": null,
   "soldOut": false,
   "images": [
@@ -5218,42 +5163,6 @@
   "blurb": "Set of handmade stoneware coffee mug with a two-finger hole handle, microwave safe, available in two colors: ivory and gray",
   "vibes": [
    "chai & coffee"
-  ]
- },
- {
-  "id": "klaylist-6892865945649",
-  "brand": "klaylist",
-  "title": "Hoop coffee mug - red",
-  "url": "https://klaylist.com/products/hoop-tea-cup-cherry-red-set-of-4-and-6",
-  "price": 1495,
-  "compareAt": null,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/RON2642.jpg?v=1741602222",
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/hoopteacupstacked.jpg?v=1741602222",
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/hoopteacupred.jpg?v=1741602222"
-  ],
-  "blurb": "Set of 220ml handmade ceramic coffee mug in cherry red, featuring a unique hoop handle. Suitable for both hot and cold beverages",
-  "vibes": [
-   "chai & coffee"
-  ]
- },
- {
-  "id": "klaylist-6892891930673",
-  "brand": "klaylist",
-  "title": "Orb Mug set",
-  "url": "https://klaylist.com/products/orb-tea-mug-set-of-4-and-6",
-  "price": 2400,
-  "compareAt": null,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/RON2604.jpg?v=1741605364",
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/cupandsaucersetpink.jpg?v=1741605364",
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/RON2602.jpg?v=1741605364"
-  ],
-  "blurb": "Handcrafted ceramic mug and saucer set (260ml), designed for a relaxed coffee or tea experience",
-  "vibes": [
-   "sets & combos"
   ]
  },
  {
@@ -5368,7 +5277,7 @@
   "url": "https://thestrangeco.com/products/joy-and-judgy",
   "price": 595,
   "compareAt": null,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0503/3351/5925/files/Dark_Bg_20.png?v=1733473928"
   ],
@@ -5400,7 +5309,7 @@
   "url": "https://thestrangeco.com/products/max",
   "price": 595,
   "compareAt": null,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0503/3351/5925/products/Max.png?v=1663782426"
   ],
@@ -5416,7 +5325,7 @@
   "url": "https://thestrangeco.com/products/ms-meow",
   "price": 595,
   "compareAt": null,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0503/3351/5925/products/MissMeow.png?v=1663780420",
    "https://cdn.shopify.com/s/files/1/0503/3351/5925/products/IMG_1781.heic?v=1743035620",
@@ -5624,24 +5533,6 @@
   ]
  },
  {
-  "id": "craftribal-10532791845153",
-  "brand": "craftribal",
-  "title": "Sweetheart Tea Cups",
-  "url": "https://craftribal.com/products/sweetheart-tea-cups-1",
-  "price": 189,
-  "compareAt": 399,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/1234.webp?v=1689752594",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/new12.webp?v=1689752594",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/12345.webp?v=1689752595"
-  ],
-  "blurb": "Size: Height- 3 INCHES Diameter- 2.5 INCHES Capacity - 200ML Package Inclusions: 1 Piece Finish– Gloss Description - Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not onl",
-  "vibes": [
-   "hearts & love"
-  ]
- },
- {
   "id": "craftribal-10537384542497",
   "brand": "craftribal",
   "title": "Hand Painted Bohemian Cups- Face Line Art",
@@ -5772,40 +5663,6 @@
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageSep10_2026_06_37_44PM.png?v=1789045701"
   ],
   "blurb": "Size: Capacity - 220 ML Material: Ceramic Package Inclusion: 1 Mug Finish- Gloss Description - Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not only visually stunning bu",
-  "vibes": [
-   "everyday"
-  ]
- },
- {
-  "id": "craftribal-10537467773217",
-  "brand": "craftribal",
-  "title": "Ghost Mug",
-  "url": "https://craftribal.com/products/ghost-mug-1",
-  "price": 249,
-  "compareAt": 499,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/96_79769489-c861-45d0-912a-7080da4e64ad.jpg?v=1726239738",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/97_723ee522-ccae-4d77-9b7d-a5f6394f7b97.jpg?v=1757492082"
-  ],
-  "blurb": "Add a playful twist to your drinkware with our Ghost Mug, featuring a charming ghost design that’s perfect for Halloween or year-round fun. Crafted with durable, high-quality ceramic, this unique mug is both microwave an",
-  "vibes": [
-   "quirky"
-  ]
- },
- {
-  "id": "craftribal-10537385034017",
-  "brand": "craftribal",
-  "title": "‘ME TIME’ Mug",
-  "url": "https://craftribal.com/products/me-time-mug-2",
-  "price": 249,
-  "compareAt": 499,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/87CE6ED2-2995-4899-AA79-A5E5F1454A1C.heic?v=1699514431",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/01132831-8D66-484E-84BB-072EAE884DB1.jpg?v=1699514430"
-  ],
-  "blurb": "Size: Cup Capacity- 280 ML Material: Ceramic Package Inclusions: 1 Mug Finish – Gloss Description - Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not only visually stunni",
   "vibes": [
    "everyday"
   ]
@@ -5978,91 +5835,6 @@
   ]
  },
  {
-  "id": "craftribal-10537050439969",
-  "brand": "craftribal",
-  "title": "Pouch Mug- Pink",
-  "url": "https://craftribal.com/products/pouch-mug-pink",
-  "price": 249,
-  "compareAt": 699,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_02_45_19PM.png?v=1787303751",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_02_45_06PM.png?v=1787303751"
-  ],
-  "blurb": "Add a touch of charm to your everyday coffee and tea moments with the Craftribal Ceramic Pouch Mug . Designed with a unique and playful pouch-inspired shape, this aesthetic ceramic mug is perfect for enjoying coffee, tea",
-  "vibes": [
-   "pastel"
-  ]
- },
- {
-  "id": "craftribal-10537051029793",
-  "brand": "craftribal",
-  "title": "Pouch Mug- Blue",
-  "url": "https://craftribal.com/products/pouch-mug-blue-1",
-  "price": 249,
-  "compareAt": 699,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_03_04_35PM.png?v=1787304951",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_03_04_55PM.png?v=1787304951"
-  ],
-  "blurb": "Add a touch of charm to your everyday coffee and tea moments with the Craftribal Ceramic Pouch Mug . Designed with a unique and playful pouch-inspired shape, this aesthetic ceramic mug is perfect for enjoying coffee, tea",
-  "vibes": [
-   "bold & blue"
-  ]
- },
- {
-  "id": "craftribal-10537050865953",
-  "brand": "craftribal",
-  "title": "Pouch Mug- Green",
-  "url": "https://craftribal.com/products/pouch-mug-green-1",
-  "price": 249,
-  "compareAt": 699,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_02_59_23PM.png?v=1787304656",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_02_59_33PM.png?v=1787304656"
-  ],
-  "blurb": "Add a touch of charm to your everyday coffee and tea moments with the Craftribal Ceramic Pouch Mug . Designed with a unique and playful pouch-inspired shape, this aesthetic ceramic mug is perfect for enjoying coffee, tea",
-  "vibes": [
-   "matcha green"
-  ]
- },
- {
-  "id": "craftribal-10537050669345",
-  "brand": "craftribal",
-  "title": "Pouch Mug- Yellow",
-  "url": "https://craftribal.com/products/pouch-mug-yellow-1",
-  "price": 249,
-  "compareAt": 699,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_02_52_40PM.png?v=1787304217",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPT_Image_Aug_21_2026_02_54_01_PM.png?v=1787304268"
-  ],
-  "blurb": "Add a touch of charm to your everyday coffee and tea moments with the Craftribal Ceramic Pouch Mug . Designed with a unique and playful pouch-inspired shape, this aesthetic ceramic mug is perfect for enjoying coffee, tea",
-  "vibes": [
-   "everyday"
-  ]
- },
- {
-  "id": "craftribal-10537050538273",
-  "brand": "craftribal",
-  "title": "Pouch Mug",
-  "url": "https://craftribal.com/products/pouch-mug-1",
-  "price": 249,
-  "compareAt": 699,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_03_13_16PM.png?v=1787305441",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_03_13_06PM.png?v=1787305441"
-  ],
-  "blurb": "Add a touch of charm to your everyday coffee and tea moments with the Craftribal Ceramic Pouch Mug . Designed with a unique and playful pouch-inspired shape, this aesthetic ceramic mug is perfect for enjoying coffee, tea",
-  "vibes": [
-   "everyday"
-  ]
- },
- {
   "id": "craftribal-10532661952801",
   "brand": "craftribal",
   "title": "Azure Mandala Mug",
@@ -6140,25 +5912,6 @@
   "blurb": "Size: Cup- 3 inches height, 2.5 inches diameter Capacity- 250 ML Material- Ceramic Package Inclusion- Pieces 1 Cup Finish– Matte Description - Handmade Pottery, crafted with utmost care and expertise in India. These deli",
   "vibes": [
    "matcha green"
-  ]
- },
- {
-  "id": "craftribal-10532825432353",
-  "brand": "craftribal",
-  "title": "Daisy Dream Coffee Mug",
-  "url": "https://craftribal.com/products/daisy-dream-coffee-mug-1",
-  "price": 249,
-  "compareAt": 499,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/41_5c9bb7b9-62bf-43a4-8060-fd86c8495a6f.jpg?v=1698046252",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/39_7ee82586-9840-4b5d-9ba3-dcc808efbae3.jpg?v=1698046270",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/38_934ada21-5127-47a8-8c72-69852782a3a2.jpg?v=1698046284"
-  ],
-  "blurb": "Size: Capacity - 330 ML Material: Ceramic Finish – Gloss Description - Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not only visually stunning but also practical, as the",
-  "vibes": [
-   "florals",
-   "chai & coffee"
   ]
  },
  {
@@ -6242,24 +5995,6 @@
   ]
  },
  {
-  "id": "craftribal-10537540944161",
-  "brand": "craftribal",
-  "title": "Bhai Mug",
-  "url": "https://craftribal.com/products/bhai-mug-1",
-  "price": 299,
-  "compareAt": 499,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/169.jpg?v=1753344336",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/170.jpg?v=1753344336",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/171.jpg?v=1753344336"
-  ],
-  "blurb": "Celebrate Your Bond with the Craftribal Bhai Mug – A Perfect Rakhi Gift for Brothers Make your brother smile with every sip! The Craftribal Bhai Mug is a thoughtful, practical, and stylish gift for Raksha Bandhan. Crafte",
-  "vibes": [
-   "desi"
-  ]
- },
- {
   "id": "craftribal-10526552883489",
   "brand": "craftribal",
   "title": "3D Dog Mug",
@@ -6331,24 +6066,6 @@
   ]
  },
  {
-  "id": "craftribal-10526555603233",
-  "brand": "craftribal",
-  "title": "3D Panda Surprise Mug",
-  "url": "https://craftribal.com/products/3d-panda-surprise-mug",
-  "price": 299,
-  "compareAt": 449,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/3_94630df1-7057-4b5e-8180-de560ddc7dd1.jpg?v=1726476007",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/4_265b7d38-b053-421b-b689-57b1c0605286.jpg?v=1726476007",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/1_735cd45d-3dc3-4dfc-b03f-ce9321f5eea9.jpg?v=1726476023"
-  ],
-  "blurb": "Add a touch of whimsy to your daily routine with our Panda Surprise Mug . Featuring a delightful panda popping up from inside the mug, this cute and Pinterest-worthy design brings a smile to every sip. Crafted from high-",
-  "vibes": [
-   "cats & critters"
-  ]
- },
- {
   "id": "craftribal-10526554587425",
   "brand": "craftribal",
   "title": "3D Quirky Duck Mug",
@@ -6400,40 +6117,6 @@
   "blurb": "Add a touch of elegance to your coffee break with our Red Flower Handle Mug. Featuring a stunning 3D flower-shaped handle in vibrant red, this ceramic mug is a perfect blend of artistry and functionality. The intricate l",
   "vibes": [
    "florals"
-  ]
- },
- {
-  "id": "craftribal-10529164296481",
-  "brand": "craftribal",
-  "title": "Royal Blue Pedestal Mug",
-  "url": "https://craftribal.com/products/royal-blue-pedestal-mug",
-  "price": 299,
-  "compareAt": 499,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageSep4_2026_04_23_12PM.png?v=1788519217"
-  ],
-  "blurb": "Size: Capacity - 250 ML Material: Ceramic Package Inclusion: 1 Piece Finish – Glossy Description - Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not only visually stunnin",
-  "vibes": [
-   "bold & blue"
-  ]
- },
- {
-  "id": "craftribal-10529781154081",
-  "brand": "craftribal",
-  "title": "Red Bow Mug",
-  "url": "https://craftribal.com/products/red-bow-mug-1",
-  "price": 299,
-  "compareAt": 499,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/1506684B-5612-420F-BBA0-986AA645D173.jpg?v=1746084742",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/66528369-04BA-4857-B941-1C0D1717DE7A.jpg?v=1746084742",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/55C98223-362A-4F12-A48B-492BF2C2BC89.jpg?v=1746084742"
-  ],
-  "blurb": "Introducing the Pink Bow Mug a handmade ceramic delight with hand-painted cute bows, a charming petite size, and an Instagram-worthy aesthetic. This trending bow mug is perfect for coffee, tea, or hot cocoa lovers who ad",
-  "vibes": [
-   "everyday"
   ]
  },
  {
@@ -6588,23 +6271,6 @@
   ]
  },
  {
-  "id": "craftribal-10536982905121",
-  "brand": "craftribal",
-  "title": "Cute Bunny Mug",
-  "url": "https://craftribal.com/products/cute-bunny-mug-1",
-  "price": 299,
-  "compareAt": 599,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2025-12-22at3.40.59PM.jpg?v=1766409247",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2025-12-22at3.40.59PM_1.jpg?v=1766409247"
-  ],
-  "blurb": "Add a touch of whimsy to your daily sips with our Cute Bunny Mug , thoughtfully handmade from premium ceramic . Designed with soft curves and a charming bunny motif, this mug is the perfect blend of Pinterest-worthy aest",
-  "vibes": [
-   "cats & critters"
-  ]
- },
- {
   "id": "craftribal-10532792893729",
   "brand": "craftribal",
   "title": "'BIG SPOON' Coffee Mug",
@@ -6634,23 +6300,6 @@
   "blurb": "Add a touch of charm to your daily sips with our handcrafted ceramic mug featuring the handwritten phrase “Little Spoon” . This cute and aesthetic mug is perfect for coffee, tea, or hot chocolate lovers who enjoy playful",
   "vibes": [
    "chai & coffee"
-  ]
- },
- {
-  "id": "craftribal-10532820058401",
-  "brand": "craftribal",
-  "title": "Tulip Mug",
-  "url": "https://craftribal.com/products/tulip-mug-1",
-  "price": 299,
-  "compareAt": 485,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/25.jpg?v=1737538094",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/26_0ad5fbca-9c78-4566-a922-3ab12d9ecbe4.jpg?v=1737538094"
-  ],
-  "blurb": "Add a touch of charm to your coffee routine with our handmade pottery tulip mug. Featuring a 3D pink tulip design, this aesthetic mug combines artisanal craftsmanship with a Pinterest-worthy look. Perfect for your mornin",
-  "vibes": [
-   "florals"
   ]
  },
  {
@@ -6726,40 +6375,6 @@
   ]
  },
  {
-  "id": "craftribal-10535664910625",
-  "brand": "craftribal",
-  "title": "Mom Mug",
-  "url": "https://craftribal.com/products/mom-mug",
-  "price": 299,
-  "compareAt": 499,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/129_e63a53ac-e638-41d2-8fe2-e51ecb7fbde6.jpg?v=1784277278",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/410iQWFpKtL.jpg?v=1784200357"
-  ],
-  "blurb": "Celebrate the unconditional love of your mom with this handcrafted ceramic mug. Perfect for everyday coffee, tea, or gifting on special occasions. A beautiful handmade ceramic mug designed for moms who deserve every sip ",
-  "vibes": [
-   "everyday"
-  ]
- },
- {
-  "id": "craftribal-10535896908065",
-  "brand": "craftribal",
-  "title": "Dad Mug",
-  "url": "https://craftribal.com/products/dad-mug-1",
-  "price": 299,
-  "compareAt": 399,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/128_637bae3b-c4c9-4186-8705-2fb8307228cc.jpg?v=1784277358",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/41xsSGJcJ6L.jpg?v=1784200623"
-  ],
-  "blurb": "Celebrate the world's best dad with this handcrafted ceramic mug, perfect for his daily coffee or tea ritual. A premium ceramic mug made for dads who deserve every sip. Stylish, durable, and perfect for everyday use. Sho",
-  "vibes": [
-   "everyday"
-  ]
- },
- {
   "id": "craftribal-9977043321121",
   "brand": "craftribal",
   "title": "Yellow Flower Mug",
@@ -6775,22 +6390,6 @@
   "blurb": "Introducing the Yellow Flower Mug a handmade ceramic delight with hand-painted 3d cute flowers, a charming petite size, and an Instagram-worthy aesthetic. This trending flower mug is perfect for coffee, tea, or hot cocoa",
   "vibes": [
    "florals"
-  ]
- },
- {
-  "id": "craftribal-9705207628065",
-  "brand": "craftribal",
-  "title": "Colorwave Coffee Mug",
-  "url": "https://craftribal.com/products/colorwave-coffee-mug",
-  "price": 299,
-  "compareAt": 1600,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/61_1acd0792-51a8-4035-b703-3385484e704c.jpg?v=1726823956"
-  ],
-  "blurb": "Start your day with a splash of color using the Colorwave Coffee Mug by Craftribal. Featuring a vibrant wave of bold colors and artistic design, this handcrafted ceramic mug is perfect for enjoying your favorite coffee o",
-  "vibes": [
-   "chai & coffee"
   ]
  },
  {
@@ -6826,93 +6425,6 @@
   "blurb": "Savor the sweetness of your favorite beverages with our Handmade Cherry Mug, featuring a delightful 3D cherry design. Expertly crafted, this ceramic mug brings a playful and vibrant touch to your drinkware collection. Th",
   "vibes": [
    "everyday"
-  ]
- },
- {
-  "id": "craftribal-10537671426337",
-  "brand": "craftribal",
-  "title": "The Cozy Pup Mug",
-  "url": "https://craftribal.com/products/the-cozy-pup-mug-1",
-  "price": 329,
-  "compareAt": 699,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/68_4ba2d451-d8fe-4b25-b9c6-d0b5e18b66e5.jpg?v=1784712340",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/66_82cc0ef6-96b5-4b1c-9262-221e523f745f.jpg?v=1784712340",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/67_7f7b0e49-1903-431c-ad6c-30dd93a06db0.jpg?v=1784712340"
-  ],
-  "blurb": "Start your day with comfort and charm with the Craftribal The Cozy Pup Ceramic Mug . Beautifully handcrafted from premium-quality ceramic, this adorable mug features a hand-painted illustration of a cozy little pup wrapp",
-  "vibes": [
-   "cats & critters"
-  ]
- },
- {
-  "id": "craftribal-10537650258209",
-  "brand": "craftribal",
-  "title": "Evil Eye Coffee Mug",
-  "url": "https://craftribal.com/products/evil-eye-coffee-mug-3",
-  "price": 329,
-  "compareAt": 449,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPT_Image_Aug_11_2026_01_56_58_PM.png?v=1786436852",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug11_2026_01_52_08PM.png?v=1786436805"
-  ],
-  "blurb": "Sip your favorite coffee, tea, or hot chocolate in style with the Craftribal Evil Eye Ceramic Coffee Mug . Handcrafted from premium-quality ceramic, this elegant white mug features a beautifully hand-painted blue Evil Ey",
-  "vibes": [
-   "chai & coffee",
-   "quirky"
-  ]
- },
- {
-  "id": "craftribal-10537470329121",
-  "brand": "craftribal",
-  "title": "Holly Berry Christmas Cappuccino cup",
-  "url": "https://craftribal.com/products/holly-berry-christmas-cappuccino-cup-1",
-  "price": 329,
-  "compareAt": 599,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/59_a262f7f4-9d50-40e5-99e7-b99f7ed5f57e.jpg?v=1732792957"
-  ],
-  "blurb": "Celebrate the season with our Holly Berry Christmas Cappuccino Cup , beautifully handpainted with vibrant cherries and festive Christmas leaves. Crafted with care, this unique cup brings a touch of holiday magic to your ",
-  "vibes": [
-   "chai & coffee"
-  ]
- },
- {
-  "id": "craftribal-10285764673825",
-  "brand": "craftribal",
-  "title": "Little Daisy Mug- Pink",
-  "url": "https://craftribal.com/products/little-daisy-mug-pink",
-  "price": 335,
-  "compareAt": 3599,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/D2C95390-0163-4177-839F-37E69392D184.jpg?v=1773654486",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/FE792B11-8194-453A-A701-C9963F99395C.jpg?v=1773733790",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/699594B6-DCCF-415F-BF02-5B5A580DC0C4.png?v=1773654487"
-  ],
-  "blurb": "Add a touch of charm to your coffee moments with our Little Daisy Mug in Pink. Designed with delicate embossed daisy flowers and soft pastel tones, this mug brings a cute, Pinterest-inspired aesthetic to your everyday te",
-  "vibes": [
-   "florals",
-   "pastel"
-  ]
- },
- {
-  "id": "craftribal-10537388114209",
-  "brand": "craftribal",
-  "title": "POSITIVITEA Cappuccino cup",
-  "url": "https://craftribal.com/products/positivitea-cappuccino-cup-1",
-  "price": 349,
-  "compareAt": 499,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2024-06-25at1.02.26PM.jpg?v=1719300817"
-  ],
-  "blurb": "Material - Ceramic Capacity - 230 ML Size- 4.5x2.5 inches Inclusions - 1 Piece Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not only visually stunning but also practical",
-  "vibes": [
-   "chai & coffee"
   ]
  },
  {
@@ -7238,79 +6750,6 @@
   "blurb": "Size: Cup Capacity- 280 ML Material: Ceramic Package Inclusions: 1 Mug Finish – Gloss Description - Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not only visually stunni",
   "vibes": [
    "everyday"
-  ]
- },
- {
-  "id": "craftribal-10534089654561",
-  "brand": "craftribal",
-  "title": "Cat Mug",
-  "url": "https://craftribal.com/products/cat-mug-1",
-  "price": 349,
-  "compareAt": 499,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/9_61d3591f-3686-4634-b675-ce7e1a8cbe72.jpg?v=1715417575",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/7_8a524cc8-e217-4c43-a91a-b983bec30be6.jpg?v=1715417591",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/8_74ee5154-c8ff-4988-bf68-0b4d50f25b65.jpg?v=1715417592"
-  ],
-  "blurb": "Size: Capacity- 240 ML Material: Ceramic Package Inclusion: 1 Mug Finish – Gloss Description - Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not only visually stunning bu",
-  "vibes": [
-   "cats & critters"
-  ]
- },
- {
-  "id": "craftribal-10535750893857",
-  "brand": "craftribal",
-  "title": "Classic Black Espresso Cup and Saucer Set",
-  "url": "https://craftribal.com/products/classic-black-espresso-cup-and-saucer-set",
-  "price": 349,
-  "compareAt": 699,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/39_605b8df0-596e-4e04-8c82-7dfb82c3ae4e.jpg?v=1714632145",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/40_00d41b65-6dc0-489f-89bc-76a7f5294a95.jpg?v=1714632144",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/41_304e4c86-30ec-42f0-8deb-596885cd2227.jpg?v=1714632144"
-  ],
-  "blurb": "Size: Cup Capacity- 125 ML Diameter- 2.5 inches Height- 3 inches Saucer- 5 inches Material: Ceramic Package Inclusions: 1 Cup and 1 Saucer Finish – Matte Description - Handmade Pottery, crafted with utmost care and exper",
-  "vibes": [
-   "chai & coffee",
-   "sets & combos",
-   "minimal"
-  ]
- },
- {
-  "id": "craftribal-10535847887137",
-  "brand": "craftribal",
-  "title": "Mottled Rose Mug",
-  "url": "https://craftribal.com/products/mottled-rose-mug",
-  "price": 349,
-  "compareAt": 599,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageSep10_2026_05_12_25PM.png?v=1789040573"
-  ],
-  "blurb": "Size: Capacity - 350 ML Material: Ceramic Package Inclusion: 1 Mug Finish- Gloss Description - Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not only visually stunning bu",
-  "vibes": [
-   "florals"
-  ]
- },
- {
-  "id": "craftribal-10535873675553",
-  "brand": "craftribal",
-  "title": "Caramel Espresso Cup and Saucer Set",
-  "url": "https://craftribal.com/products/caramel-espresso-cup-and-saucer-set",
-  "price": 349,
-  "compareAt": 699,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/45_84e92042-fa4c-4630-8ae5-2fe442d927fa.jpg?v=1714632287",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/43_4775b76f-7ba0-40bc-943b-5284dc578072.jpg?v=1714632287",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/44_cd55da58-c1a6-4aec-8c21-7098b2073364.jpg?v=1714632287"
-  ],
-  "blurb": "Size: Cup Capacity- 125 ML Diameter- 2.5 inches Height- 3 inches Saucer- 5 inches Material: Ceramic Package Inclusions: 1 Cup and 1 Saucer Finish – Matte Description - Handmade Pottery, crafted with utmost care and exper",
-  "vibes": [
-   "chai & coffee",
-   "sets & combos"
   ]
  },
  {
@@ -7642,24 +7081,6 @@
   ]
  },
  {
-  "id": "craftribal-8426382360865",
-  "brand": "craftribal",
-  "title": "Classic Polka Dot Mug",
-  "url": "https://craftribal.com/products/classic-polka-dot-mug",
-  "price": 349,
-  "compareAt": 399,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/F956D3F9-6AE4-4666-A39B-1C87341F497D.jpg?v=1690308245",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/Classic-Polka-Dot-Mug-1.webp?v=1690308245",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/E37555D5-D507-404C-8AF0-12F7DA8611D0.jpg?v=1690308245"
-  ],
-  "blurb": "Size- 3.5×3 inches Material: Ceramic Finish- Gloss Package Inclusions- 1 piece Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not only visually stunning but also practical",
-  "vibes": [
-   "minimal"
-  ]
- },
- {
   "id": "craftribal-8426369351969",
   "brand": "craftribal",
   "title": "‘The FRUIT Collection’ Cups- Strawberry",
@@ -7754,62 +7175,6 @@
   "blurb": "Size: 3 inches height, 3.5 inches diameter Capacity- 200ML Material: Ceramic Package Inclusion: 1 Cup Finish – Gloss Description - Handmade Pottery, crafted with utmost care and expertise in India. These delicate creatio",
   "vibes": [
    "everyday"
-  ]
- },
- {
-  "id": "craftribal-10537561325857",
-  "brand": "craftribal",
-  "title": "Chai Ho Jaye Mug",
-  "url": "https://craftribal.com/products/chai-ho-jaye-mug-1",
-  "price": 365,
-  "compareAt": 3899,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/Untitleddesign-2026-05-10T143021.710.png?v=1778405798",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageMay10_2026_02_28_39PM.png?v=1778405797",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/Untitleddesign-2026-05-10T143104.043.png?v=1778405798"
-  ],
-  "blurb": "Crafted for comforting chai moments and endless conversations, the Chai Ho Jaye Mug adds warmth and charm to your everyday tea ritual. Handcrafted in ceramic with a soft earthy finish, this mug features a playful chai-in",
-  "vibes": [
-   "chai & coffee",
-   "desi"
-  ]
- },
- {
-  "id": "craftribal-10537560637729",
-  "brand": "craftribal",
-  "title": "Kadak Chai Mug",
-  "url": "https://craftribal.com/products/kadak-chai-mug-1",
-  "price": 365,
-  "compareAt": 3899,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/Untitleddesign-2026-05-10T143442.041.png?v=1778405650",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/Untitleddesign-2026-05-10T143907.294.png?v=1778405650",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageMay10_2026_02_32_50PM.png?v=1778405650"
-  ],
-  "blurb": "Made for those who like their chai strong and full of flavor, the Kadak Chai Mug brings warmth and comfort to every sip. Handcrafted in ceramic with a minimal earthy finish, this mug features a playful chai-inspired desi",
-  "vibes": [
-   "chai & coffee"
-  ]
- },
- {
-  "id": "craftribal-10537560441121",
-  "brand": "craftribal",
-  "title": "Sukoon Chai Mug",
-  "url": "https://craftribal.com/products/sukoon-chai-mug-1",
-  "price": 365,
-  "compareAt": 3899,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/Untitleddesign-2026-05-10T150026.228.png?v=1778405488",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageMay10_2026_01_32_16PM.png?v=1778405251",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/Untitleddesign-2026-05-10T150105.103.png?v=1778405488"
-  ],
-  "blurb": "A handcrafted ceramic mug designed to bring warmth, comfort, and a little “sukoon” to your everyday tea moments. Featuring a minimal aesthetic with a cozy chai-inspired illustration, this mug is perfect for slow mornings",
-  "vibes": [
-   "chai & coffee",
-   "desi"
   ]
  },
  {
@@ -8090,114 +7455,6 @@
   "blurb": "The Santa Hug Cup is a festive hand-painted ceramic mug featuring warm Christmas colors and charming Santa details—perfect for hot chocolate, coffee, and holiday gifting. Ideal for festive décor, winter drinkware, and Se",
   "vibes": [
    "hearts & love"
-  ]
- },
- {
-  "id": "craftribal-10537671196961",
-  "brand": "craftribal",
-  "title": "Sweetheart Swirl Mug with Lid",
-  "url": "https://craftribal.com/products/sweetheart-swirl-mug-with-lid-1",
-  "price": 399,
-  "compareAt": 699,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/10_93967546-53da-4f04-9620-b304e04b4ebb.jpg?v=1784711931",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/11.jpg?v=1784711929",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/12_635c53b7-8210-4567-8a52-4a52fdaaf843.jpg?v=1784711929"
-  ],
-  "blurb": "Bring sweetness to every sip with the Craftribal Sweetheart Swirl Ceramic Mug with Lid , a charming handcrafted mug designed to brighten your coffee moments. Featuring an adorable hand-painted red heart pattern and a whi",
-  "vibes": [
-   "with a lid",
-   "hearts & love"
-  ]
- },
- {
-  "id": "craftribal-10537225519393",
-  "brand": "craftribal",
-  "title": "Diet Coke Sipper",
-  "url": "https://craftribal.com/products/diet-coke-sipper-1",
-  "price": 399,
-  "compareAt": 799,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/58_4cedc6a5-9690-44a5-a411-55e5152ffc7c.jpg?v=1784552916",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/57_5c7d383c-6918-4e85-ade5-4ec50d54d826.jpg?v=1784552916"
-  ],
-  "blurb": "Sip in style with the Craftribal Handmade Diet Coke Ceramic Sipper , a playful blend of nostalgia and modern aesthetics. Inspired by the iconic Diet Coke can, this handcrafted ceramic tumbler features a premium finish an",
-  "vibes": [
-   "everyday"
-  ]
- },
- {
-  "id": "craftribal-10537053454625",
-  "brand": "craftribal",
-  "title": "Yellow Pumpkin Mug with Lid",
-  "url": "https://craftribal.com/products/yellow-pumpkin-mug-with-lid",
-  "price": 399,
-  "compareAt": 699,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2026-05-11at5.08.33PM.jpg?v=1778499857",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2026-05-11at5.08.34PM.jpg?v=1778499857",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2026-05-11at5.08.36PM.jpg?v=1778499857"
-  ],
-  "blurb": "Handcrafted ceramic yellow pumpkin mug with lid designed for cozy coffee, tea, and hot chocolate moments. Featuring a cute autumn-inspired pumpkin shape, this aesthetic mug adds warm seasonal charm to your kitchen and ma",
-  "vibes": [
-   "with a lid"
-  ]
- },
- {
-  "id": "craftribal-10537052569889",
-  "brand": "craftribal",
-  "title": "Red Pumpkin Mug with Lid",
-  "url": "https://craftribal.com/products/red-pumpkin-mug-with-lid-1",
-  "price": 399,
-  "compareAt": 699,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2026-05-11at5.08.35PM.jpg?v=1778500525",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2026-05-11at5.08.33PM_1.jpg?v=1778500525",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2026-05-11at5.08.32PM_1.jpg?v=1778500525"
-  ],
-  "blurb": "Handcrafted ceramic red pumpkin mug with lid crafted for cozy tea, coffee, and hot chocolate moments. Featuring a charming pumpkin-inspired design with a glossy festive finish, this aesthetic mug is perfect for autumn dé",
-  "vibes": [
-   "with a lid"
-  ]
- },
- {
-  "id": "craftribal-10537048080673",
-  "brand": "craftribal",
-  "title": "Vintage Reel Mug",
-  "url": "https://craftribal.com/products/vintage-reel-mug-1",
-  "price": 399,
-  "compareAt": 599,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/54_8e3b72c9-9535-4e6b-97d9-a53ed6e287da.jpg?v=1748851126",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/55_0a14e887-e68f-4828-aced-8cf230e693ba.jpg?v=1748851127",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/29_98c1537b-d6c6-425c-b1e7-0e7526e84344.jpg?v=1751286814"
-  ],
-  "blurb": "Sip in style with Craftribal’s exclusive Vintage Reel Mug a ceramic masterpiece shaped like a classic film reel. This unique, Pinterest-worthy coffee mug combines retro charm with modern aesthetic, making it the perfect",
-  "vibes": [
-   "everyday"
-  ]
- },
- {
-  "id": "craftribal-10526531256609",
-  "brand": "craftribal",
-  "title": "Panda Mug",
-  "url": "https://craftribal.com/products/panda-mug-1",
-  "price": 399,
-  "compareAt": 599,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_0362.jpg?v=1737536792",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_3363.jpg?v=1737536792",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_3362.jpg?v=1694443392"
-  ],
-  "blurb": "Size: Capacity- 240 ML Material: Ceramic Package Inclusion: 1 Mug Finish- Gloss Description - Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not only visually stunning but",
-  "vibes": [
-   "cats & critters"
   ]
  },
  {
@@ -8840,25 +8097,6 @@
   ]
  },
  {
-  "id": "craftribal-9093937987873",
-  "brand": "craftribal",
-  "title": "Smiling Sunflower Coffee Mug",
-  "url": "https://craftribal.com/products/copy-of-abstract-face-mug",
-  "price": 399,
-  "compareAt": 1800,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/0A5C78FF-E5C8-4E9F-ACF0-3A4616F10F46.jpg?v=1711005611",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/FEA78F7B-BF49-403C-8278-C6CFC98D5BAD.jpg?v=1711005611",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/F5699803-4F11-4362-9E88-FE7880C68C9A.jpg?v=1711005611"
-  ],
-  "blurb": "Bring sunshine to your mornings with our charming Ceramic Smiling Sunflower Coffee Mug! This delightful 350ml mug features a cheerful sunflower design, guaranteed to brighten up your day with every sip. Crafted from high",
-  "vibes": [
-   "florals",
-   "chai & coffee"
-  ]
- },
- {
   "id": "craftribal-8975223357729",
   "brand": "craftribal",
   "title": "Red Heart Shaped Mug",
@@ -8953,7 +8191,7 @@
   "url": "https://craftribal.com/products/copy-of-cloud-cup-and-saucer",
   "price": 399,
   "compareAt": 650,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_7563.jpg?v=1694452198",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_5562_1.jpg?v=1694452293",
@@ -9093,24 +8331,6 @@
   ]
  },
  {
-  "id": "craftribal-9059371057441",
-  "brand": "craftribal",
-  "title": "Knob Handle Cup and Saucer",
-  "url": "https://craftribal.com/products/knob-handle-cup-and-saucer",
-  "price": 485,
-  "compareAt": 3999,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/43_a30b23b6-4882-4f6e-a17d-b9a4ed1b18f1.jpg?v=1710050829",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/38_e360b0e4-567c-43fb-ad08-a4a03ceca2c0.jpg?v=1710050845",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/44_2b289873-2dfa-4f6b-9f2a-a6df67816042.jpg?v=1710050917"
-  ],
-  "blurb": "Size: Saucer- 5 inches diameter, 1.5 inches height Cup- 3 inches height, 2.5 inches diameter Capacity- 250 ML Material- Ceramic Package Inclusion- 2 Pieces (1 Cup+1 Saucer) Finish– Matte Description - Handmade Pottery, c",
-  "vibes": [
-   "everyday"
-  ]
- },
- {
   "id": "craftribal-8426194108705",
   "brand": "craftribal",
   "title": "Cloud Cup and Saucer",
@@ -9126,24 +8346,6 @@
   "blurb": "Size: Cup Capacity- 200 ML Saucer- 4.5 inches Material: Ceramic Package Inclusions: 1 Cup and 1 Saucer Finish – Gloss Description - Handmade Pottery, crafted with utmost care and expertise in India. These delicate creati",
   "vibes": [
    "everyday"
-  ]
- },
- {
-  "id": "craftribal-10537473868065",
-  "brand": "craftribal",
-  "title": "Evil Eye Sipper",
-  "url": "https://craftribal.com/products/evil-eye-sipper-1",
-  "price": 499,
-  "compareAt": 1199,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/167.jpg?v=1751464984",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/168.jpg?v=1751464984",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/166.jpg?v=1751464984"
-  ],
-  "blurb": "Stay protected in style with our Evil Eye Ceramic Sipper , a perfect blend of functionality and aesthetic charm. This handmade and handpainted pottery sipper features a beautiful evil eye design , and comes with a matchi",
-  "vibes": [
-   "quirky"
   ]
  },
  {
@@ -9259,7 +8461,7 @@
   "url": "https://craftribal.com/products/red-bow-sipper",
   "price": 499,
   "compareAt": 650,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageJul25_2026_01_18_25PM.png?v=1784965729",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPT_Image_Jul_25_2026_01_19_05_PM.png?v=1784965763"
@@ -9564,31 +8766,13 @@
   "url": "https://craftribal.com/products/botanical-kettle-and-cup-set-1",
   "price": 599,
   "compareAt": 999,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/109_9f76a9cf-1af2-4b03-aa80-824c024376e1.jpg?v=1725290579",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/110_f8d6035c-d4b3-43f7-8e02-1a3ef786b498.jpg?v=1725290579",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/111_d2324f9d-0a64-45f4-8040-a90d264179d6.jpg?v=1725290579"
   ],
   "blurb": "Material - Ceramic Capacity - Kettle- 430 ML Cup- 230 ML Size- Kettle- 5x6.5 inches Cup- 4.5x2.5 inches Inclusions - 2 Pieces (1 kettle with cup) Handmade Pottery, crafted with utmost care and expertise in India. These d",
-  "vibes": [
-   "sets & combos"
-  ]
- },
- {
-  "id": "craftribal-10532857217313",
-  "brand": "craftribal",
-  "title": "‘ME TIME’ Breakfast Set (Mug & Bowl Combo)",
-  "url": "https://craftribal.com/products/me-time-breakfast-set-mug-bowl-combo-1",
-  "price": 599,
-  "compareAt": 899,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ME-TIME-Breakfast-Set-Mug-Bowl-Combo-1.webp?v=1689858274",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ME-TIME-Breakfast-Set-Mug-Bowl-Combo-2.webp?v=1689858274",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ME-TIME-Breakfast-Set-Mug-Bowl-Combo-3.webp?v=1689858274"
-  ],
-  "blurb": "Size: Mug Capacity- 280 ML Mug Size- 4 inches height, 3 inches diameter Bowl size- 5.5 inches diameter Material: Ceramic Package Inclusions: 2 Pieces (1 Mug+1 Bowl) Finish: Gloss Description - Handmade Pottery, crafted w",
   "vibes": [
    "sets & combos"
   ]
@@ -9842,25 +9026,6 @@
   ]
  },
  {
-  "id": "craftribal-8975366553889",
-  "brand": "craftribal",
-  "title": "Heart Cup & Dessert Plate Combo",
-  "url": "https://craftribal.com/products/heart-cup-dessert-plate-combo",
-  "price": 685,
-  "compareAt": 799,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/8_99ad96a9-338b-42d9-90ad-970636470a57.jpg?v=1706974241",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/12_2c216752-ad37-4616-8e67-602a621a182f.jpg?v=1706974241",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/6_d2755df4-89cf-4075-a688-1245bae1f69e.jpg?v=1706974241"
-  ],
-  "blurb": "Size: Plate- 5.5x5 inches inches Cup- 3 inches diameter 2.5 inches height capacity- 150 ML Material: Ceramic Package Inclusion: 1 Plate & 1 Cup Finish – Gloss Description - Handmade Pottery, crafted with utmost care and ",
-  "vibes": [
-   "sets & combos",
-   "hearts & love"
-  ]
- },
- {
   "id": "craftribal-10181908300065",
   "brand": "craftribal",
   "title": "Cookie House Sipper",
@@ -9948,24 +9113,6 @@
   "blurb": "Size: Height: 4 inches Diameter : 3.5 inches Capacity : 280 ml Material : Ceramic Package Inclusion: 2 Mugs Finish – Gloss Description - Handmade Pottery, crafted with utmost care and expertise in India. These delicate c",
   "vibes": [
    "sets & combos"
-  ]
- },
- {
-  "id": "craftribal-10535652589857",
-  "brand": "craftribal",
-  "title": "Mom Dad Mug",
-  "url": "https://craftribal.com/products/mom-dad-mug",
-  "price": 749,
-  "compareAt": null,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/130_b72bb0fc-1e16-4b68-916f-566ab7caa077.jpg?v=1784277460",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/127_e2b9ecd5-ba35-44c0-bdb0-af02efecb6d9.jpg?v=1784277459",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/128_8df3018a-ca87-4593-9cd2-f5c65fce3df0.jpg?v=1784277459"
-  ],
-  "blurb": "Celebrate your parents with every sip. This handcrafted Love U Mom Dad mug set is the perfect blend of warmth, love, and everyday comfort. A premium ceramic mug set made for the world's best Mom and Dad. Perfect for coff",
-  "vibes": [
-   "everyday"
   ]
  },
  {
@@ -10093,24 +9240,6 @@
   "vibes": [
    "sets & combos",
    "hearts & love"
-  ]
- },
- {
-  "id": "craftribal-10537672933665",
-  "brand": "craftribal",
-  "title": "Movie Night Snack Combo (Popcorn Bucket and Diet Coke Sipper)",
-  "url": "https://craftribal.com/products/movie-night-snack-combo-popcorn-bucket-and-diet-coke-sipperpre-order",
-  "price": 799,
-  "compareAt": 1499,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_9167.jpg?v=1789143609",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug24_2026_07_01_01PM.png?v=1787578361",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_9108.jpg?v=1789143609"
-  ],
-  "blurb": "Make every movie night more fun with the Craftribal Movie Night Snack Combo , featuring a unique Ceramic Popcorn Bucket and a stylish Diet Coke Sipper with Straw . Perfect for enjoying popcorn, chips, nachos and your fav",
-  "vibes": [
-   "sets & combos"
   ]
  },
  {
@@ -10376,23 +9505,6 @@
   ]
  },
  {
-  "id": "craftribal-8422094340385",
-  "brand": "craftribal",
-  "title": "Subtle Mug-Platter Set (mint)",
-  "url": "https://craftribal.com/products/subtle-mug-platter-set-mint",
-  "price": 849,
-  "compareAt": 899,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/mug-platter-set-4.webp?v=1689662966"
-  ],
-  "blurb": "Size: Platter- 10×5 inches Mug- 3.5 inches height, 3.5 inches diameter Mug Capacity- 300 ML Material: Ceramic Package Includes- 2 mugs and 1 platter Handmade Pottery, crafted with utmost care and expertise in India. Thes",
-  "vibes": [
-   "matcha green",
-   "sets & combos"
-  ]
- },
- {
   "id": "craftribal-8422094307617",
   "brand": "craftribal",
   "title": "Subtle Mug-Platter Set (pink)",
@@ -10407,22 +9519,6 @@
   "vibes": [
    "sets & combos",
    "pastel"
-  ]
- },
- {
-  "id": "craftribal-8422094274849",
-  "brand": "craftribal",
-  "title": "Subtle Mug-Platter Set (purple)",
-  "url": "https://craftribal.com/products/subtle-mug-platter-set-purple",
-  "price": 849,
-  "compareAt": 899,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/mug-platter-set-1.webp?v=1689662921"
-  ],
-  "blurb": "Package Includes- 2 mugs and 1 platter Size: Platter- 10×5 inches Mug- 3.5 inches height, 3.5 inches diameter Mug Capacity- 300 ML Material: Ceramic Handmade Pottery, crafted with utmost care and expertise in India. Thes",
-  "vibes": [
-   "sets & combos"
   ]
  },
  {
@@ -10571,24 +9667,6 @@
   "vibes": [
    "chai & coffee",
    "sets & combos"
-  ]
- },
- {
-  "id": "craftribal-9536310509857",
-  "brand": "craftribal",
-  "title": "Colorful Bell Cups Bunch (Multicolor 12 sticks)",
-  "url": "https://craftribal.com/products/colorful-bell-cups-bunch",
-  "price": 995,
-  "compareAt": 1499,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/65_70c48f87-4e4d-47a5-ae02-bb8460fcebfa.jpg?v=1720428523",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/66_3de1b843-7dab-433e-8ff5-69cd2640c5b1.jpg?v=1720428524",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/67_46860f26-c64a-4ee3-9a15-bbccb3238f62.jpg?v=1720428523"
-  ],
-  "blurb": "Description :-Brighten up your Home with Craftribal's Colorful Bell Cups! This delightful set features a spectrum of vibrant hues that bring a playful touch to your everyday beverages. Perfectly crafted with a sleek, erg",
-  "vibes": [
-   "everyday"
   ]
  },
  {
@@ -10831,7 +9909,7 @@
   "url": "https://craftribal.com/products/mushroom-mug-with-lid-combo-of-4",
   "price": 1299,
   "compareAt": 1799,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_0906.jpg?v=1735030327",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_0908.jpg?v=1735030327",
@@ -10842,24 +9920,6 @@
    "with a lid",
    "sets & combos",
    "quirky"
-  ]
- },
- {
-  "id": "craftribal-8426367025441",
-  "brand": "craftribal",
-  "title": "‘The FRUIT Collection’ Cups (combo pack of 4)",
-  "url": "https://craftribal.com/products/the-fruit-collection-cups-combo-pack-of-4",
-  "price": 1299,
-  "compareAt": 1399,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/The-FRUIT-Collection-Cups-combo-pack-of-4-5.webp?v=1689761900",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/The-FRUIT-Collection-Cups-combo-pack-of-4-2.webp?v=1689761900",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/The-FRUIT-Collection-Cups-combo-pack-of-4-6.webp?v=1689761900"
-  ],
-  "blurb": "Size- Capacity- 240 ML Material: Ceramic Finish - Gloss package includes - 1 piece Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not only visually stunning but also pract",
-  "vibes": [
-   "sets & combos"
   ]
  },
  {
@@ -11166,24 +10226,6 @@
   ]
  },
  {
-  "id": "craftribal-9843243155745",
-  "brand": "craftribal",
-  "title": "Set of 4 Craftribal's Exclusive Mugs",
-  "url": "https://craftribal.com/products/set-of-4-craftribals-exclusive-mugs",
-  "price": 2299,
-  "compareAt": 2599,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/19_55d3693d-9c47-4619-ac16-be16e523ce84.jpg?v=1737536700",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2024-11-28at4.21.47PM.jpg?v=1732791183",
-   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_3363.jpg?v=1737536792"
-  ],
-  "blurb": "Introducing Craftribal's Exclusive Set of 4 Unique Ceramic Mugs – the ultimate combination of artistry and functionality. This curated set includes: Panda Mug with Cookie Pocket – Adorably designed with a built-in cookie",
-  "vibes": [
-   "sets & combos"
-  ]
- },
- {
   "id": "myaha-10077461872887",
   "brand": "myaha",
   "title": "Moss Coffee Mug",
@@ -11338,7 +10380,7 @@
   "url": "https://saabihouse.in/products/vanilla-textured-ceramic-mug",
   "price": 349,
   "compareAt": 619,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/03368528-25EE-476B-BCA2-05DD0F5A423A_1_105_c.jpg?v=1750412007",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/84E4A6DA-E539-4A9B-AF5B-6EF540FC0AC5_1_201_a.jpg?v=1750412005",
@@ -11446,7 +10488,7 @@
   "url": "https://saabihouse.in/products/clear-sky-ceramic-mug",
   "price": 379,
   "compareAt": 599,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/9BCF002D-2866-40E1-B589-BF9D31965B85_1_105_c.jpg?v=1746950525",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/0A199964-6008-4DE2-AB4F-014442E4FF38_1_105_c.jpg?v=1746950525",
@@ -11771,7 +10813,7 @@
   "url": "https://saabihouse.in/products/green-classy-textured-mug",
   "price": 399,
   "compareAt": 649,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/2AA957F7-D8BF-400A-B672-5A84314CA62C_1_105_c_508788c4-4e27-44c1-bc52-fefa6f747dfb.jpg?v=1758213020",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/CB16FF2F-2668-47AA-95D1-02806E836B31_1_105_c_927febcc-6ef0-4c20-adb1-41cba4b947ed.jpg?v=1758213020",
@@ -12300,7 +11342,7 @@
   "url": "https://saabihouse.in/products/blush-bubble-heart-cute-tumbler",
   "price": 449,
   "compareAt": null,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Gemini_Generated_Image_k03nxak03nxak03n_1.jpg?v=1771871131",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Gemini_Generated_Image_w3mk42w3mk42w3mk.jpg?v=1771871132",
@@ -12593,7 +11635,7 @@
   "url": "https://saabihouse.in/products/yellow-subshine-bubble-mug-saucer-set",
   "price": 549,
   "compareAt": 699,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Gemini_Generated_Image_z7qwykz7qwykz7qw.jpg?v=1772378310",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Gemini_Generated_Image_iwi8twiwi8twiwi8.jpg?v=1772378310",
@@ -12719,7 +11761,7 @@
   "brand": "saabi-house",
   "title": "Monster Energy Ceramic Tumbler with Straw",
   "url": "https://saabihouse.in/products/monster-energy-ceramic-tumbler-with-straw",
-  "price": 699,
+  "price": 499,
   "compareAt": null,
   "soldOut": false,
   "images": [
@@ -13149,24 +12191,6 @@
   ]
  },
  {
-  "id": "klaylist-6975311314993",
-  "brand": "klaylist",
-  "title": "Cloud coffee mug",
-  "url": "https://klaylist.com/products/cloud-coffee-mug-ceramic",
-  "price": 445,
-  "compareAt": null,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/ceramic-cloud-coffee-mug-handmade.jpg?v=1725636503",
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/ceramic-cloud-mug-microwavable.jpg?v=1725636502",
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/cloud-coffee-mug-stoneware.jpg?v=1725636503"
-  ],
-  "blurb": "This handmade coffee mug, featuring embossed clouds and pastel blue color, is ideal for enjoying both hot and cold beverages",
-  "vibes": [
-   "chai & coffee"
-  ]
- },
- {
   "id": "house-of-ceramics-8698148159637",
   "brand": "house-of-ceramics",
   "title": "Pink Lotus Coffee Mug with Saucer",
@@ -13243,7 +12267,7 @@
   "url": "https://craftribal.com/products/mushroom-mug-with-lid",
   "price": 599,
   "compareAt": 4200,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2024-11-28at4.21.47PM.jpg?v=1732791183",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsApp_Image_2024-11-28_at_4.21.48_PM.jpg?v=1732791585"
@@ -13646,6 +12670,606 @@
   "blurb": "Add a warm and cosy touch to your space with the Craftribal Little Mug Ceramic Candle Holder . Designed in a charming mini mug-inspired shape with a cute handle, this handcrafted ceramic candle holder combines playful de",
   "vibes": [
    "everyday"
+  ]
+ },
+ {
+  "id": "klaylist-6892887965745",
+  "brand": "klaylist",
+  "title": "Orb mug set",
+  "url": "https://klaylist.com/products/orb-tea-cup-set-1",
+  "price": 595,
+  "compareAt": null,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/orbcupandbubblesaucer.jpg?v=1741605364",
+   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/cupandsaucersetpink.jpg?v=1741605364",
+   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/orbcupandsaucerteaset.jpg?v=1741605340"
+  ],
+  "blurb": "We create ceramics to beautify your life because everyday doesn't have to feel like every other day",
+  "vibes": [
+   "sets & combos"
+  ]
+ },
+ {
+  "id": "craftribal-10526564286753",
+  "brand": "craftribal",
+  "title": "Evil Eye Coffee Mug",
+  "url": "https://craftribal.com/products/evil-eye-coffee-mug-2",
+  "price": 349,
+  "compareAt": 499,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/48.jpg?v=1724233450",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/49_e00fed2c-d82e-415e-b778-b95dc2624d30.jpg?v=1724233451"
+  ],
+  "blurb": "Material - Ceramic Capacity - 350 ml Inclusions- 1 Mug Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not only visually stunning but also practical, as they are designed t",
+  "vibes": [
+   "chai & coffee",
+   "quirky"
+  ]
+ },
+ {
+  "id": "craftribal-10512461725985",
+  "brand": "craftribal",
+  "title": "Pouch Mug",
+  "url": "https://craftribal.com/products/pouch-mug",
+  "price": 299,
+  "compareAt": 699,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_03_13_16PM.png?v=1787305441",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_03_13_06PM.png?v=1787305441"
+  ],
+  "blurb": "Add a touch of charm to your everyday coffee and tea moments with the Craftribal Ceramic Pouch Mug . Designed with a unique and playful pouch-inspired shape, this aesthetic ceramic mug is perfect for enjoying coffee, tea",
+  "vibes": [
+   "everyday"
+  ]
+ },
+ {
+  "id": "craftribal-10512458449185",
+  "brand": "craftribal",
+  "title": "Pouch Mug- Blue",
+  "url": "https://craftribal.com/products/pouch-mug-blue",
+  "price": 299,
+  "compareAt": 699,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_03_04_55PM.png?v=1787304951",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_03_04_35PM.png?v=1787304951"
+  ],
+  "blurb": "Add a touch of charm to your everyday coffee and tea moments with the Craftribal Ceramic Pouch Mug . Designed with a unique and playful pouch-inspired shape, this aesthetic ceramic mug is perfect for enjoying coffee, tea",
+  "vibes": [
+   "bold & blue"
+  ]
+ },
+ {
+  "id": "craftribal-10512457466145",
+  "brand": "craftribal",
+  "title": "Pouch Mug- Green",
+  "url": "https://craftribal.com/products/pouch-mug-green",
+  "price": 299,
+  "compareAt": 699,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_02_59_33PM.png?v=1787304656",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_02_59_23PM.png?v=1787304656"
+  ],
+  "blurb": "Add a touch of charm to your everyday coffee and tea moments with the Craftribal Ceramic Pouch Mug . Designed with a unique and playful pouch-inspired shape, this aesthetic ceramic mug is perfect for enjoying coffee, tea",
+  "vibes": [
+   "matcha green"
+  ]
+ },
+ {
+  "id": "craftribal-10512452321569",
+  "brand": "craftribal",
+  "title": "Pouch Mug- Yellow",
+  "url": "https://craftribal.com/products/pouch-mug-yellow",
+  "price": 299,
+  "compareAt": 699,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_02_52_40PM.png?v=1787304217",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPT_Image_Aug_21_2026_02_54_01_PM.png?v=1787304268"
+  ],
+  "blurb": "Add a touch of charm to your everyday coffee and tea moments with the Craftribal Ceramic Pouch Mug . Designed with a unique and playful pouch-inspired shape, this aesthetic ceramic mug is perfect for enjoying coffee, tea",
+  "vibes": [
+   "everyday"
+  ]
+ },
+ {
+  "id": "craftribal-10512448586017",
+  "brand": "craftribal",
+  "title": "Pouch Mug- Pink",
+  "url": "https://craftribal.com/products/pouch-mug-red",
+  "price": 299,
+  "compareAt": 699,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_02_45_19PM.png?v=1787303751",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageAug21_2026_02_45_06PM.png?v=1787303751"
+  ],
+  "blurb": "Add a touch of charm to your everyday coffee and tea moments with the Craftribal Ceramic Pouch Mug . Designed with a unique and playful pouch-inspired shape, this aesthetic ceramic mug is perfect for enjoying coffee, tea",
+  "vibes": [
+   "pastel"
+  ]
+ },
+ {
+  "id": "craftribal-10447610151201",
+  "brand": "craftribal",
+  "title": "The Cozy Pup Mug",
+  "url": "https://craftribal.com/products/the-cozy-pup-mug",
+  "price": 399,
+  "compareAt": 4200,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/68_4ba2d451-d8fe-4b25-b9c6-d0b5e18b66e5.jpg?v=1784712340",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/66_82cc0ef6-96b5-4b1c-9262-221e523f745f.jpg?v=1784712340",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/67_7f7b0e49-1903-431c-ad6c-30dd93a06db0.jpg?v=1784712340"
+  ],
+  "blurb": "Start your day with comfort and charm with the Craftribal The Cozy Pup Ceramic Mug . Beautifully handcrafted from premium-quality ceramic, this adorable mug features a hand-painted illustration of a cozy little pup wrapp",
+  "vibes": [
+   "cats & critters"
+  ]
+ },
+ {
+  "id": "craftribal-10447594717473",
+  "brand": "craftribal",
+  "title": "Sweetheart Swirl Mug with Lid",
+  "url": "https://craftribal.com/products/sweetheart-swirl-mug-with-lid",
+  "price": 485,
+  "compareAt": 4200,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/10_93967546-53da-4f04-9620-b304e04b4ebb.jpg?v=1784711931",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/11.jpg?v=1784711929",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/12_635c53b7-8210-4567-8a52-4a52fdaaf843.jpg?v=1784711929"
+  ],
+  "blurb": "Bring sweetness to every sip with the Craftribal Sweetheart Swirl Ceramic Mug with Lid , a charming handcrafted mug designed to brighten your coffee moments. Featuring an adorable hand-painted red heart pattern and a whi",
+  "vibes": [
+   "with a lid",
+   "hearts & love"
+  ]
+ },
+ {
+  "id": "craftribal-10432679706913",
+  "brand": "craftribal",
+  "title": "Mom Dad Mug",
+  "url": "https://craftribal.com/products/love-you-mom-dad-mug",
+  "price": 749,
+  "compareAt": null,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/130_b72bb0fc-1e16-4b68-916f-566ab7caa077.jpg?v=1784277460",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/127_e2b9ecd5-ba35-44c0-bdb0-af02efecb6d9.jpg?v=1784277459",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/128_8df3018a-ca87-4593-9cd2-f5c65fce3df0.jpg?v=1784277459"
+  ],
+  "blurb": "Celebrate your parents with every sip. This handcrafted Love U Mom Dad mug set is the perfect blend of warmth, love, and everyday comfort. A premium ceramic mug set made for the world's best Mom and Dad. Perfect for coff",
+  "vibes": [
+   "everyday"
+  ]
+ },
+ {
+  "id": "craftribal-10432673743137",
+  "brand": "craftribal",
+  "title": "Dad Mug",
+  "url": "https://craftribal.com/products/love-you-dad-mug",
+  "price": 399,
+  "compareAt": 650,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/128_637bae3b-c4c9-4186-8705-2fb8307228cc.jpg?v=1784277358",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/41xsSGJcJ6L.jpg?v=1784200623"
+  ],
+  "blurb": "Celebrate the world's best dad with this handcrafted ceramic mug, perfect for his daily coffee or tea ritual. A premium ceramic mug made for dads who deserve every sip. Stylish, durable, and perfect for everyday use. Sho",
+  "vibes": [
+   "everyday"
+  ]
+ },
+ {
+  "id": "craftribal-10432663912737",
+  "brand": "craftribal",
+  "title": "Mom Mug",
+  "url": "https://craftribal.com/products/love-mom-mug",
+  "price": 399,
+  "compareAt": 650,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/129_e63a53ac-e638-41d2-8fe2-e51ecb7fbde6.jpg?v=1784277278",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/410iQWFpKtL.jpg?v=1784200357"
+  ],
+  "blurb": "Celebrate the unconditional love of your mom with this handcrafted ceramic mug. Perfect for everyday coffee, tea, or gifting on special occasions. A beautiful handmade ceramic mug designed for moms who deserve every sip ",
+  "vibes": [
+   "everyday"
+  ]
+ },
+ {
+  "id": "craftribal-10343271956769",
+  "brand": "craftribal",
+  "title": "Chai Ho Jaye Mug",
+  "url": "https://craftribal.com/products/chai-ho-jaye-mug",
+  "price": 365,
+  "compareAt": 3899,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/Untitleddesign-2026-05-10T143021.710.png?v=1778405798",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageMay10_2026_02_28_39PM.png?v=1778405797",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/Untitleddesign-2026-05-10T143104.043.png?v=1778405798"
+  ],
+  "blurb": "Crafted for comforting chai moments and endless conversations, the Chai Ho Jaye Mug adds warmth and charm to your everyday tea ritual. Handcrafted in ceramic with a soft earthy finish, this mug features a playful chai-in",
+  "vibes": [
+   "chai & coffee",
+   "desi"
+  ]
+ },
+ {
+  "id": "craftribal-10343271792929",
+  "brand": "craftribal",
+  "title": "Kadak Chai Mug",
+  "url": "https://craftribal.com/products/kadak-chai-mug",
+  "price": 365,
+  "compareAt": 3899,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/Untitleddesign-2026-05-10T143442.041.png?v=1778405650",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/Untitleddesign-2026-05-10T143907.294.png?v=1778405650",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageMay10_2026_02_32_50PM.png?v=1778405650"
+  ],
+  "blurb": "Made for those who like their chai strong and full of flavor, the Kadak Chai Mug brings warmth and comfort to every sip. Handcrafted in ceramic with a minimal earthy finish, this mug features a playful chai-inspired desi",
+  "vibes": [
+   "chai & coffee"
+  ]
+ },
+ {
+  "id": "craftribal-10343271203105",
+  "brand": "craftribal",
+  "title": "Sukoon Chai Mug",
+  "url": "https://craftribal.com/products/sukoon-chai-mug",
+  "price": 365,
+  "compareAt": 3899,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/Untitleddesign-2026-05-10T150026.228.png?v=1778405488",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageMay10_2026_01_32_16PM.png?v=1778405251",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/Untitleddesign-2026-05-10T150105.103.png?v=1778405488"
+  ],
+  "blurb": "A handcrafted ceramic mug designed to bring warmth, comfort, and a little “sukoon” to your everyday tea moments. Featuring a minimal aesthetic with a cozy chai-inspired illustration, this mug is perfect for slow mornings",
+  "vibes": [
+   "chai & coffee",
+   "desi"
+  ]
+ },
+ {
+  "id": "craftribal-10343899037985",
+  "brand": "craftribal",
+  "title": "Red Pumpkin Mug with Lid",
+  "url": "https://craftribal.com/products/red-pumpkin-mug-with-lid",
+  "price": 499,
+  "compareAt": 4200,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2026-05-11at5.08.35PM.jpg?v=1778500525",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2026-05-11at5.08.33PM_1.jpg?v=1778500525",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2026-05-11at5.08.32PM_1.jpg?v=1778500525"
+  ],
+  "blurb": "Handcrafted ceramic red pumpkin mug with lid crafted for cozy tea, coffee, and hot chocolate moments. Featuring a charming pumpkin-inspired design with a glossy festive finish, this aesthetic mug is perfect for autumn dé",
+  "vibes": [
+   "with a lid"
+  ]
+ },
+ {
+  "id": "craftribal-10343894122785",
+  "brand": "craftribal",
+  "title": "Yellow Pumpkin Mug with Lid",
+  "url": "https://craftribal.com/products/pumpkin-mug-with-lid",
+  "price": 499,
+  "compareAt": 4200,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2026-05-11at5.08.33PM.jpg?v=1778499857",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2026-05-11at5.08.34PM.jpg?v=1778499857",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2026-05-11at5.08.36PM.jpg?v=1778499857"
+  ],
+  "blurb": "Handcrafted ceramic yellow pumpkin mug with lid designed for cozy coffee, tea, and hot chocolate moments. Featuring a cute autumn-inspired pumpkin shape, this aesthetic mug adds warm seasonal charm to your kitchen and ma",
+  "vibes": [
+   "with a lid"
+  ]
+ },
+ {
+  "id": "craftribal-10209118060833",
+  "brand": "craftribal",
+  "title": "Cute Bunny Mug",
+  "url": "https://craftribal.com/products/cute-bunny-mug",
+  "price": 419,
+  "compareAt": 499,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2025-12-22at3.40.59PM.jpg?v=1766409247",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2025-12-22at3.40.59PM_1.jpg?v=1766409247"
+  ],
+  "blurb": "Add a touch of whimsy to your daily sips with our Cute Bunny Mug , thoughtfully handmade from premium ceramic . Designed with soft curves and a charming bunny motif, this mug is the perfect blend of Pinterest-worthy aest",
+  "vibes": [
+   "cats & critters"
+  ]
+ },
+ {
+  "id": "craftribal-10071624483105",
+  "brand": "craftribal",
+  "title": "Bhai Mug",
+  "url": "https://craftribal.com/products/bhai-mug",
+  "price": 429,
+  "compareAt": null,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/169.jpg?v=1753344336",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/170.jpg?v=1753344336",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/171.jpg?v=1753344336"
+  ],
+  "blurb": "Celebrate Your Bond with the Craftribal Bhai Mug – A Perfect Rakhi Gift for Brothers Make your brother smile with every sip! The Craftribal Bhai Mug is a thoughtful, practical, and stylish gift for Raksha Bandhan. Crafte",
+  "vibes": [
+   "desi"
+  ]
+ },
+ {
+  "id": "craftribal-10043655061793",
+  "brand": "craftribal",
+  "title": "Evil Eye Sipper",
+  "url": "https://craftribal.com/products/evil-eye-sipper",
+  "price": 599,
+  "compareAt": 1199,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/167.jpg?v=1751464984",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/168.jpg?v=1751464984",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/166.jpg?v=1751464984"
+  ],
+  "blurb": "Stay protected in style with our Evil Eye Ceramic Sipper , a perfect blend of functionality and aesthetic charm. This handmade and handpainted pottery sipper features a beautiful evil eye design , and comes with a matchi",
+  "vibes": [
+   "quirky"
+  ]
+ },
+ {
+  "id": "craftribal-10007108026657",
+  "brand": "craftribal",
+  "title": "Vintage Reel Mug",
+  "url": "https://craftribal.com/products/vintage-reel-mug",
+  "price": 499,
+  "compareAt": 3900,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/54_8e3b72c9-9535-4e6b-97d9-a53ed6e287da.jpg?v=1748851126",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/55_0a14e887-e68f-4828-aced-8cf230e693ba.jpg?v=1748851127",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/29_98c1537b-d6c6-425c-b1e7-0e7526e84344.jpg?v=1751286814"
+  ],
+  "blurb": "Sip in style with Craftribal’s exclusive Vintage Reel Mug a ceramic masterpiece shaped like a classic film reel. This unique, Pinterest-worthy coffee mug combines retro charm with modern aesthetic, making it the perfect ",
+  "vibes": [
+   "everyday"
+  ]
+ },
+ {
+  "id": "craftribal-9977041781025",
+  "brand": "craftribal",
+  "title": "Red Bow Mug",
+  "url": "https://craftribal.com/products/red-bow-mug",
+  "price": 329,
+  "compareAt": 1199,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/1506684B-5612-420F-BBA0-986AA645D173.jpg?v=1746084742",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/66528369-04BA-4857-B941-1C0D1717DE7A.jpg?v=1746084742",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/55C98223-362A-4F12-A48B-492BF2C2BC89.jpg?v=1746084742"
+  ],
+  "blurb": "Introducing the Pink Bow Mug a handmade ceramic delight with hand-painted cute bows, a charming petite size, and an Instagram-worthy aesthetic. This trending bow mug is perfect for coffee, tea, or hot cocoa lovers who ad",
+  "vibes": [
+   "everyday"
+  ]
+ },
+ {
+  "id": "craftribal-9786478166305",
+  "brand": "craftribal",
+  "title": "Holly Berry Christmas Cappuccino cup",
+  "url": "https://craftribal.com/products/holly-berry-christmas-cappuccino-cup",
+  "price": 399,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/59_a262f7f4-9d50-40e5-99e7-b99f7ed5f57e.jpg?v=1732792957"
+  ],
+  "blurb": "Celebrate the season with our Holly Berry Christmas Cappuccino Cup , beautifully handpainted with vibrant cherries and festive Christmas leaves. Crafted with care, this unique cup brings a touch of holiday magic to your ",
+  "vibes": [
+   "chai & coffee"
+  ]
+ },
+ {
+  "id": "craftribal-9741178831137",
+  "brand": "craftribal",
+  "title": "Tulip Mug",
+  "url": "https://craftribal.com/products/tulip-mug",
+  "price": 385,
+  "compareAt": 1160,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/25.jpg?v=1737538094",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/26_0ad5fbca-9c78-4566-a922-3ab12d9ecbe4.jpg?v=1737538094"
+  ],
+  "blurb": "Add a touch of charm to your coffee routine with our handmade pottery tulip mug. Featuring a 3D pink tulip design, this aesthetic mug combines artisanal craftsmanship with a Pinterest-worthy look. Perfect for your mornin",
+  "vibes": [
+   "florals"
+  ]
+ },
+ {
+  "id": "craftribal-9671281115425",
+  "brand": "craftribal",
+  "title": "Ghost Mug",
+  "url": "https://craftribal.com/products/ghost-mug",
+  "price": 399,
+  "compareAt": 930,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/96_79769489-c861-45d0-912a-7080da4e64ad.jpg?v=1726239738",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/97_723ee522-ccae-4d77-9b7d-a5f6394f7b97.jpg?v=1757492082"
+  ],
+  "blurb": "Add a playful twist to your drinkware with our Ghost Mug, featuring a charming ghost design that’s perfect for Halloween or year-round fun. Crafted with durable, high-quality ceramic, this unique mug is both microwave an",
+  "vibes": [
+   "quirky"
+  ]
+ },
+ {
+  "id": "craftribal-9493139882273",
+  "brand": "craftribal",
+  "title": "POSITIVITEA Cappuccino cup",
+  "url": "https://craftribal.com/products/positivitea-cappuccino-cup",
+  "price": 399,
+  "compareAt": 499,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/WhatsAppImage2024-06-25at1.02.26PM.jpg?v=1719300817"
+  ],
+  "blurb": "Material - Ceramic Capacity - 230 ML Size- 4.5x2.5 inches Inclusions - 1 Piece Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not only visually stunning but also practical",
+  "vibes": [
+   "chai & coffee"
+  ]
+ },
+ {
+  "id": "craftribal-9332698415393",
+  "brand": "craftribal",
+  "title": "Cat Mug",
+  "url": "https://craftribal.com/products/cat-mug",
+  "price": 499,
+  "compareAt": 650,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/9_61d3591f-3686-4634-b675-ce7e1a8cbe72.jpg?v=1715417575",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/7_8a524cc8-e217-4c43-a91a-b983bec30be6.jpg?v=1715417591",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/8_74ee5154-c8ff-4988-bf68-0b4d50f25b65.jpg?v=1715417592"
+  ],
+  "blurb": "Size: Capacity- 240 ML Material: Ceramic Package Inclusion: 1 Mug Finish – Gloss Description - Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not only visually stunning bu",
+  "vibes": [
+   "cats & critters"
+  ]
+ },
+ {
+  "id": "craftribal-9304097718561",
+  "brand": "craftribal",
+  "title": "Caramel Espresso Cup and Saucer Set",
+  "url": "https://craftribal.com/products/caramel-expresso-cup-and-saucer-set",
+  "price": 499,
+  "compareAt": null,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/45_84e92042-fa4c-4630-8ae5-2fe442d927fa.jpg?v=1714632287",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/43_4775b76f-7ba0-40bc-943b-5284dc578072.jpg?v=1714632287",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/44_cd55da58-c1a6-4aec-8c21-7098b2073364.jpg?v=1714632287"
+  ],
+  "blurb": "Size: Cup Capacity- 125 ML Diameter- 2.5 inches Height- 3 inches Saucer- 5 inches Material: Ceramic Package Inclusions: 1 Cup and 1 Saucer Finish – Matte Description - Handmade Pottery, crafted with utmost care and exper",
+  "vibes": [
+   "chai & coffee",
+   "sets & combos"
+  ]
+ },
+ {
+  "id": "craftribal-8873441263905",
+  "brand": "craftribal",
+  "title": "‘ME TIME’ Mug",
+  "url": "https://craftribal.com/products/me-time-mug-1",
+  "price": 365,
+  "compareAt": 399,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/90.jpg?v=1701262970"
+  ],
+  "blurb": "Size: Cup Capacity- 280 ML Material: Ceramic Package Inclusions: 1 Mug Finish – Gloss Description - Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not only visually stunni",
+  "vibes": [
+   "everyday"
+  ]
+ },
+ {
+  "id": "craftribal-8610740437281",
+  "brand": "craftribal",
+  "title": "Panda Mug",
+  "url": "https://craftribal.com/products/panda-mug",
+  "price": 499,
+  "compareAt": 3899,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_0362.jpg?v=1737536792",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_3363.jpg?v=1737536792",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_3362.jpg?v=1694443392"
+  ],
+  "blurb": "Size: Capacity- 240 ML Material: Ceramic Package Inclusion: 1 Mug Finish- Gloss Description - Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not only visually stunning but",
+  "vibes": [
+   "cats & critters"
+  ]
+ },
+ {
+  "id": "craftribal-8429303857441",
+  "brand": "craftribal",
+  "title": "‘ME TIME’ Breakfast Set (Mug & Bowl Combo)",
+  "url": "https://craftribal.com/products/me-time-breakfast-set-mug-bowl-combo",
+  "price": 799,
+  "compareAt": 899,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ME-TIME-Breakfast-Set-Mug-Bowl-Combo-1.webp?v=1689858274",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ME-TIME-Breakfast-Set-Mug-Bowl-Combo-2.webp?v=1689858274",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ME-TIME-Breakfast-Set-Mug-Bowl-Combo-3.webp?v=1689858274"
+  ],
+  "blurb": "Size: Mug Capacity- 280 ML Mug Size- 4 inches height, 3 inches diameter Bowl size- 5.5 inches diameter Material: Ceramic Package Inclusions: 2 Pieces (1 Mug+1 Bowl) Finish: Gloss Description - Handmade Pottery, crafted w",
+  "vibes": [
+   "sets & combos"
+  ]
+ },
+ {
+  "id": "craftribal-8426197975329",
+  "brand": "craftribal",
+  "title": "Sweetheart Tea Cups",
+  "url": "https://craftribal.com/products/sweetheart-tea-cups",
+  "price": 350,
+  "compareAt": 399,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/1234.webp?v=1689752594",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/new12.webp?v=1689752594",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/12345.webp?v=1689752595"
+  ],
+  "blurb": "Size: Height- 3 INCHES Diameter- 2.5 INCHES Capacity - 200ML Package Inclusions: 1 Piece Finish– Gloss Description - Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not onl",
+  "vibes": [
+   "hearts & love"
+  ]
+ },
+ {
+  "id": "saabi-house-15070753095840",
+  "brand": "saabi-house",
+  "title": "Turquoise Heart Ceramic Mug",
+  "url": "https://saabihouse.in/products/turquoise-heart-ceramic-mug",
+  "price": 399,
+  "compareAt": 619,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/56D8C3FA-E498-4957-B711-A889D978E48E_1_201_a.jpg?v=1746186744",
+   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/100F8831-B387-49B4-B872-2A388863A948_1_201_a.jpg?v=1746186744",
+   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/8D1815DF-A415-4EC8-9DBF-EEFC71BFF2A6_1_201_a.jpg?v=1746186744"
+  ],
+  "blurb": "Product Description With its soothing turquoise glaze and delicate heart detail, the Turquoise Heart Ceramic Mug by Saabi House brings calm and care to your daily sips. The soft curves and comforting tone make it a favor",
+  "vibes": [
+   "hearts & love"
+  ]
+ },
+ {
+  "id": "saabi-house-15070754635936",
+  "brand": "saabi-house",
+  "title": "Cute Pinterest Mug- Meow",
+  "url": "https://saabihouse.in/products/cute-pinterest-mug-meow",
+  "price": 399,
+  "compareAt": 619,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/FF8BEFD3-3C47-4802-A6BD-C2DDA00ED73E_1_201_a.jpg?v=1746340833",
+   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/2008A4DD-F723-4AF6-9B3C-1793BBCD1D0B_1_201_a.jpg?v=1746340833",
+   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/4558E807-3FA1-4318-9027-50333F580584_1_201_a.jpg?v=1746340833"
+  ],
+  "blurb": "Meow- Cute Pinterest Mug Add a little purr-sonality to your coffee routine with the Meow Mug , a customer favorite from our Pinterest mugs collection. Designed for those who adore all things cute, cozy, and Instagram-wor",
+  "vibes": [
+   "cats & critters"
   ]
  }
 ]
