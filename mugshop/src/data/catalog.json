@@ -763,24 +763,6 @@
   ]
  },
  {
-  "id": "house-of-ceramics-8907961663637",
-  "brand": "house-of-ceramics",
-  "title": "Fiesta Chili Coffee Mug",
-  "url": "https://www.houseofceramics.in/products/fiesta-chili-coffee-mug",
-  "price": 385,
-  "compareAt": 999,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2025-09-17_at_11.49.47_PM_3.jpg?v=1758296258",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Fiesta_Chili_Coffee_Mug.jpg?v=1758296258",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2025-09-17_at_11.49.47_PM_2.jpg?v=1758296258"
-  ],
-  "blurb": "Material: Ceramic Color: Multi-color Capacity: Mug: 300ml Package Content: 1 Coffee Mug Item Dimensions - LxWxH: Mug: 4.5inc. Diameter, 3.5inc. Ht. Finish: Glossy Feature: Freezer, Dishwasher & Microwave Safe Disclaimer:",
-  "vibes": [
-   "chai & coffee"
-  ]
- },
- {
   "id": "house-of-ceramics-8907958812821",
   "brand": "house-of-ceramics",
   "title": "Mango Print Coffee Mug",
@@ -1059,22 +1041,6 @@
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250405-WA0139.jpg?v=1744740507"
   ],
   "blurb": "Material: Ceramic Color: Multi-color Finish: Glossy Finish Package Content: 1 Coffee Mug Capacity (ml): Coffee Mug: 300ml. Item Dimensions: (LxWxH): Mug: 5inc. Diameter, 3.5inc. Ht., Feature: Dishwasher & Microwave Safe,",
-  "vibes": [
-   "everyday"
-  ]
- },
- {
-  "id": "house-of-ceramics-8732208791701",
-  "brand": "house-of-ceramics",
-  "title": "Red Bliss Mug",
-  "url": "https://www.houseofceramics.in/products/red-rhythm-mug-copy",
-  "price": 385,
-  "compareAt": 899,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250310-WA0016.jpg?v=1741615854"
-  ],
-  "blurb": "Material: Ceramic Color: Multi-color Finish: Glossy Finish Package Content: 1 Coffee Mug Capacity (ml): Coffee Mug: 300ml. Item Dimensions: (LxWxH): Mug: 4.5inc. Diameter, 3.5inc. Ht., Feature: Dishwasher & Microwave Saf",
   "vibes": [
    "everyday"
   ]
@@ -1448,7 +1414,7 @@
   "url": "https://www.houseofceramics.in/products/rustic-blossom-pink-coffee-mug",
   "price": 399,
   "compareAt": 899,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2026-03-26_at_12.59.03_PM_3.jpg?v=1774720381",
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Rustic_Blossom_Pink_Coffee_Mug.jpg?v=1774720381"
@@ -1671,23 +1637,6 @@
   "vibes": [
    "florals",
    "pastel"
-  ]
- },
- {
-  "id": "house-of-ceramics-9072953196693",
-  "brand": "house-of-ceramics",
-  "title": "Navy Noor Mug",
-  "url": "https://www.houseofceramics.in/products/navy-noor-mug-copy",
-  "price": 399,
-  "compareAt": 1799,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Navy_Noor_Mug.jpg?v=1764233587",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20251125-WA0072.jpg?v=1764233587"
-  ],
-  "blurb": "Material: Ceramic Color: Multi-color Capacity: 350ml approx. Package Content : 1 Coffee Mug Item Dimensions: 5inc. Diameter X 4inc ht. approx. Finish: Glossy Feature: Freezer, Dishwasher & Microwave Safe Disclaimer: The ",
-  "vibes": [
-   "bold & blue"
   ]
  },
  {
@@ -2414,7 +2363,7 @@
   "url": "https://www.houseofceramics.in/products/red-mushroom-magic-coffee-mug-with-lid",
   "price": 425,
   "compareAt": 1199,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2026-03-29_at_4.47.39_PM.jpg?v=1774783972",
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250907-WA0080.jpg?v=1774783972",
@@ -2434,7 +2383,7 @@
   "url": "https://www.houseofceramics.in/products/pour-your-love-red-mug-copy",
   "price": 425,
   "compareAt": 799,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Pour_Your_Love_Red_Mug.jpg?v=1772185189",
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2026-02-25_at_11.42.39_AM_2.jpg?v=1772185200",
@@ -3027,24 +2976,6 @@
   ]
  },
  {
-  "id": "house-of-ceramics-8698141278357",
-  "brand": "house-of-ceramics",
-  "title": "Pink Glaze Tea Cups (Set of 2)",
-  "url": "https://www.houseofceramics.in/products/product_b403170b-f363-7772-4709-140632c53611",
-  "price": 485,
-  "compareAt": 1150,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20241013-WA0231_c2009afc-9a6d-485e-a943-a4af51d2eb86.jpg?v=1741583491",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20241013-WA0232_bafc17af-ec0b-4c69-a857-b03665b664ff.jpg?v=1741583491"
-  ],
-  "blurb": "Material: Ceramic Color: Multi-color Capacity: 180 ML Package Content: 2 Cups Item Dimensions - LxWxH: 4inc Diameter Finish: Glossy Feature: Freezer, Dishwasher & Microwave Safe Disclaimer: The actual products may be sub",
-  "vibes": [
-   "sets & combos",
-   "pastel"
-  ]
- },
- {
   "id": "house-of-ceramics-8698141212821",
   "brand": "house-of-ceramics",
   "title": "Brown-Green Glaze Tea Cups (Set of 2)",
@@ -3195,7 +3126,7 @@
   "url": "https://www.houseofceramics.in/products/minty-book-love-mug",
   "price": 499,
   "compareAt": 999,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Minty_Book_Love_Mug_4.jpg?v=1788980870",
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Minty_Book_Love_Mug_5.jpg?v=1788980869",
@@ -3396,7 +3327,7 @@
   "url": "https://www.houseofceramics.in/products/golden-citrus-mug",
   "price": 550,
   "compareAt": 999,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Golden_Citrus_Mug_1.jpg?v=1786712553",
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Golden_Citrus_Mug_2.jpg?v=1786712553",
@@ -3929,24 +3860,6 @@
   ]
  },
  {
-  "id": "house-of-ceramics-9312857325717",
-  "brand": "house-of-ceramics",
-  "title": "Vintage Coca-Cola Can Sipper",
-  "url": "https://www.houseofceramics.in/products/retro-diet-coke-can-sipper",
-  "price": 650,
-  "compareAt": 1199,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Vintage_Coca-Cola_Can_Sipper_2.jpg?v=1785388755",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Vintage_Coca-Cola_Can_Sipper.jpg?v=1785388755",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Vintage_Coca-Cola_Can_Sipper_3.jpg?v=1785388755"
-  ],
-  "blurb": "Sip your favourite drink with a cola twist! The Vintage Coca-Cola Can Sipper is a hand-painted ceramic sipper inspired by the Vintage Coca-Cola can design — chunky, glossy, and full of vintage charm. Product Details: Mat",
-  "vibes": [
-   "everyday"
-  ]
- },
- {
   "id": "house-of-ceramics-9312869482645",
   "brand": "house-of-ceramics",
   "title": "Retro Diet Coke Can Sipper",
@@ -4016,25 +3929,6 @@
   "blurb": "Say Pepsi with every sip! The Pepsi Retro Can Sipper is a hand-painted ceramic can sipper inspired by the classic retro Pepsi can — bold blue and red design, glossy finish, and that unmistakable vintage Pepsi energy! Pro",
   "vibes": [
    "everyday"
-  ]
- },
- {
-  "id": "house-of-ceramics-8780550832277",
-  "brand": "house-of-ceramics",
-  "title": "The Bloom Set",
-  "url": "https://www.houseofceramics.in/products/the-bloom-set",
-  "price": 685,
-  "compareAt": 1699,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250513-WA0221.jpg?v=1747156610",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250513-WA0224.jpg?v=1747156610",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250513-WA0225.jpg?v=1747156610"
-  ],
-  "blurb": "Material: Ceramic Color: Multi-color Capacity: Mug: 300ml Package Content: 1 Coffee Mug & 1 Snack Plate Item Dimensions - LxWxH: Mug: 5inc. Diameter X 4inc ht. , Tray: 6inc. X 4inc ht. , Finish: Glossy Feature: Freezer, ",
-  "vibes": [
-   "florals",
-   "sets & combos"
   ]
  },
  {
@@ -5026,7 +4920,7 @@
   "url": "https://klaylist.com/products/cushion-cup-set",
   "price": 645,
   "compareAt": null,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/pillowteaset.jpg?v=1741606366",
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/pillowteasetgreen.jpg?v=1713466133",
@@ -5145,24 +5039,6 @@
   "blurb": "A complete breakfast set including a chequered ceramic mug, bowl, and coaster for morning meals",
   "vibes": [
    "sets & combos"
-  ]
- },
- {
-  "id": "klaylist-7016702181425",
-  "brand": "klaylist",
-  "title": "Infinity coffee mug",
-  "url": "https://klaylist.com/products/infinity-coffee-mug-set-of-4-and-6",
-  "price": 1495,
-  "compareAt": null,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/RON2623.jpg?v=1741602788",
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/RON2613.jpg?v=1741602788",
-   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/RON2618.jpg?v=1741602957"
-  ],
-  "blurb": "Set of handmade stoneware coffee mug with a two-finger hole handle, microwave safe, available in two colors: ivory and gray",
-  "vibes": [
-   "chai & coffee"
   ]
  },
  {
@@ -8068,7 +7944,7 @@
   "url": "https://craftribal.com/products/evil-eye-mug",
   "price": 399,
   "compareAt": 465,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/67283E87-2898-4240-ABCF-8524047D1AB8.jpg?v=1721029444",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/85_d4096985-ebb3-4fc8-b69b-53a934029e10.jpg?v=1751355888"
@@ -8461,7 +8337,7 @@
   "url": "https://craftribal.com/products/red-bow-sipper",
   "price": 499,
   "compareAt": 650,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageJul25_2026_01_18_25PM.png?v=1784965729",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPT_Image_Jul_25_2026_01_19_05_PM.png?v=1784965763"
@@ -9658,7 +9534,7 @@
   "url": "https://craftribal.com/products/the-chai-studio-mugs-trio-set",
   "price": 995,
   "compareAt": 1299,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageMay10_2026_05_16_57PM.png?v=1778413843",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageMay10_2026_05_18_38PM.png?v=1778413843"
@@ -10338,24 +10214,6 @@
   ]
  },
  {
-  "id": "saabi-house-15856401285280",
-  "brand": "saabi-house",
-  "title": "Red Heart Windowpane Ceramic Mug",
-  "url": "https://saabihouse.in/products/red-heart-windowpane-ceramic-mug",
-  "price": 349,
-  "compareAt": 559,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/ChatGPTImageAug30_2026_11_04_18PM.png?v=1788507219",
-   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/ChatGPTImageAug21_2026_12_24_43AM.png?v=1788507213",
-   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/saabi-house-note_800d80d0-e94e-4310-9e40-9f1522fccb74.webp?v=1776667854"
-  ],
-  "blurb": "Red Heart Windowpane Ceramic Mug This handmade ceramic mug features a hand-painted pink windowpane check pattern dotted with small red hearts, finished on a cream glaze base. The rounded, compact body and open loop handl",
-  "vibes": [
-   "hearts & love"
-  ]
- },
- {
   "id": "saabi-house-15856388571296",
   "brand": "saabi-house",
   "title": "Strawberry Gingham Ceramic Mug",
@@ -10369,24 +10227,6 @@
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/saabi-house-product-care_607b8a53-2226-472f-8553-93aad95908cb.webp?v=1776667854"
   ],
   "blurb": "Strawberry Gingham Ceramic Mug This handmade ceramic mug features a hand-painted pink gingham check pattern layered with bold strawberry motifs, finished on a cream glaze base. The rounded body and open loop handle give ",
-  "vibes": [
-   "everyday"
-  ]
- },
- {
-  "id": "saabi-house-15099770175648",
-  "brand": "saabi-house",
-  "title": "Vanilla Textured Ceramic Mug",
-  "url": "https://saabihouse.in/products/vanilla-textured-ceramic-mug",
-  "price": 349,
-  "compareAt": 619,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/03368528-25EE-476B-BCA2-05DD0F5A423A_1_105_c.jpg?v=1750412007",
-   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/84E4A6DA-E539-4A9B-AF5B-6EF540FC0AC5_1_201_a.jpg?v=1750412005",
-   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/C8A50891-4E99-4F9A-BD94-4543CB2F36B1_1_201_a.jpg?v=1750412005"
-  ],
-  "blurb": "Product Description Artful and organic, the Vanilla textured Ceramic Mug from Saabi House features a flowing glaze that mimics watercolor brushstrokes. Each piece is uniquely glazed, making every mug one-of-a-kind. A str",
   "vibes": [
    "everyday"
   ]
@@ -10488,7 +10328,7 @@
   "url": "https://saabihouse.in/products/clear-sky-ceramic-mug",
   "price": 379,
   "compareAt": 599,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/9BCF002D-2866-40E1-B589-BF9D31965B85_1_105_c.jpg?v=1746950525",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/0A199964-6008-4DE2-AB4F-014442E4FF38_1_105_c.jpg?v=1746950525",
@@ -10579,7 +10419,7 @@
   "url": "https://saabihouse.in/products/tulip-bloom-ceramic-mug",
   "price": 399,
   "compareAt": 599,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/ChatGPTImageJun7_2026_11_48_22AM.png?v=1780813153",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Gemini_Generated_Image_3w1c1m3w1c1m3w1c.jpg?v=1780390405",
@@ -10813,7 +10653,7 @@
   "url": "https://saabihouse.in/products/green-classy-textured-mug",
   "price": 399,
   "compareAt": 649,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/2AA957F7-D8BF-400A-B672-5A84314CA62C_1_105_c_508788c4-4e27-44c1-bc52-fefa6f747dfb.jpg?v=1758213020",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/CB16FF2F-2668-47AA-95D1-02806E836B31_1_105_c_927febcc-6ef0-4c20-adb1-41cba4b947ed.jpg?v=1758213020",
@@ -10831,7 +10671,7 @@
   "url": "https://saabihouse.in/products/blue-classy-textured-mug",
   "price": 399,
   "compareAt": 649,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/38FC7CF5-E868-4D5B-9CF4-25FBB9EFAB77_1_105_c.jpg?v=1758213075",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/88866DBA-A10F-47A6-9264-BA0D2F7CDC5E_1_105_c.jpg?v=1758213075",
@@ -10995,7 +10835,7 @@
   "url": "https://saabihouse.in/products/bond-beyond-distance-ceramic-mug",
   "price": 419,
   "compareAt": 559,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Gemini_Generated_Image_3b2v6v3b2v6v3b2v.jpg?v=1786642118",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Gemini_Generated_Image_pnyu4epnyu4epnyu.jpg?v=1786642356",
@@ -11121,7 +10961,7 @@
   "url": "https://saabihouse.in/products/small-daisy-tumbler",
   "price": 419,
   "compareAt": 599,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/pomelli_photoshoot_image_9_16_0426_15.jpg?v=1777616402",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/pomelli_photoshoot_image_9_16_0426_14.jpg?v=1777616402",
@@ -11288,7 +11128,7 @@
   "url": "https://saabihouse.in/products/heart-checkered-ceramic-sipper-tumbler",
   "price": 449,
   "compareAt": null,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/pomelli_photoshoot_image_9_16_0602_2.jpg?v=1780410296",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Image_104a778d-f909-4d4b-8562-96353c551899.jpg?v=1780410297",
@@ -11489,7 +11329,7 @@
   "url": "https://saabihouse.in/products/tiny-oranges-pinterest-cup-saucer-set",
   "price": 499,
   "compareAt": 699,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Gemini_Generated_Image_lgxl4rlgxl4rlgxl_b72174f3-469d-4263-92ab-560fbcc86f47.png?v=1765299818",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Gemini_Generated_Image_fwptvbfwptvbfwpt.jpg?v=1780741105",
@@ -11525,7 +11365,7 @@
   "url": "https://saabihouse.in/products/clear-pink-sky-cup-and-saucer",
   "price": 499,
   "compareAt": 699,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/C44E8984-F632-4D5C-982D-B00D69E7EA14_1_201_a.jpg?v=1749152960",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/8EC28DA5-63B5-4609-880A-9D5318799130_1_201_a.jpg?v=1764519093",
@@ -11552,26 +11392,6 @@
   "blurb": "",
   "vibes": [
    "pastel"
-  ]
- },
- {
-  "id": "saabi-house-15787240751264",
-  "brand": "saabi-house",
-  "title": "Mono Lines & Dots Ceramic Coffee Mug Set (Set of 2)",
-  "url": "https://saabihouse.in/products/mono-lines-dots-ceramic-coffee-mug-set-set-of-2",
-  "price": 529,
-  "compareAt": 699,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/IMG_0476.jpg?v=1783778613",
-   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/IMG_0477.jpg?v=1783778613",
-   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/IMG_0482.jpg?v=1783778613"
-  ],
-  "blurb": "Mono Lines & Dots Ceramic Coffee Mug Set (Set of 2) Elevate your coffee moments with the Mono Lines & Dots Ceramic Coffee Mug Set . Crafted from premium ceramic , this aesthetic duo features timeless striped and polka do",
-  "vibes": [
-   "chai & coffee",
-   "sets & combos",
-   "minimal"
   ]
  },
  {
@@ -11624,24 +11444,6 @@
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/ChatGPTImageJun11_2026_10_56_28PM.jpg?v=1781198957"
   ],
   "blurb": "Papa Cup & Saucer Set is a charming ceramic tea set featuring PAPA text print and a wavy saucer base. This aesthetic and pinteresty ceramic set is perfect for gifting this Father's Day. Its handcrafted feel adds elegance",
-  "vibes": [
-   "sets & combos"
-  ]
- },
- {
-  "id": "saabi-house-15620644634784",
-  "brand": "saabi-house",
-  "title": "Yellow Subshine Bubble Mug & Saucer Set",
-  "url": "https://saabihouse.in/products/yellow-subshine-bubble-mug-saucer-set",
-  "price": 549,
-  "compareAt": 699,
-  "soldOut": true,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Gemini_Generated_Image_z7qwykz7qwykz7qw.jpg?v=1772378310",
-   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Gemini_Generated_Image_iwi8twiwi8twiwi8.jpg?v=1772378310",
-   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/saabi-house-product-care_607b8a53-2226-472f-8553-93aad95908cb.webp?v=1776667854"
-  ],
-  "blurb": "Yellow Subshine Bubble Mug & Saucer Set The Yellow Sunshine Cloud Cup features a bright yellow ceramic cup resting on a rounded cloud-style saucer. This aesthetic and pinteresty ceramic set is ideal for tea, coffee, or h",
   "vibes": [
    "sets & combos"
   ]
@@ -11754,24 +11556,6 @@
   "blurb": "Diet Coke Ceramic Tumbler with Straw - A Sip of Sweetness Bring nostalgic café vibes to your drinkware collection with the Diet Coke Ceramic Tumbler with Straw . Crafted from premium ceramic , this playful tumbler featur",
   "vibes": [
    "everyday"
-  ]
- },
- {
-  "id": "saabi-house-15859398279328",
-  "brand": "saabi-house",
-  "title": "Monster Energy Ceramic Tumbler with Straw",
-  "url": "https://saabihouse.in/products/monster-energy-ceramic-tumbler-with-straw",
-  "price": 499,
-  "compareAt": null,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/ChatGPTImageSep6_2026_11_52_21PM.png?v=1789799552",
-   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/ChatGPTImageSep6_2026_11_54_55PM.png?v=1788719110",
-   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/saabi-house-product-care_607b8a53-2226-472f-8553-93aad95908cb.webp?v=1776667854"
-  ],
-  "blurb": "Monster Energy Ceramic Tumbler with Straw Bring nostalgic café vibes to your drinkware collection with the Monster Energy Ceramic Tumbler with Straw. Crafted from premium ceramic , this playful tumbler features a vintage",
-  "vibes": [
-   "quirky"
   ]
  },
  {
@@ -12231,8 +12015,8 @@
   "brand": "craftribal",
   "title": "The Diet Coke Sipper Gift Hamper",
   "url": "https://craftribal.com/products/the-diet-coke-sipper-gift-hamper",
-  "price": 1399,
-  "compareAt": null,
+  "price": 1299,
+  "compareAt": 1799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/ChatGPTImageSep24_2026_05_55_25PM.png?v=1790252942"
@@ -12406,7 +12190,7 @@
   "url": "https://saabihouse.in/products/glass-can-tumbler-with-bamboo-lid-straw",
   "price": 499,
   "compareAt": 999,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/pomelli_photoshoot_image_1_1_0602_5.jpg?v=1783761818",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/pomelli_photoshoot_image_1_1_0602_4.jpg?v=1783761818"
@@ -13270,6 +13054,76 @@
   "blurb": "Meow- Cute Pinterest Mug Add a little purr-sonality to your coffee routine with the Meow Mug , a customer favorite from our Pinterest mugs collection. Designed for those who adore all things cute, cozy, and Instagram-wor",
   "vibes": [
    "cats & critters"
+  ]
+ },
+ {
+  "id": "klaylist-6976249561137",
+  "brand": "klaylist",
+  "title": "Infinity coffee mug",
+  "url": "https://klaylist.com/products/infinity-coffee-mug",
+  "price": 445,
+  "compareAt": null,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/coffee-mug-with-two-handles.jpg?v=1725984342",
+   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/infinity-coffee-mug-white.jpg?v=1741602953",
+   "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/cute-ceramic-coffee-mug.jpg?v=1725984342"
+  ],
+  "blurb": "handcrafted stoneware coffee mug with a two-finger hole handle, microwave safe, available in two colors: ivory and gray",
+  "vibes": [
+   "chai & coffee"
+  ]
+ },
+ {
+  "id": "saabi-house-15787140448416",
+  "brand": "saabi-house",
+  "title": "Ribbed Glass Tumbler – Clear Drinking Glass",
+  "url": "https://saabihouse.in/products/ribbed-glass-tumbler-clear-drinking-glass",
+  "price": 599,
+  "compareAt": 999,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/pomelli_photoshoot_image_1_1_0602_6_1.jpg?v=1783761628",
+   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/pomelli_photoshoot_image_1_1_0602_10.jpg?v=1783761628"
+  ],
+  "blurb": "Product Description Minimal, timeless, and versatile, the Ribbed Glass Tumbler is perfect for serving water, juice, cocktails, mocktails, iced coffee, or fresh lemonade. Made from premium clear glass with elegant vertica",
+  "vibes": [
+   "everyday"
+  ]
+ },
+ {
+  "id": "saabi-house-15787141595296",
+  "brand": "saabi-house",
+  "title": "Stack Glass Tumbler with Lid & Straw",
+  "url": "https://saabihouse.in/products/stack-glass-tumbler-with-lid-straw",
+  "price": 699,
+  "compareAt": 999,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/pomelli_photoshoot_image_9_16_0602_10_cde0f6e6-ed1c-4ccd-b7fe-3b94b2111923.jpg?v=1783761965",
+   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/pomelli_photoshoot_image_9_16_0602_11.jpg?v=1783761965",
+   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/pomelli_photoshoot_image_9_16_0602_12.jpg?v=1783761965"
+  ],
+  "blurb": "Product Description Designed with a unique stacked silhouette, the Stack Glass Tumbler with Lid & Straw combines contemporary style with everyday functionality. Crafted from premium clear glass, it's perfect for iced cof",
+  "vibes": [
+   "with a lid"
+  ]
+ },
+ {
+  "id": "saabi-house-15889578262688",
+  "brand": "saabi-house",
+  "title": "Violet Bow Vacuum Insulated Tumbler with Straw & Strap - 600ml",
+  "url": "https://saabihouse.in/products/violet-bow-vacuum-insulated-tumbler-with-straw-strap-600ml",
+  "price": 1499,
+  "compareAt": 2999,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/ChatGPTImageSep27_2026_01_40_29PM.jpg?v=1790509743",
+   "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/ChatGPTImageSep27_2026_01_56_46PM.jpg?v=1790509743"
+  ],
+  "blurb": "Product Description Stay refreshed in style with our Violet Bow Korean-Style Vacuum Insulated Tumbler , featuring an adorable blue bow print with playful pastel polka dots and a soft pink-and-blue colour combination. Its",
+  "vibes": [
+   "everyday"
   ]
  }
 ]
