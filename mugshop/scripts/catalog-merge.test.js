@@ -4,6 +4,8 @@ import {
   checkAdditions,
   checkGuards,
   countChanges,
+  handleOf,
+  indexRelisting,
   isHealthyFeed,
   mergeCatalog,
   summarise,
@@ -188,5 +190,85 @@ describe('checkAdditions', () => {
 
   it('keeps a floor so a small catalogue can still grow', () => {
     expect(checkAdditions([mug()], Array(30).fill(mug())).ok).toBe(true)
+  })
+})
+
+describe('relinking a re-created product', () => {
+  const healthy = new Set(['craftribal'])
+  const index = (rows) => {
+    const relistings = new Map()
+    for (const [product, feedId] of rows) {
+      indexRelisting(relistings, 'craftribal', product, feedId, `https://craftribal.com/products/${product.handle}`)
+    }
+    return relistings
+  }
+  const fresh = { available: true, price: 365, compareAt: null }
+
+  it('keeps the catalogue id and follows the new feed id by title', () => {
+    const relistings = index([[{ handle: 'kadak-chai-mug-1', title: 'Kadak Chai Mug ' }, 'craftribal-99']])
+    const { next, report } = mergeCatalog([mug()], live([['craftribal-99', { ...fresh, price: 399 }]]), healthy, relistings)
+    expect(next[0]).toMatchObject({
+      id: 'craftribal-1',
+      feedId: 'craftribal-99',
+      url: 'https://craftribal.com/products/kadak-chai-mug-1',
+      price: 399,
+    })
+    expect(report.delisted).toHaveLength(0)
+    expect(report.relinked).toHaveLength(1)
+    expect(countChanges(report)).toBe(2)
+  })
+
+  it('matches on the handle when the title changed', () => {
+    const relistings = index([[{ handle: 'kadak-chai-mug', title: 'Kadak Chai Mug (New)' }, 'craftribal-99']])
+    const { next } = mergeCatalog([mug()], live([['craftribal-99', fresh]]), healthy, relistings)
+    expect(next[0].feedId).toBe('craftribal-99')
+  })
+
+  it('reads a relinked product by its feed id the next week', () => {
+    const { next, report } = mergeCatalog(
+      [mug({ feedId: 'craftribal-99' })],
+      live([['craftribal-99', fresh]]),
+      healthy,
+    )
+    expect(next[0].id).toBe('craftribal-1')
+    expect(countChanges(report)).toBe(0)
+  })
+
+  it('does not guess when two live products share the title', () => {
+    const relistings = index([
+      [{ handle: 'a', title: 'Kadak Chai Mug' }, 'craftribal-98'],
+      [{ handle: 'b', title: 'Kadak Chai Mug' }, 'craftribal-99'],
+    ])
+    const { report } = mergeCatalog(
+      [mug()],
+      live([['craftribal-98', fresh], ['craftribal-99', fresh]]),
+      healthy,
+      relistings,
+    )
+    expect(report.delisted).toHaveLength(1)
+  })
+
+  it('never takes a live product another catalogue entry already matches', () => {
+    const relistings = index([[{ handle: 'other', title: 'Kadak Chai Mug' }, 'craftribal-2']])
+    const { next, report } = mergeCatalog(
+      [mug(), mug({ id: 'craftribal-2', title: 'Kadak Chai Mug', url: 'https://craftribal.com/products/other' })],
+      live([['craftribal-2', fresh]]),
+      healthy,
+      relistings,
+    )
+    expect(next.map((p) => p.id)).toEqual(['craftribal-2'])
+    expect(report.delisted).toHaveLength(1)
+  })
+
+  it('is not added again as a new product', () => {
+    const { added } = addNewProducts([mug({ feedId: 'craftribal-99' })], [mug({ id: 'craftribal-99' })], healthy)
+    expect(added).toHaveLength(0)
+  })
+})
+
+describe('handleOf', () => {
+  it('pulls the handle out of a product link', () => {
+    expect(handleOf('https://craftribal.com/products/kadak-chai-mug?variant=1')).toBe('kadak-chai-mug')
+    expect(handleOf('https://craftribal.com/')).toBeNull()
   })
 })

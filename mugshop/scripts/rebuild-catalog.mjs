@@ -22,12 +22,18 @@ if (failures.length) {
   process.exit(1)
 }
 
-const existing = new Map(JSON.parse(await readFile(CATALOG, 'utf8')).map((p) => [p.id, p]))
+// Keyed by feed id, so a mug the weekly refresh relinked keeps its catalogue id
+// (and the hearts pointing at it) through a rebuild.
+const existing = new Map(JSON.parse(await readFile(CATALOG, 'utf8')).map((p) => [p.feedId || p.id, p]))
 const entries = []
 for (const brand of brands) {
   const kept = dedupe(
     (byBrand.get(brand.slug) || [])
-      .map((p) => toEntry(p, brand.slug, brand.site, existing.get(`${brand.slug}-${p.id}`)))
+      .map((p) => {
+        const before = existing.get(`${brand.slug}-${p.id}`)
+        const entry = toEntry(p, brand.slug, brand.site, before)
+        return entry && before?.feedId ? { ...entry, id: before.id, feedId: before.feedId } : entry
+      })
       .filter(Boolean),
   )
   kept.sort((a, b) => a.price - b.price)

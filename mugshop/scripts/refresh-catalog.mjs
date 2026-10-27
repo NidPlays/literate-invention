@@ -18,6 +18,7 @@ import {
   checkGuards,
   countChanges,
   formatReport,
+  indexRelisting,
   mergeCatalog,
   summarise,
 } from './catalog-merge.js'
@@ -36,19 +37,23 @@ async function main() {
   // Stock and price come from every product a studio lists, so a mug that no longer
   // matches the drinkware rules is refreshed rather than treated as delisted.
   const live = new Map()
+  const relistings = new Map()
   const candidates = []
   for (const brand of brands) {
     const raw = byBrand.get(brand.slug) || []
     for (const product of raw) {
       const summary = summarise(product)
-      if (summary) live.set(`${brand.slug}-${product.id}`, summary)
+      if (!summary) continue
+      const feedId = `${brand.slug}-${product.id}`
+      live.set(feedId, summary)
+      indexRelisting(relistings, brand.slug, product, feedId, `${brand.site}/products/${product.handle}`)
     }
     candidates.push(
       ...dedupe(raw.map((p) => toEntry(p, brand.slug, brand.site)).filter(Boolean)),
     )
   }
 
-  const merged = mergeCatalog(catalog, live, healthy)
+  const merged = mergeCatalog(catalog, live, healthy, relistings)
   const { next, added } = addNewProducts(merged.next, candidates, healthy)
   const report = { ...merged.report, added }
   const changes = countChanges(report)
