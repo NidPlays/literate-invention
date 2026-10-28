@@ -21,15 +21,52 @@ export function summarise(product) {
   }
 }
 
+/** The product handle out of a studio link: `https://x.com/products/kadak-mug` → `kadak-mug`. */
+export function handleOf(url) {
+  return url?.split('/products/')[1]?.split(/[?#]/)[0] || null
+}
+
+/** Ways to recognise a mug a studio deleted and listed again under a new product id. */
+export function relistKeys(brand, { handle, title }) {
+  const keys = []
+  if (handle) keys.push(`${brand}|handle:${handle}`)
+  if (title) keys.push(`${brand}|title:${title.toLowerCase().replace(/[^a-z0-9]/g, '')}`)
+  return keys
+}
+
+/**
+ * Record a live product under its relist keys. A key two live products share is
+ * ambiguous, so it is poisoned with null rather than guessed at.
+ */
+export function indexRelisting(index, brand, product, feedId, url) {
+  for (const key of relistKeys(brand, product)) {
+    index.set(key, index.has(key) ? null : { feedId, url })
+  }
+}
+
 /**
  * Apply live feed data to the stored catalogue.
  *
  * Products belonging to a studio whose feed failed are left exactly as they are —
  * a studio being unreachable must never look like its mugs went out of stock.
+ *
+ * A product whose feed id has gone but whose handle or title is listed again under a
+ * new id is the same mug re-created by the studio. It keeps its catalogue id, so hearts
+ * and bag lines still find it, and remembers the new one as `feedId`.
  */
-export function mergeCatalog(catalog, live, healthyBrands) {
-  const report = { soldOut: [], backInStock: [], priceChanged: [], delisted: [], skipped: [], unchanged: 0 }
+export function mergeCatalog(catalog, live, healthyBrands, relistings = new Map()) {
+  const report = {
+    soldOut: [],
+    backInStock: [],
+    priceChanged: [],
+    delisted: [],
+    relinked: [],
+    skipped: [],
+    unchanged: 0,
+  }
   const next = []
+  const feedIdOf = (p) => p.feedId || p.id
+  const claimed = new Set(catalog.map(feedIdOf).filter((k) => live.has(k)))
 
   for (const product of catalog) {
     if (!healthyBrands.has(product.brand)) {
@@ -38,14 +75,25 @@ export function mergeCatalog(catalog, live, healthyBrands) {
       continue
     }
 
-    const fresh = live.get(product.id)
-    if (!fresh) {
-      report.delisted.push({ id: product.id, brand: product.brand, title: product.title })
-      continue
-    }
-
     const updated = { ...product }
     let touched = false
+    let fresh = live.get(feedIdOf(product))
+
+    if (!fresh) {
+      const relisted = relistKeys(product.brand, { handle: handleOf(product.url), title: product.title })
+        .map((key) => relistings.get(key))
+        .find((r) => r && !claimed.has(r.feedId) && live.has(r.feedId))
+      if (!relisted) {
+        report.delisted.push({ id: product.id, brand: product.brand, title: product.title })
+        continue
+      }
+      claimed.add(relisted.feedId)
+      fresh = live.get(relisted.feedId)
+      updated.feedId = relisted.feedId
+      updated.url = relisted.url
+      touched = true
+      report.relinked.push({ id: product.id, brand: product.brand, title: product.title })
+    }
 
     if (product.soldOut === fresh.available) {
       updated.soldOut = !fresh.available
@@ -143,7 +191,7 @@ export function checkGuards(catalog, next, report, limits = {}) {
  * we trust contribute, and only products the shared rules already accepted.
  */
 export function addNewProducts(catalog, candidates, healthyBrands) {
-  const known = new Set(catalog.map((p) => p.id))
+  const known = new Set(catalog.flatMap((p) => (p.feedId ? [p.id, p.feedId] : [p.id])))
   const added = []
   for (const entry of candidates) {
     if (!healthyBrands.has(entry.brand) || known.has(entry.id)) continue
@@ -172,6 +220,7 @@ export function formatReport(report) {
   list(report.soldOut, 'Now sold out', (r) => `${r.title} — ${r.brand}`)
   list(report.backInStock, 'Back in stock', (r) => `${r.title} — ${r.brand}`)
   list(report.priceChanged, 'Price changed', (r) => `${r.title} — ₹${r.from} → ₹${r.to}`)
+  list(report.relinked || [], 'Re-listed under a new id (kept, hearts carried over)', (r) => `${r.title} — ${r.brand}`)
   list(report.delisted, 'Removed (gone from the feed)', (r) => `${r.title} — ${r.brand}`)
   list(report.added || [], 'Newly listed', (r) => `${r.title} — ${r.brand} — ₹${r.price}`)
   if (report.skipped.length) lines.push(`Left untouched (studio unreachable): ${report.skipped.length}`)
@@ -184,6 +233,7 @@ export function countChanges(report) {
     report.backInStock.length +
     report.priceChanged.length +
     report.delisted.length +
+    (report.relinked?.length || 0) +
     (report.added?.length || 0)
   )
 }
