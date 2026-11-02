@@ -84,7 +84,7 @@ export function mergeCatalog(catalog, live, healthyBrands, relistings = new Map(
         .map((key) => relistings.get(key))
         .find((r) => r && !claimed.has(r.feedId) && live.has(r.feedId))
       if (!relisted) {
-        report.delisted.push({ id: product.id, brand: product.brand, title: product.title })
+        report.delisted.push({ id: product.id, brand: product.brand, title: product.title, url: product.url })
         continue
       }
       claimed.add(relisted.feedId)
@@ -133,6 +133,10 @@ export function mergeCatalog(catalog, live, healthyBrands, relistings = new Map(
 /**
  * Refuse to write changes that look like a broken feed rather than real movement.
  * Every threshold here exists to stop one bad response from gutting the shop.
+ *
+ * A delisted product marked `confirmedGone` (its own product page now answers 404)
+ * is a removal the studio really made, so it does not count towards the vanish
+ * limits. A truncated feed leaves those pages up, so it still trips them.
  */
 export function checkGuards(catalog, next, report, limits = {}) {
   const {
@@ -147,19 +151,20 @@ export function checkGuards(catalog, next, report, limits = {}) {
     rows.reduce((acc, r) => acc.set(r.brand, (acc.get(r.brand) || 0) + 1), new Map())
 
   const brandSizes = perBrand(catalog.map((p) => ({ brand: p.brand })))
+  const unconfirmed = report.delisted.filter((r) => !r.confirmedGone)
 
-  if (report.delisted.length > catalog.length * maxDelistedShare) {
+  if (unconfirmed.length > catalog.length * maxDelistedShare) {
     problems.push(
-      `${report.delisted.length} of ${catalog.length} products vanished from their feeds (limit ${Math.floor(
+      `${unconfirmed.length} of ${catalog.length} products vanished from their feeds while their pages stayed up (limit ${Math.floor(
         catalog.length * maxDelistedShare,
       )})`,
     )
   }
 
-  for (const [brand, gone] of perBrand(report.delisted)) {
+  for (const [brand, gone] of perBrand(unconfirmed)) {
     const size = brandSizes.get(brand) || 0
     if (gone > size * maxBrandDelistedShare) {
-      problems.push(`${brand}: ${gone} of ${size} products vanished from the feed`)
+      problems.push(`${brand}: ${gone} of ${size} products vanished from the feed while their pages stayed up`)
     }
   }
 
@@ -221,7 +226,7 @@ export function formatReport(report) {
   list(report.backInStock, 'Back in stock', (r) => `${r.title} — ${r.brand}`)
   list(report.priceChanged, 'Price changed', (r) => `${r.title} — ₹${r.from} → ₹${r.to}`)
   list(report.relinked || [], 'Re-listed under a new id (kept, hearts carried over)', (r) => `${r.title} — ${r.brand}`)
-  list(report.delisted, 'Removed (gone from the feed)', (r) => `${r.title} — ${r.brand}`)
+  list(report.delisted, 'Removed (gone from the feed)', (r) => `${r.title} — ${r.brand}${r.confirmedGone === false ? ' (page still up)' : ''}`)
   list(report.added || [], 'Newly listed', (r) => `${r.title} — ${r.brand} — ₹${r.price}`)
   if (report.skipped.length) lines.push(`Left untouched (studio unreachable): ${report.skipped.length}`)
   return lines.join('\n')
