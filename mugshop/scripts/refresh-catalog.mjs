@@ -23,7 +23,7 @@ import {
   summarise,
 } from './catalog-merge.js'
 import { dedupe, toEntry } from './catalog-rules.js'
-import { fetchAll, loadBrands } from './feeds.mjs'
+import { confirmRemovals, fetchAll, loadBrands } from './feeds.mjs'
 
 const CATALOG = resolve(dirname(fileURLToPath(import.meta.url)), '../src/data/catalog.json')
 const dryRun = process.argv.includes('--dry-run')
@@ -54,6 +54,14 @@ async function main() {
   }
 
   const merged = mergeCatalog(catalog, live, healthy, relistings)
+
+  // A product missing from the feed is only trusted as removed once its own page
+  // 404s too; the guards below still count every removal that is not confirmed.
+  if (merged.report.delisted.length) {
+    const gone = await confirmRemovals(merged.report.delisted)
+    for (const row of merged.report.delisted) row.confirmedGone = gone.has(row.id)
+    console.log(`Product pages confirm ${gone.size} of ${merged.report.delisted.length} removals (404)`)
+  }
   const { next, added } = addNewProducts(merged.next, candidates, healthy)
   const report = { ...merged.report, added }
   const changes = countChanges(report)

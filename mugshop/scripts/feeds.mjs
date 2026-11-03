@@ -66,3 +66,44 @@ export async function fetchAll(brands, log = console.log) {
   })
   return { byBrand, failures }
 }
+
+/**
+ * Status of one product page: 404 means the studio really took the product down.
+ * Anything else that is not a clean answer (timeouts, 5xx, rate limits) is retried
+ * and then reported as null, which the caller treats as "not confirmed".
+ */
+async function pageStatus(url) {
+  for (let attempt = 1; attempt <= ATTEMPTS; attempt++) {
+    try {
+      const res = await fetch(url, {
+        method: 'GET',
+        redirect: 'follow',
+        signal: AbortSignal.timeout(TIMEOUT_MS),
+        headers: { accept: 'application/json', 'user-agent': 'mugstreet-catalogue (+github actions)' },
+      })
+      await res.body?.cancel()
+      if (res.status === 404 || res.ok) return res.status
+    } catch {
+      // fall through to retry
+    }
+    if (attempt < ATTEMPTS) await new Promise((r) => setTimeout(r, 2000 * attempt))
+  }
+  return null
+}
+
+/**
+ * Check each product that left its studio's feed against its own page, a few at a
+ * time. Returns the ids whose page now answers 404 — removals the studio really made.
+ */
+export async function confirmRemovals(delisted, { concurrency = 6 } = {}) {
+  const gone = new Set()
+  const queue = delisted.filter((r) => r.url?.startsWith('https://'))
+  const worker = async () => {
+    for (let row = queue.shift(); row; row = queue.shift()) {
+      const page = `${row.url.split(/[?#]/)[0]}.json`
+      if ((await pageStatus(page)) === 404) gone.add(row.id)
+    }
+  }
+  await Promise.all(Array.from({ length: concurrency }, worker))
+  return gone
+}

@@ -131,6 +131,26 @@ describe('checkGuards', () => {
     expect(problems.join(' ')).toMatch(/vanished/)
   })
 
+  it('lets through a mass delisting whose product pages all 404', () => {
+    const catalog = many(40)
+    const report = {
+      ...empty,
+      delisted: catalog.slice(0, 20).map((p) => ({ brand: p.brand, title: p.title, confirmedGone: true })),
+    }
+    expect(checkGuards(catalog, catalog, report).ok).toBe(true)
+  })
+
+  it('still refuses when only some of a mass delisting is confirmed', () => {
+    const catalog = many(40)
+    const report = {
+      ...empty,
+      delisted: catalog.slice(0, 20).map((p, i) => ({ brand: p.brand, title: p.title, confirmedGone: i < 5 })),
+    }
+    const { ok, problems } = checkGuards(catalog, catalog, report)
+    expect(ok).toBe(false)
+    expect(problems.join(' ')).toMatch(/15 of 40/)
+  })
+
   it('refuses a whole studio going sold out at once', () => {
     const catalog = many(40)
     const report = { ...empty, soldOut: catalog.slice(0, 30).map((p) => ({ brand: p.brand, title: p.title })) }
