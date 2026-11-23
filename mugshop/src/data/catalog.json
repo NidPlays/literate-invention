@@ -1,44 +1,11 @@
 [
  {
-  "id": "house-of-ceramics-8769002930325",
-  "brand": "house-of-ceramics",
-  "title": "Colorful Polka Coffee Mug (Green Handle)",
-  "url": "https://www.houseofceramics.in/products/colorful-polka-coffee-mug",
-  "price": 325,
-  "compareAt": 699,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/30.jpg?v=1745665050"
-  ],
-  "blurb": "Material: Ceramic Color: Multi-color Capacity: Coffee Mug: 300ml Package Content : 1 Coffee Mug Item Dimensions: 4.5nc. Dia X 3.5inc. ht. Finish: Glossy Feature: Freezer, Dishwasher & Microwave Safe Disclaimer: The actua",
-  "vibes": [
-   "chai & coffee",
-   "matcha green"
-  ]
- },
- {
-  "id": "house-of-ceramics-8769008828565",
-  "brand": "house-of-ceramics",
-  "title": "Leaves Print Coffee Mug",
-  "url": "https://www.houseofceramics.in/products/leaves-print-coffee-mug",
-  "price": 325,
-  "compareAt": 699,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/17_2.jpg?v=1745665050"
-  ],
-  "blurb": "Material: Ceramic Color: Multi-color Capacity: Coffee Mug: 300ml Package Content : 1 Coffee Mug Item Dimensions: 4.5nc. Dia X 4inc. ht. Finish: Glossy Feature: Freezer, Dishwasher & Microwave Safe Disclaimer: The actual ",
-  "vibes": [
-   "chai & coffee"
-  ]
- },
- {
   "id": "house-of-ceramics-9072935862421",
   "brand": "house-of-ceramics",
   "title": "Smiley Bliss Coffee Mug",
   "url": "https://www.houseofceramics.in/products/smiley-bliss-combo-set-set-of-2",
-  "price": 349,
-  "compareAt": 1099,
+  "price": 350,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2026-02-25_at_11.42.31_AM.jpg?v=1776070361",
@@ -55,8 +22,8 @@
   "brand": "house-of-ceramics",
   "title": "Rainbow Bows Mug",
   "url": "https://www.houseofceramics.in/products/rainbow-bows-mug",
-  "price": 349,
-  "compareAt": 899,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250513-WA0212.jpg?v=1747153419",
@@ -72,8 +39,8 @@
   "brand": "house-of-ceramics",
   "title": "Bhai-Behan Coffee Mug",
   "url": "https://www.houseofceramics.in/products/bhai-behan-coffee-mug",
-  "price": 350,
-  "compareAt": 999,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250712-WA0039.jpg?v=1752858286",
@@ -91,8 +58,8 @@
   "brand": "house-of-ceramics",
   "title": "Funny Belly Coffee Mug",
   "url": "https://www.houseofceramics.in/products/funny-belly-coffee-mug",
-  "price": 350,
-  "compareAt": 899,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250131-WA0043.jpg?v=1741583186",
@@ -110,7 +77,7 @@
   "brand": "house-of-ceramics",
   "title": "Black Minimal Floral Coffee Mug",
   "url": "https://www.houseofceramics.in/products/product_52f9b5da-bd98-f007-fa21-1fd9bf771132",
-  "price": 350,
+  "price": 395,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -144,8 +111,8 @@
   "brand": "house-of-ceramics",
   "title": "Brown Bow Coffee Mug",
   "url": "https://www.houseofceramics.in/products/brown-bow-coffee-mug",
-  "price": 375,
-  "compareAt": 899,
+  "price": 350,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250814-WA0339.jpg?v=1755528197",
@@ -161,7 +128,7 @@
   "brand": "house-of-ceramics",
   "title": "Blue Leaves Pinterest Coffee Mug",
   "url": "https://www.houseofceramics.in/products/blue-leaves-pinterest-coffee-mug",
-  "price": 375,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -178,7 +145,7 @@
   "brand": "house-of-ceramics",
   "title": "Red Daisy Delight Coffee Mug",
   "url": "https://www.houseofceramics.in/products/red-daisy-delight-coffee-mug",
-  "price": 375,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -196,7 +163,7 @@
   "brand": "house-of-ceramics",
   "title": "Love Birds Coffee Mug",
   "url": "https://www.houseofceramics.in/products/love-birds-coffee-mug",
-  "price": 375,
+  "price": 395,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -210,29 +177,11 @@
   ]
  },
  {
-  "id": "house-of-ceramics-8698146324629",
-  "brand": "house-of-ceramics",
-  "title": "Multi-heart Leg Coffee Mug",
-  "url": "https://www.houseofceramics.in/products/product_2f472516-2f32-729f-b0f6-e8c3efa56e36",
-  "price": 375,
-  "compareAt": 899,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20241013-WA0141.jpg?v=1741583448",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20241013-WA0143.jpg?v=1741583448"
-  ],
-  "blurb": "Material: Ceramic Colour: Multi-color Capacity: 300 ML Package Content: 1 Coffee Mug Item Dimensions - LxWxH: Mug: 5inc. Diameter X 4inc ht. Finish: Gloss Feature: Freezer, Dishwasher & Microwave Safe Disclaimer: The act",
-  "vibes": [
-   "chai & coffee",
-   "hearts & love"
-  ]
- },
- {
   "id": "house-of-ceramics-8703158157461",
   "brand": "house-of-ceramics",
   "title": "3D Pink Bow Coffee Mug",
   "url": "https://www.houseofceramics.in/products/product_f80dc25d-ec57-c963-7000-2afe6ef80143",
-  "price": 375,
+  "price": 350,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -249,7 +198,7 @@
   "brand": "house-of-ceramics",
   "title": "3D Pink Bow Coffee Mug (Green)",
   "url": "https://www.houseofceramics.in/products/product_65fa4a4b-1247-0e43-b0f9-406ba870120d",
-  "price": 375,
+  "price": 350,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -267,8 +216,8 @@
   "brand": "house-of-ceramics",
   "title": "Pink 3d Hearts Coffee Mug",
   "url": "https://www.houseofceramics.in/products/product_cc2b60d9-067e-a584-0003-ddf394b488f4",
-  "price": 375,
-  "compareAt": 899,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20241013-WA0105.jpg?v=1741583417",
@@ -286,8 +235,8 @@
   "brand": "house-of-ceramics",
   "title": "3D Panda Coffee Mug",
   "url": "https://www.houseofceramics.in/products/product_9ecf3df2-86b8-0714-c521-efdfb412d62f",
-  "price": 375,
-  "compareAt": 899,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20241013-WA0107_5fbf7f53-7e22-4689-a739-03a5a7e97f74.jpg?v=1741583419",
@@ -305,8 +254,8 @@
   "brand": "house-of-ceramics",
   "title": "Meowgical Mug",
   "url": "https://www.houseofceramics.in/products/kitty-love-coffee-mug",
-  "price": 385,
-  "compareAt": 899,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250513-WA0207.jpg?v=1747153419",
@@ -322,7 +271,7 @@
   "brand": "house-of-ceramics",
   "title": "Meow Mornings Coffee Mug",
   "url": "https://www.houseofceramics.in/products/meow-mornings-coffee-mug",
-  "price": 385,
+  "price": 395,
   "compareAt": 999,
   "soldOut": false,
   "images": [
@@ -336,32 +285,12 @@
   ]
  },
  {
-  "id": "house-of-ceramics-8706336784533",
-  "brand": "house-of-ceramics",
-  "title": "White Lilly Flower Pinterest Coffee Mug",
-  "url": "https://www.houseofceramics.in/products/white-3d-lily-flower-pinterest-coffee-mug",
-  "price": 385,
-  "compareAt": 899,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250131-WA0059.jpg?v=1741583192",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250131-WA0062.jpg?v=1741583193",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250131-WA0065.jpg?v=1741583193"
-  ],
-  "blurb": "Material: Ceramic Color: Multi-color Capacity: 300 ML Package Content: 1 Coffee Mug Item Dimensions - LxWxH: Mug: 5inc. Diameter X 4inc ht. Finish: Gloss Feature: Freezer, Dishwasher & Microwave Safe Disclaimer: The actu",
-  "vibes": [
-   "florals",
-   "chai & coffee",
-   "minimal"
-  ]
- },
- {
   "id": "house-of-ceramics-8698146226325",
   "brand": "house-of-ceramics",
   "title": "3D Dog Coffee Mug",
   "url": "https://www.houseofceramics.in/products/product_4a7191da-b681-0383-e309-77093cc5f7ed",
-  "price": 385,
-  "compareAt": 899,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20241013-WA0154_3a066ea5-1f64-490c-ad12-589a1185f181.jpg?v=1741583452",
@@ -396,9 +325,9 @@
   "brand": "house-of-ceramics",
   "title": "Kadak Chai Lover's Mug",
   "url": "https://www.houseofceramics.in/products/kadak-chai-lovers-mug",
-  "price": 385,
+  "price": 395,
   "compareAt": 799,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2026-07-17_at_1.43.30_PM.jpg?v=1784276278",
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2026-07-17_at_1.43.31_PM.jpg?v=1784276277"
@@ -413,7 +342,7 @@
   "brand": "house-of-ceramics",
   "title": "Flying Hearts Chunky Mug",
   "url": "https://www.houseofceramics.in/products/flying-hearts-chunky-mug",
-  "price": 385,
+  "price": 350,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -430,8 +359,8 @@
   "brand": "house-of-ceramics",
   "title": "Sweet Stripe Love Mug",
   "url": "https://www.houseofceramics.in/products/sweet-stripe-love-mug",
-  "price": 385,
-  "compareAt": 999,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2026-02-25_at_11.42.36_AM_1.jpg?v=1772002766",
@@ -447,7 +376,7 @@
   "brand": "house-of-ceramics",
   "title": "Little Bear Bliss Mug",
   "url": "https://www.houseofceramics.in/products/little-bear-bliss-mug",
-  "price": 385,
+  "price": 350,
   "compareAt": 999,
   "soldOut": false,
   "images": [
@@ -460,29 +389,12 @@
   ]
  },
  {
-  "id": "house-of-ceramics-9072933929109",
-  "brand": "house-of-ceramics",
-  "title": "Nazar Na Lage Coffee Mug",
-  "url": "https://www.houseofceramics.in/products/nazar-na-lage-coffee-mug-copy",
-  "price": 385,
-  "compareAt": 999,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250405-WA0119.jpg?v=1744907268",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250405-WA0122.jpg?v=1744907268"
-  ],
-  "blurb": "Material: Ceramic Color: Multi-color Finish: Glossy Finish Package Content: 1 Coffee Mug Capacity (ml): Coffee Mug: 300ml. Item Dimensions: (LxWxH): Mug: 5inc. Diameter, 3.5inc. Ht., Feature: Dishwasher & Microwave Safe,",
-  "vibes": [
-   "chai & coffee"
-  ]
- },
- {
   "id": "house-of-ceramics-9026984837269",
   "brand": "house-of-ceramics",
   "title": "Pink Teddy Hugs Mug",
   "url": "https://www.houseofceramics.in/products/pink-teddy-hugs-mug",
-  "price": 385,
-  "compareAt": 799,
+  "price": 350,
+  "compareAt": 699,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Pink_Teddy_Hugs_Mug.jpg?v=1768383001",
@@ -498,8 +410,8 @@
   "brand": "house-of-ceramics",
   "title": "Green Teddy Hugs Mug",
   "url": "https://www.houseofceramics.in/products/green-teddy-hugs-mug",
-  "price": 385,
-  "compareAt": 799,
+  "price": 350,
+  "compareAt": 699,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Green_Teddy_Hugs_Mug.jpg?v=1768383002",
@@ -515,7 +427,7 @@
   "brand": "house-of-ceramics",
   "title": "Ribbon Charm Coffee Mug",
   "url": "https://www.houseofceramics.in/products/ribbon-charm-coffee-mug",
-  "price": 385,
+  "price": 395,
   "compareAt": 1799,
   "soldOut": false,
   "images": [
@@ -533,7 +445,7 @@
   "brand": "house-of-ceramics",
   "title": "Flamingo Sunrise Mug",
   "url": "https://www.houseofceramics.in/products/flamingo-sunrise-mug",
-  "price": 385,
+  "price": 395,
   "compareAt": 1799,
   "soldOut": false,
   "images": [
@@ -550,8 +462,8 @@
   "brand": "house-of-ceramics",
   "title": "Santa’s Bow Mug",
   "url": "https://www.houseofceramics.in/products/santa-s-bow-mug",
-  "price": 385,
-  "compareAt": 1799,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Santa_s_Bow_Mug.jpg?v=1764222381",
@@ -568,7 +480,7 @@
   "brand": "house-of-ceramics",
   "title": "Azure Bloom Mug",
   "url": "https://www.houseofceramics.in/products/azure-bloom-mug",
-  "price": 385,
+  "price": 395,
   "compareAt": 999,
   "soldOut": false,
   "images": [
@@ -586,8 +498,8 @@
   "brand": "house-of-ceramics",
   "title": "Plain Heart Shape Coffee Mug",
   "url": "https://www.houseofceramics.in/products/product_18cf4a35-da81-a1d1-834f-1e51d4bede32",
-  "price": 385,
-  "compareAt": 899,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250112-WA0089-430.jpg?v=1741583211"
@@ -604,8 +516,8 @@
   "brand": "house-of-ceramics",
   "title": "HeartLines Coffee Mug",
   "url": "https://www.houseofceramics.in/products/heartlines-coffee-mug",
-  "price": 385,
-  "compareAt": 899,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/HeartLines_Mug.jpg?v=1775033485",
@@ -622,7 +534,7 @@
   "brand": "house-of-ceramics",
   "title": "Minty Bow-tiful Coffee Mug",
   "url": "https://www.houseofceramics.in/products/minty-bow-tiful-coffee-mug",
-  "price": 385,
+  "price": 350,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -640,7 +552,7 @@
   "brand": "house-of-ceramics",
   "title": "Pinky Bow-tiful Coffee Mug",
   "url": "https://www.houseofceramics.in/products/pinky-bow-tiful-coffee-mug",
-  "price": 385,
+  "price": 350,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -658,8 +570,8 @@
   "brand": "house-of-ceramics",
   "title": "Mango Print Coffee Mug",
   "url": "https://www.houseofceramics.in/products/mango-print-coffee-mug",
-  "price": 385,
-  "compareAt": 999,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Mango_Print_Coffee_Mug.jpg?v=1758296259",
@@ -675,8 +587,8 @@
   "brand": "house-of-ceramics",
   "title": "Bloom Pink Coffee Mug",
   "url": "https://www.houseofceramics.in/products/bloom-pink-coffee-mug",
-  "price": 385,
-  "compareAt": 999,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Bloom_Pink_Mug.jpg?v=1772005845",
@@ -694,8 +606,8 @@
   "brand": "house-of-ceramics",
   "title": "Bloom Blue Coffee Mug",
   "url": "https://www.houseofceramics.in/products/bloom-blue-coffee-mug",
-  "price": 385,
-  "compareAt": 999,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250907-WA0130.jpg?v=1775034170",
@@ -713,8 +625,8 @@
   "brand": "house-of-ceramics",
   "title": "Bearista Coffee Mug",
   "url": "https://www.houseofceramics.in/products/bearista-coffee-mug",
-  "price": 385,
-  "compareAt": 899,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250711-WA0056.jpg?v=1752775614",
@@ -730,7 +642,7 @@
   "brand": "house-of-ceramics",
   "title": "Red Cherry Print Coffee Mug",
   "url": "https://www.houseofceramics.in/products/product_639f9383-eae9-00fc-6446-f206dc500194",
-  "price": 385,
+  "price": 395,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -746,7 +658,7 @@
   "brand": "house-of-ceramics",
   "title": "Pinterest Pink Heart Coffee Mug",
   "url": "https://www.houseofceramics.in/products/pinterest-pink-heart-coffee-mug",
-  "price": 385,
+  "price": 350,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -766,7 +678,7 @@
   "brand": "house-of-ceramics",
   "title": "Blush of Love Mug",
   "url": "https://www.houseofceramics.in/products/3d-cupid-mug",
-  "price": 385,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -783,7 +695,7 @@
   "brand": "house-of-ceramics",
   "title": "Daisy Dine Coffee Mug",
   "url": "https://www.houseofceramics.in/products/daisy-dine-coffee-mug",
-  "price": 385,
+  "price": 395,
   "compareAt": 999,
   "soldOut": false,
   "images": [
@@ -802,8 +714,8 @@
   "brand": "house-of-ceramics",
   "title": "3D Pink Bow Mug",
   "url": "https://www.houseofceramics.in/products/3d-pink-bow-mug",
-  "price": 385,
-  "compareAt": 899,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250513-WA0210.jpg?v=1747153419",
@@ -819,7 +731,7 @@
   "brand": "house-of-ceramics",
   "title": "Orange Crush Coffee Mug",
   "url": "https://www.houseofceramics.in/products/orange-coffee-mug",
-  "price": 385,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -836,7 +748,7 @@
   "brand": "house-of-ceramics",
   "title": "Yellow Strawberry Coffee Mug",
   "url": "https://www.houseofceramics.in/products/yellow-strawberry-coffee-mug",
-  "price": 385,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -891,7 +803,7 @@
   "brand": "house-of-ceramics",
   "title": "Orange Days Mug",
   "url": "https://www.houseofceramics.in/products/orange-days-mug",
-  "price": 385,
+  "price": 395,
   "compareAt": 999,
   "soldOut": false,
   "images": [
@@ -908,8 +820,8 @@
   "brand": "house-of-ceramics",
   "title": "Foxy Mornings Mug (Blue)",
   "url": "https://www.houseofceramics.in/products/foxy-mornings-mug-orange",
-  "price": 385,
-  "compareAt": 999,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250405-WA0051.jpg?v=1744917992"
@@ -924,7 +836,7 @@
   "brand": "house-of-ceramics",
   "title": "Bearista Mug",
   "url": "https://www.houseofceramics.in/products/bearista-mug",
-  "price": 385,
+  "price": 395,
   "compareAt": 999,
   "soldOut": false,
   "images": [
@@ -941,8 +853,8 @@
   "brand": "house-of-ceramics",
   "title": "Big Pink Heart Narrow Coffee Mug",
   "url": "https://www.houseofceramics.in/products/big-pink-heart-narrow-coffee-mug",
-  "price": 385,
-  "compareAt": 899,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250216-WA0020.jpg?v=1741583147",
@@ -957,31 +869,11 @@
   ]
  },
  {
-  "id": "house-of-ceramics-8706331902101",
-  "brand": "house-of-ceramics",
-  "title": "Pink Lilly Flower Pinterest Coffee Mug",
-  "url": "https://www.houseofceramics.in/products/pink-lilly-flower-pinterest-coffee-mug",
-  "price": 385,
-  "compareAt": 899,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250131-WA0067.jpg?v=1741583194",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250131-WA0070.jpg?v=1741583194",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250131-WA0068.jpg?v=1741583194"
-  ],
-  "blurb": "Material: Ceramic Color: Multi-color Capacity: 300 ML Package Content: 1 Coffee Mug Item Dimensions - LxWxH: Mug: 5inc. Diameter X 4inc ht. Finish: Gloss Feature: Freezer, Dishwasher & Microwave Safe Disclaimer: The actu",
-  "vibes": [
-   "florals",
-   "chai & coffee",
-   "pastel"
-  ]
- },
- {
   "id": "house-of-ceramics-8703157731477",
   "brand": "house-of-ceramics",
   "title": "Lemon Print Coffee Mug",
   "url": "https://www.houseofceramics.in/products/product_28e9572d-5fd8-f3c9-1481-0a4ca0d9e888",
-  "price": 385,
+  "price": 370,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -993,28 +885,12 @@
   ]
  },
  {
-  "id": "house-of-ceramics-8703157567637",
-  "brand": "house-of-ceramics",
-  "title": "Orange Print Coffee Mug",
-  "url": "https://www.houseofceramics.in/products/product_4be3fa9f-08da-a7c5-ab6a-69c964f88183",
-  "price": 385,
-  "compareAt": 799,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250112-WA0144-465.jpg?v=1741583208"
-  ],
-  "blurb": "Material: Ceramic Color: Multi-color Finish: Glossy Finish Package Content: 1 Coffee Mug Capacity (ml): Coffee Mug: 300ml. Item Dimensions: (LxWxH): Mug: 5.5inc. Diameter, 4inc. Ht. Feature: Dishwasher & Microwave Safe, ",
-  "vibes": [
-   "chai & coffee"
-  ]
- },
- {
   "id": "house-of-ceramics-8698148257941",
   "brand": "house-of-ceramics",
   "title": "3D Cherry Coffee Mug",
   "url": "https://www.houseofceramics.in/products/product_3fc134f3-fc4f-b4c9-5801-2ae1a9f4e647",
-  "price": 385,
-  "compareAt": 999,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20240718-WA0283_bd824725-9e97-4e11-954a-0f65a4935f4b.jpg?v=1775033338",
@@ -1031,8 +907,8 @@
   "brand": "house-of-ceramics",
   "title": "3D Multi-color Heart Coffee Mug",
   "url": "https://www.houseofceramics.in/products/product_735c002d-4718-b496-50a1-4d9a3047fefe",
-  "price": 385,
-  "compareAt": 999,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20240718-WA0269_66d1e304-da2a-4038-b6c2-bed265f05b59.jpg?v=1776061869",
@@ -1050,8 +926,8 @@
   "brand": "house-of-ceramics",
   "title": "Multi-color Heart Coffee Mug",
   "url": "https://www.houseofceramics.in/products/product_557954dc-1be4-9083-9b9b-09686cce9987",
-  "price": 385,
-  "compareAt": 899,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20240718-WA0113.jpg?v=1741583435",
@@ -1068,8 +944,8 @@
   "brand": "house-of-ceramics",
   "title": "3D Duck Coffee Mug",
   "url": "https://www.houseofceramics.in/products/product_1aef4291-3df8-effc-64f6-698a5a5c5b0d",
-  "price": 385,
-  "compareAt": 899,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20241013-WA0147_00fc5950-e0ab-40a4-882b-167d47ca65dc.jpg?v=1741583449",
@@ -1086,8 +962,8 @@
   "brand": "house-of-ceramics",
   "title": "3D Cat Coffee Mug",
   "url": "https://www.houseofceramics.in/products/3d-cat-coffee-mug",
-  "price": 395,
-  "compareAt": 899,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250814-WA0324.jpg?v=1776061788",
@@ -1105,8 +981,8 @@
   "brand": "house-of-ceramics",
   "title": "Bloom Yellow Coffee Mug",
   "url": "https://www.houseofceramics.in/products/bloom-yellow-coffee-mug",
-  "price": 395,
-  "compareAt": 899,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Bloom_Yellow_Coffee_Mug.jpg?v=1772185945",
@@ -1141,8 +1017,8 @@
   "brand": "house-of-ceramics",
   "title": "Crimson Check Heart Coffee Mug",
   "url": "https://www.houseofceramics.in/products/crimson-check-heart-coffee-mug-copy",
-  "price": 395,
-  "compareAt": 899,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250711-WA0062.jpg?v=1752775620",
@@ -1159,8 +1035,8 @@
   "brand": "house-of-ceramics",
   "title": "Bloom Green Coffee Mug",
   "url": "https://www.houseofceramics.in/products/bloom-green-coffee-mug",
-  "price": 395,
-  "compareAt": 999,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Bloom_Green_Coffee_Mug.jpg?v=1772186003",
@@ -1179,7 +1055,7 @@
   "brand": "house-of-ceramics",
   "title": "Melon Magic Mug",
   "url": "https://www.houseofceramics.in/products/melon-magic-mug-1",
-  "price": 395,
+  "price": 350,
   "compareAt": 999,
   "soldOut": false,
   "images": [
@@ -1196,9 +1072,9 @@
   "brand": "house-of-ceramics",
   "title": "Pure Love Coffee Mug",
   "url": "https://www.houseofceramics.in/products/3d-red-heart-handle-coffee-mug-copy-1",
-  "price": 395,
-  "compareAt": 899,
-  "soldOut": true,
+  "price": 370,
+  "compareAt": 799,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250131-WA0029.jpg?v=1741583187",
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250131-WA0041.jpg?v=1741583187",
@@ -1215,7 +1091,7 @@
   "brand": "house-of-ceramics",
   "title": "Red Cherry Coffee Mug",
   "url": "https://www.houseofceramics.in/products/product_159915cd-1882-44f7-aab2-56908c617462",
-  "price": 395,
+  "price": 370,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -1232,7 +1108,7 @@
   "brand": "house-of-ceramics",
   "title": "Blush Stripes & Hearts Ceramic Mug",
   "url": "https://www.houseofceramics.in/products/blush-stripes-hearts-ceramic-mug",
-  "price": 399,
+  "price": 370,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -1250,8 +1126,8 @@
   "brand": "house-of-ceramics",
   "title": "Bloomcraft Mug",
   "url": "https://www.houseofceramics.in/products/bloomcraft-mug",
-  "price": 399,
-  "compareAt": 999,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Bloomcraft_Mug.jpg?v=1772185779",
@@ -1268,8 +1144,8 @@
   "brand": "house-of-ceramics",
   "title": "Rustic Blossom Pink Coffee Mug",
   "url": "https://www.houseofceramics.in/products/rustic-blossom-pink-coffee-mug",
-  "price": 399,
-  "compareAt": 899,
+  "price": 395,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2026-03-26_at_12.59.03_PM_3.jpg?v=1774720381",
@@ -1287,7 +1163,7 @@
   "brand": "house-of-ceramics",
   "title": "Heartstrings Coffee Mug",
   "url": "https://www.houseofceramics.in/products/heartstrings-coffee-mug",
-  "price": 399,
+  "price": 375,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -1304,7 +1180,7 @@
   "brand": "house-of-ceramics",
   "title": "Riviera Blue Stripe Mug",
   "url": "https://www.houseofceramics.in/products/riviera-blue-stripe-mug",
-  "price": 399,
+  "price": 395,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -1321,7 +1197,7 @@
   "brand": "house-of-ceramics",
   "title": "Fruity Delight Chunky Mug-Orange",
   "url": "https://www.houseofceramics.in/products/citrus-chunky-mug",
-  "price": 399,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -1338,7 +1214,7 @@
   "brand": "house-of-ceramics",
   "title": "Fruity Delight Chunky Mug- Green",
   "url": "https://www.houseofceramics.in/products/white-strawberry-chunky-mug",
-  "price": 399,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -1355,7 +1231,7 @@
   "brand": "house-of-ceramics",
   "title": "Fruity Delight Chunky Mug- Red",
   "url": "https://www.houseofceramics.in/products/strawberry-chunky-mug",
-  "price": 399,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -1372,7 +1248,7 @@
   "brand": "house-of-ceramics",
   "title": "Blue Plaid Hearts Chunky Mug",
   "url": "https://www.houseofceramics.in/products/blue-plaid-hearts-chunky-mug",
-  "price": 399,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -1389,8 +1265,8 @@
   "brand": "house-of-ceramics",
   "title": "Quirky Chick Coffee Mug",
   "url": "https://www.houseofceramics.in/products/quirky-chick-coffee-mug",
-  "price": 399,
-  "compareAt": 899,
+  "price": 385,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2025-09-17_at_11.49.58_PM_3.jpg?v=1758299420",
@@ -1408,8 +1284,8 @@
   "brand": "house-of-ceramics",
   "title": "Pretty in Pink Bow Mug",
   "url": "https://www.houseofceramics.in/products/pretty-in-pink-bow-mug",
-  "price": 399,
-  "compareAt": 999,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Pretty_in_Pink_Bow_Mug.jpg?v=1772185478",
@@ -1426,8 +1302,8 @@
   "brand": "house-of-ceramics",
   "title": "Blush Bloom Mug",
   "url": "https://www.houseofceramics.in/products/blush-bloom-mug",
-  "price": 399,
-  "compareAt": 999,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Blush_Bloom_Mug.jpg?v=1772185757",
@@ -1445,8 +1321,8 @@
   "brand": "house-of-ceramics",
   "title": "Green Daisy Dew Mug",
   "url": "https://www.houseofceramics.in/products/yellow-daisy-dew-mug-copy",
-  "price": 399,
-  "compareAt": 999,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Green_Daisy_Dew_Mug.jpg?v=1772185886",
@@ -1464,9 +1340,9 @@
   "brand": "house-of-ceramics",
   "title": "Pink Daisy Dew Mug",
   "url": "https://www.houseofceramics.in/products/pink-daisy-dew-mug",
-  "price": 399,
-  "compareAt": 999,
-  "soldOut": false,
+  "price": 370,
+  "compareAt": 799,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2026-02-25_at_11.42.40_AM.jpg?v=1772002766",
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2026-02-25_at_11.42.40_AM_1.jpg?v=1772002766"
@@ -1482,8 +1358,8 @@
   "brand": "house-of-ceramics",
   "title": "Holiday Snowkiss Red Mug",
   "url": "https://www.houseofceramics.in/products/holiday-snowkiss-red-mug",
-  "price": 399,
-  "compareAt": 1099,
+  "price": 375,
+  "compareAt": 699,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Holiday_Snowkiss_Red_Mug.jpg?v=1764222379",
@@ -1499,8 +1375,8 @@
   "brand": "house-of-ceramics",
   "title": "Holiday Snowkiss Green Mug",
   "url": "https://www.houseofceramics.in/products/holiday-snowkiss-green-mug",
-  "price": 399,
-  "compareAt": 1099,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20251125-WA0178.jpg?v=1764234902",
@@ -1517,8 +1393,8 @@
   "brand": "house-of-ceramics",
   "title": "Christmas Pine Red Mug",
   "url": "https://www.houseofceramics.in/products/christmas-pine-red-mug",
-  "price": 399,
-  "compareAt": 1799,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Christmas_Pine_Red_Mug.jpg?v=1764233205",
@@ -1535,8 +1411,8 @@
   "brand": "house-of-ceramics",
   "title": "Christmas Pine Green Mug",
   "url": "https://www.houseofceramics.in/products/christmas-pine-green-mug",
-  "price": 399,
-  "compareAt": 1799,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Christmas_Pine_Green_Mug.jpg?v=1764222381",
@@ -1552,7 +1428,7 @@
   "brand": "house-of-ceramics",
   "title": "Snowy Pines Mug",
   "url": "https://www.houseofceramics.in/products/snowy-pines-mug",
-  "price": 399,
+  "price": 395,
   "compareAt": 1799,
   "soldOut": false,
   "images": [
@@ -1570,7 +1446,7 @@
   "brand": "house-of-ceramics",
   "title": "Rustic Blossom Grey Coffee Mug",
   "url": "https://www.houseofceramics.in/products/rustic-blossom-grey-coffee-mug",
-  "price": 399,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -1590,7 +1466,7 @@
   "brand": "house-of-ceramics",
   "title": "Tropical Treats Coffee Mug",
   "url": "https://www.houseofceramics.in/products/tropical-treats-coffee-mug",
-  "price": 399,
+  "price": 395,
   "compareAt": 999,
   "soldOut": false,
   "images": [
@@ -1607,9 +1483,9 @@
   "brand": "house-of-ceramics",
   "title": "Rustic Blossom Coffee Mug",
   "url": "https://www.houseofceramics.in/products/rustic-blossom-coffee-mug",
-  "price": 399,
-  "compareAt": 999,
-  "soldOut": false,
+  "price": 395,
+  "compareAt": 799,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250711-WA0086.jpg?v=1752775624"
   ],
@@ -1625,7 +1501,7 @@
   "brand": "house-of-ceramics",
   "title": "Watermelon Coffee Mug",
   "url": "https://www.houseofceramics.in/products/watermelon-coffee-mug",
-  "price": 399,
+  "price": 350,
   "compareAt": 999,
   "soldOut": false,
   "images": [
@@ -1643,7 +1519,7 @@
   "brand": "house-of-ceramics",
   "title": "Tribe Tale Espresso Mug",
   "url": "https://www.houseofceramics.in/products/tribe-tale-espresso-mug",
-  "price": 399,
+  "price": 395,
   "compareAt": 999,
   "soldOut": false,
   "images": [
@@ -1660,7 +1536,7 @@
   "brand": "house-of-ceramics",
   "title": "Ancient Brew Espresso Mug",
   "url": "https://www.houseofceramics.in/products/ancient-brew-espresso-mug",
-  "price": 399,
+  "price": 395,
   "compareAt": 999,
   "soldOut": false,
   "images": [
@@ -1677,7 +1553,7 @@
   "brand": "house-of-ceramics",
   "title": "Hum Tum Forever Mug",
   "url": "https://www.houseofceramics.in/products/hum-tum-forever-mug",
-  "price": 425,
+  "price": 375,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -1696,8 +1572,8 @@
   "brand": "house-of-ceramics",
   "title": "Blue Heart Sack Mug",
   "url": "https://www.houseofceramics.in/products/blue-heart-sack-mug",
-  "price": 425,
-  "compareAt": 899,
+  "price": 385,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Blue_Heart_Sack_Mug_2.jpg?v=1788980209",
@@ -1715,8 +1591,8 @@
   "brand": "house-of-ceramics",
   "title": "Golden Heart Sack Mug",
   "url": "https://www.houseofceramics.in/products/golden-heart-sack-mug",
-  "price": 425,
-  "compareAt": 899,
+  "price": 385,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Golden_Heart_Sack_Mug_5.jpg?v=1788980209",
@@ -1733,7 +1609,7 @@
   "brand": "house-of-ceramics",
   "title": "Mint Bow Charm Mug",
   "url": "https://www.houseofceramics.in/products/mint-bow-charm-mug",
-  "price": 425,
+  "price": 350,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -1751,8 +1627,8 @@
   "brand": "house-of-ceramics",
   "title": "Watermelon Mint Muse Mug",
   "url": "https://www.houseofceramics.in/products/watermelon-mint-muse-mug",
-  "price": 425,
-  "compareAt": 899,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Watermelon_Mint_Muse_Mug_4.jpg?v=1788978477",
@@ -1769,8 +1645,8 @@
   "brand": "house-of-ceramics",
   "title": "Sage Bro Classic Mug",
   "url": "https://www.houseofceramics.in/products/sage-bro-classic-mug",
-  "price": 425,
-  "compareAt": 899,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Sage_Bro_Classic_Mug_4.jpg?v=1788978478",
@@ -1788,8 +1664,8 @@
   "brand": "house-of-ceramics",
   "title": "Rainbow Tulip Garden Coffee Mug",
   "url": "https://www.houseofceramics.in/products/rainbow-tulip-garden-coffee-mug",
-  "price": 425,
-  "compareAt": 899,
+  "price": 385,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Rainbow_Tulip_Garden_Coffee_Mug_4.jpg?v=1788978478",
@@ -1807,8 +1683,8 @@
   "brand": "house-of-ceramics",
   "title": "Amber Garden Bloom Mug",
   "url": "https://www.houseofceramics.in/products/amber-garden-bloom-mug",
-  "price": 425,
-  "compareAt": 899,
+  "price": 385,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Amber_Garden_Bloom_Mug_4.jpg?v=1788978478",
@@ -1825,7 +1701,7 @@
   "brand": "house-of-ceramics",
   "title": "Indigo Berry Check Coffee Mug",
   "url": "https://www.houseofceramics.in/products/indigo-berry-check-coffee-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -1844,7 +1720,7 @@
   "brand": "house-of-ceramics",
   "title": "Citrus Honey Check Coffee Mug",
   "url": "https://www.houseofceramics.in/products/citrus-honey-check-coffee-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -1862,7 +1738,7 @@
   "brand": "house-of-ceramics",
   "title": "Blue Blush Meadow Coffee Mug",
   "url": "https://www.houseofceramics.in/products/blue-blush-meadow-coffee-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -1878,30 +1754,11 @@
   ]
  },
  {
-  "id": "house-of-ceramics-9367342416021",
-  "brand": "house-of-ceramics",
-  "title": "Chai Ho Jaaye Mug",
-  "url": "https://www.houseofceramics.in/products/chai-ho-jaaye-mug",
-  "price": 425,
-  "compareAt": 899,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Chai_Ho_Jaaye_Mug_4.jpg?v=1788977575",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Chai_Ho_Jaaye_Mug_3.jpg?v=1788977575",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Chai_Ho_Jaaye_Mug_2.jpg?v=1788977573"
-  ],
-  "blurb": "Chai lovers, this one's for you! The Chai Ho Jaaye Mug is a hand-painted ceramic mug with a fun and playful desi chai design — glossy finish, perfect for your daily cup of chai. Product Details: Material: Ceramic Color: ",
-  "vibes": [
-   "chai & coffee",
-   "desi"
-  ]
- },
- {
   "id": "house-of-ceramics-9367342055573",
   "brand": "house-of-ceramics",
   "title": "Kiwi Grove Mug",
   "url": "https://www.houseofceramics.in/products/kiwi-grove-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -1919,7 +1776,7 @@
   "brand": "house-of-ceramics",
   "title": "Citrus Grove Mug",
   "url": "https://www.houseofceramics.in/products/citrus-grove-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -1936,7 +1793,7 @@
   "brand": "house-of-ceramics",
   "title": "Lemon Grove Mug",
   "url": "https://www.houseofceramics.in/products/lemon-grove-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -1953,7 +1810,7 @@
   "brand": "house-of-ceramics",
   "title": "Green Bloomcraft Mug",
   "url": "https://www.houseofceramics.in/products/green-bloomcraft-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -1970,7 +1827,7 @@
   "brand": "house-of-ceramics",
   "title": "Blue Bloomcraft Mug",
   "url": "https://www.houseofceramics.in/products/blue-bloomcraft-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -1987,7 +1844,7 @@
   "brand": "house-of-ceramics",
   "title": "Blue Bird Bloom Mug",
   "url": "https://www.houseofceramics.in/products/blue-bird-bloom-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -2005,7 +1862,7 @@
   "brand": "house-of-ceramics",
   "title": "Sunbird Mug",
   "url": "https://www.houseofceramics.in/products/sunbird-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -2022,7 +1879,7 @@
   "brand": "house-of-ceramics",
   "title": "Blue Daisy Garden Mug",
   "url": "https://www.houseofceramics.in/products/blue-daisy-garden-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -2040,7 +1897,7 @@
   "brand": "house-of-ceramics",
   "title": "Diet Coke Fizz Coffee Mug",
   "url": "https://www.houseofceramics.in/products/diet-coke-fizz-coffee-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -2057,7 +1914,7 @@
   "brand": "house-of-ceramics",
   "title": "Azure Citrus Coffee Mug",
   "url": "https://www.houseofceramics.in/products/azure-citrus-coffee-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -2075,7 +1932,7 @@
   "brand": "house-of-ceramics",
   "title": "Berry Breeze Mug",
   "url": "https://www.houseofceramics.in/products/berry-breeze-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -2092,7 +1949,7 @@
   "brand": "house-of-ceramics",
   "title": "Amour Rose Plaid Ceramic Mug",
   "url": "https://www.houseofceramics.in/products/rose-quadrille-heart-ceramic-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -2109,7 +1966,7 @@
   "brand": "house-of-ceramics",
   "title": "Maison Blue Plaid Mug",
   "url": "https://www.houseofceramics.in/products/blue-plaid-heart-ceramic-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -2126,7 +1983,7 @@
   "brand": "house-of-ceramics",
   "title": "Brown Mushroom Magic Coffee Mug with Lid",
   "url": "https://www.houseofceramics.in/products/brown-mushroom-magic-coffee-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 1199,
   "soldOut": false,
   "images": [
@@ -2146,8 +2003,8 @@
   "brand": "house-of-ceramics",
   "title": "Pink Mushroom Magic Coffee Mug with Lid",
   "url": "https://www.houseofceramics.in/products/pink-mushroom-magic-coffee-mug",
-  "price": 425,
-  "compareAt": 1199,
+  "price": 415,
+  "compareAt": 999,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250907-WA0066.jpg?v=1757571918",
@@ -2166,7 +2023,7 @@
   "brand": "house-of-ceramics",
   "title": "Pour Your Love Mug",
   "url": "https://www.houseofceramics.in/products/pour-your-love-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -2183,9 +2040,9 @@
   "brand": "house-of-ceramics",
   "title": "Red Mushroom Magic Coffee Mug with Lid",
   "url": "https://www.houseofceramics.in/products/red-mushroom-magic-coffee-mug-with-lid",
-  "price": 425,
-  "compareAt": 1199,
-  "soldOut": true,
+  "price": 415,
+  "compareAt": 999,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2026-03-29_at_4.47.39_PM.jpg?v=1774783972",
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250907-WA0080.jpg?v=1774783972",
@@ -2203,7 +2060,7 @@
   "brand": "house-of-ceramics",
   "title": "Pour Your Love Red Mug",
   "url": "https://www.houseofceramics.in/products/pour-your-love-red-mug-copy",
-  "price": 425,
+  "price": 395,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -2221,8 +2078,8 @@
   "brand": "house-of-ceramics",
   "title": "Heart in a Pocket Coffee Mug",
   "url": "https://www.houseofceramics.in/products/heart-in-a-pocket-coffee-mug",
-  "price": 425,
-  "compareAt": 999,
+  "price": 385,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2025-09-17_at_11.50.04_PM_2.jpg?v=1758299503",
@@ -2240,7 +2097,7 @@
   "brand": "house-of-ceramics",
   "title": "Festive Hanging Charms Mug",
   "url": "https://www.houseofceramics.in/products/festive-hanging-charms-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 1099,
   "soldOut": false,
   "images": [
@@ -2258,7 +2115,7 @@
   "brand": "house-of-ceramics",
   "title": "Merry Mistle Mug",
   "url": "https://www.houseofceramics.in/products/merry-mistle-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 1099,
   "soldOut": false,
   "images": [
@@ -2276,8 +2133,8 @@
   "brand": "house-of-ceramics",
   "title": "Cocoa The Bear",
   "url": "https://www.houseofceramics.in/products/cocoa-the-bear",
-  "price": 425,
-  "compareAt": 999,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250405-WA0099.jpg?v=1744921624",
@@ -2293,8 +2150,8 @@
   "brand": "house-of-ceramics",
   "title": "Sprinkle of Hearts Heart Coffee Mug",
   "url": "https://www.houseofceramics.in/products/sprinkle-of-hearts-heart-coffee-mug",
-  "price": 425,
-  "compareAt": 1099,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2026-03-26_at_12.59.01_PM_1.jpg?v=1774513317",
@@ -2327,8 +2184,8 @@
   "brand": "house-of-ceramics",
   "title": "Blush Face Mug",
   "url": "https://www.houseofceramics.in/products/blush-face-mug",
-  "price": 425,
-  "compareAt": 899,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250310-WA0019.jpg?v=1741615855"
@@ -2343,7 +2200,7 @@
   "brand": "house-of-ceramics",
   "title": "White Luxe Coffee Mug",
   "url": "https://www.houseofceramics.in/products/white-luxe-coffee-mug",
-  "price": 450,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -2362,7 +2219,7 @@
   "brand": "house-of-ceramics",
   "title": "Blush Pink Luxe Coffee Mug",
   "url": "https://www.houseofceramics.in/products/blush-pink-luxe-coffee-mug",
-  "price": 450,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -2381,7 +2238,7 @@
   "brand": "house-of-ceramics",
   "title": "Black Luxe Coffee Mug",
   "url": "https://www.houseofceramics.in/products/black-luxe-coffee-mug",
-  "price": 450,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -2399,8 +2256,8 @@
   "brand": "house-of-ceramics",
   "title": "Blue Heartscape Mug",
   "url": "https://www.houseofceramics.in/products/blue-heartscape-mug",
-  "price": 450,
-  "compareAt": 899,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Blue_Heartscape_Mug_4.jpg?v=1788978478",
@@ -2417,7 +2274,7 @@
   "brand": "house-of-ceramics",
   "title": "Blueberry Blush Bloom Coffee Mug",
   "url": "https://www.houseofceramics.in/products/blueberry-blush-bloom-coffee-mug",
-  "price": 450,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -2437,7 +2294,7 @@
   "brand": "house-of-ceramics",
   "title": "Blush Pink Blossom Ripple Mug",
   "url": "https://www.houseofceramics.in/products/blush-pink-blossom-ripple-mug",
-  "price": 450,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -2456,7 +2313,7 @@
   "brand": "house-of-ceramics",
   "title": "Pastel Tulip Meadow Mug",
   "url": "https://www.houseofceramics.in/products/pastel-tulip-meadow-mug",
-  "price": 450,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -2529,8 +2386,8 @@
   "brand": "house-of-ceramics",
   "title": "Merry Munchkin Mug",
   "url": "https://www.houseofceramics.in/products/merry-munchkin-mug",
-  "price": 450,
-  "compareAt": 1199,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20251125-WA0214.jpg?v=1764244088",
@@ -2547,7 +2404,7 @@
   "brand": "house-of-ceramics",
   "title": "Merry Tree Red Coffee Mug",
   "url": "https://www.houseofceramics.in/products/merry-tree-red-coffee-mug",
-  "price": 450,
+  "price": 395,
   "compareAt": 1099,
   "soldOut": false,
   "images": [
@@ -2565,7 +2422,7 @@
   "brand": "house-of-ceramics",
   "title": "Merry Tree Pink Coffee Mug",
   "url": "https://www.houseofceramics.in/products/merry-tree-pink-coffee-mug",
-  "price": 450,
+  "price": 395,
   "compareAt": 1099,
   "soldOut": false,
   "images": [
@@ -2603,7 +2460,7 @@
   "brand": "house-of-ceramics",
   "title": "Ruby Love Note Mug",
   "url": "https://www.houseofceramics.in/products/ruby-love-note-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 999,
   "soldOut": false,
   "images": [
@@ -2621,7 +2478,7 @@
   "brand": "house-of-ceramics",
   "title": "Fleur Kitty Mug",
   "url": "https://www.houseofceramics.in/products/cherie-chat-floral-ceramic-mug",
-  "price": 475,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -2638,7 +2495,7 @@
   "brand": "house-of-ceramics",
   "title": "Festive Check Coffee Mug",
   "url": "https://www.houseofceramics.in/products/festive-check-coffee-mug",
-  "price": 475,
+  "price": 395,
   "compareAt": 1199,
   "soldOut": false,
   "images": [
@@ -2656,8 +2513,8 @@
   "brand": "house-of-ceramics",
   "title": "Merry Tree Mug",
   "url": "https://www.houseofceramics.in/products/merry-tree-mug",
-  "price": 475,
-  "compareAt": 1199,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Merry_Tree_Mug.jpg?v=1764222380",
@@ -2692,7 +2549,7 @@
   "brand": "house-of-ceramics",
   "title": "Cheeky Chick Mug",
   "url": "https://www.houseofceramics.in/products/cheeky-chick-mug",
-  "price": 485,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -2709,8 +2566,8 @@
   "brand": "house-of-ceramics",
   "title": "3D Cherry Tea Cup (Set of 2)",
   "url": "https://www.houseofceramics.in/products/3d-cherry-tea-cup-set-of-2-copy",
-  "price": 485,
-  "compareAt": 999,
+  "price": 450,
+  "compareAt": 899,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2026-02-25_at_11.42.29_AM_1.jpg?v=1772002874",
@@ -2835,7 +2692,7 @@
   "brand": "house-of-ceramics",
   "title": "Pawsome Coffee Mug",
   "url": "https://www.houseofceramics.in/products/pawsome-coffee-mug",
-  "price": 499,
+  "price": 395,
   "compareAt": 999,
   "soldOut": false,
   "images": [
@@ -2853,7 +2710,7 @@
   "brand": "house-of-ceramics",
   "title": "Golden Mango Mug with Lid",
   "url": "https://www.houseofceramics.in/products/golden-mango-mug-with-lid",
-  "price": 499,
+  "price": 395,
   "compareAt": 999,
   "soldOut": false,
   "images": [
@@ -2871,9 +2728,9 @@
   "brand": "house-of-ceramics",
   "title": "Minty Book Love Mug",
   "url": "https://www.houseofceramics.in/products/minty-book-love-mug",
-  "price": 499,
+  "price": 395,
   "compareAt": 999,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Minty_Book_Love_Mug_4.jpg?v=1788980870",
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Minty_Book_Love_Mug_5.jpg?v=1788980869",
@@ -2889,7 +2746,7 @@
   "brand": "house-of-ceramics",
   "title": "Dreamy Cat Mug",
   "url": "https://www.houseofceramics.in/products/dreamy-cat-mug",
-  "price": 499,
+  "price": 395,
   "compareAt": 999,
   "soldOut": false,
   "images": [
@@ -2962,8 +2819,8 @@
   "brand": "house-of-ceramics",
   "title": "Green Pumpkin Mug",
   "url": "https://www.houseofceramics.in/products/green-pumpkin-mug",
-  "price": 525,
-  "compareAt": 999,
+  "price": 395,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Green_Pumpkin_Mug_1.jpg?v=1786709683",
@@ -2980,8 +2837,8 @@
   "brand": "house-of-ceramics",
   "title": "Red Pumpkin Mug with Lid",
   "url": "https://www.houseofceramics.in/products/red-pumpkin-mug",
-  "price": 525,
-  "compareAt": 999,
+  "price": 395,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Red_Pumpkin_Mug_1.jpg?v=1786709683",
@@ -3016,7 +2873,7 @@
   "brand": "house-of-ceramics",
   "title": "Golden Citrus Mug",
   "url": "https://www.houseofceramics.in/products/golden-citrus-mug",
-  "price": 550,
+  "price": 395,
   "compareAt": 999,
   "soldOut": false,
   "images": [
@@ -3034,8 +2891,8 @@
   "brand": "house-of-ceramics",
   "title": "Red Citrus Mug",
   "url": "https://www.houseofceramics.in/products/red-citrus-mug",
-  "price": 550,
-  "compareAt": 999,
+  "price": 395,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Red_Citrus_Mug_1.jpg?v=1786712553",
@@ -3052,9 +2909,9 @@
   "brand": "house-of-ceramics",
   "title": "Pink Sprinkle Cupcake Mug",
   "url": "https://www.houseofceramics.in/products/pink-sprinkle-cupcake-mug",
-  "price": 550,
-  "compareAt": 999,
-  "soldOut": false,
+  "price": 395,
+  "compareAt": 799,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Pink_Sprinkle_Cupcake_Mug_1.jpg?v=1786711901",
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Pink_Sprinkle_Cupcake_Mug_3.jpg?v=1786711901",
@@ -3070,7 +2927,7 @@
   "brand": "house-of-ceramics",
   "title": "Red Blush Heart Sipper",
   "url": "https://www.houseofceramics.in/products/red-blush-heart-sipper",
-  "price": 550,
+  "price": 499,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -3088,7 +2945,7 @@
   "brand": "house-of-ceramics",
   "title": "Pink Blush Heart Sipper",
   "url": "https://www.houseofceramics.in/products/pink-blush-heart-sipper",
-  "price": 550,
+  "price": 499,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -3106,7 +2963,7 @@
   "brand": "house-of-ceramics",
   "title": "Strawberry Twist Sipper",
   "url": "https://www.houseofceramics.in/products/strawberry-twist-sipper",
-  "price": 550,
+  "price": 499,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -3123,7 +2980,7 @@
   "brand": "house-of-ceramics",
   "title": "Berry Breeze Sipper",
   "url": "https://www.houseofceramics.in/products/berry-breeze-sipper",
-  "price": 550,
+  "price": 499,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -3211,8 +3068,8 @@
   "brand": "house-of-ceramics",
   "title": "Polka Mushroom Mug with Lid and Spoon",
   "url": "https://www.houseofceramics.in/products/polka-mushroom-mug",
-  "price": 575,
-  "compareAt": 999,
+  "price": 425,
+  "compareAt": 899,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Polka_Mushroom_Mug_1.jpg?v=1786706239",
@@ -3226,46 +3083,11 @@
   ]
  },
  {
-  "id": "house-of-ceramics-8761637372053",
-  "brand": "house-of-ceramics",
-  "title": "Pink Lines Tea Cup (Set of 2)",
-  "url": "https://www.houseofceramics.in/products/orange-lines-tea-cup",
-  "price": 575,
-  "compareAt": 699,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250405-WA0044.jpg?v=1744655564",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250405-WA0049.jpg?v=1744655564"
-  ],
-  "blurb": "Material: Ceramic Color: Multi-color Finish: Glossy Finish Package Content: 2 Tea Cups Capacity (ml): Coffee Mug: 200ml. Item Dimensions: (LxWxH): Mug: 4inc. Diameter, 3inc. Ht., Feature: Dishwasher & Microwave Safe, Lea",
-  "vibes": [
-   "sets & combos",
-   "pastel"
-  ]
- },
- {
-  "id": "house-of-ceramics-8761636126869",
-  "brand": "house-of-ceramics",
-  "title": "Red Lines Tea Cup (Set of 2)",
-  "url": "https://www.houseofceramics.in/products/red-lines-tea-cup",
-  "price": 575,
-  "compareAt": 699,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250405-WA0047.jpg?v=1744655564",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250405-WA0048.jpg?v=1744655562"
-  ],
-  "blurb": "Material: Ceramic Color: Multi-color Finish: Glossy Finish Package Content: 2 Tea Cups Capacity (ml): Coffee Mug: 200ml. Item Dimensions: (LxWxH): Mug: 4inc. Diameter, 3inc. Ht., Feature: Dishwasher & Microwave Safe, Lea",
-  "vibes": [
-   "sets & combos"
-  ]
- },
- {
   "id": "house-of-ceramics-8761629212821",
   "brand": "house-of-ceramics",
   "title": "Blue Lines Tea Cup (Set of 2)",
   "url": "https://www.houseofceramics.in/products/blue-lines-tea-cups",
-  "price": 575,
+  "price": 499,
   "compareAt": 699,
   "soldOut": false,
   "images": [
@@ -3303,7 +3125,7 @@
   "brand": "house-of-ceramics",
   "title": "Sprite Splash Sipper",
   "url": "https://www.houseofceramics.in/products/sprite-splash-sipper",
-  "price": 595,
+  "price": 499,
   "compareAt": 1099,
   "soldOut": false,
   "images": [
@@ -3321,7 +3143,7 @@
   "brand": "house-of-ceramics",
   "title": "Fizzy Pop Sipper",
   "url": "https://www.houseofceramics.in/products/fizzy-pop-sipper",
-  "price": 595,
+  "price": 499,
   "compareAt": 1099,
   "soldOut": false,
   "images": [
@@ -3339,7 +3161,7 @@
   "brand": "house-of-ceramics",
   "title": "Limca Can Sipper",
   "url": "https://www.houseofceramics.in/products/limca-can-sipper",
-  "price": 595,
+  "price": 499,
   "compareAt": 1099,
   "soldOut": false,
   "images": [
@@ -3357,7 +3179,7 @@
   "brand": "house-of-ceramics",
   "title": "Diet Coke Fizz Sipper",
   "url": "https://www.houseofceramics.in/products/diet-coke-fizz-sipper-with-straw",
-  "price": 599,
+  "price": 525,
   "compareAt": 1199,
   "soldOut": false,
   "images": [
@@ -3412,7 +3234,7 @@
   "brand": "house-of-ceramics",
   "title": "Bluebell Breeze Ceramic Sipper with Lid",
   "url": "https://www.houseofceramics.in/products/riviera-stripe-heart-ceramic-sipper-with-lid",
-  "price": 625,
+  "price": 525,
   "compareAt": 1199,
   "soldOut": false,
   "images": [
@@ -3429,7 +3251,7 @@
   "brand": "house-of-ceramics",
   "title": "Amour Heart Ceramic Sipper with Lid",
   "url": "https://www.houseofceramics.in/products/amour-heart-ceramic-sipper-with-lid",
-  "price": 625,
+  "price": 525,
   "compareAt": 1199,
   "soldOut": false,
   "images": [
@@ -3446,7 +3268,7 @@
   "brand": "house-of-ceramics",
   "title": "Azure Sprinkle Ceramic Sipper with Lid",
   "url": "https://www.houseofceramics.in/products/azure-sprinkle-ceramic-sipper-with-lid",
-  "price": 625,
+  "price": 525,
   "compareAt": 1199,
   "soldOut": false,
   "images": [
@@ -3464,7 +3286,7 @@
   "brand": "house-of-ceramics",
   "title": "Scarlet Sprinkle Ceramic Sipper with Lid",
   "url": "https://www.houseofceramics.in/products/scarlet-sprinkle-ceramic-sipper-with-lid",
-  "price": 625,
+  "price": 525,
   "compareAt": 1199,
   "soldOut": false,
   "images": [
@@ -3501,7 +3323,7 @@
   "brand": "house-of-ceramics",
   "title": "Thums Up Can Sipper",
   "url": "https://www.houseofceramics.in/products/thums-up-can-sipper",
-  "price": 650,
+  "price": 499,
   "compareAt": 1099,
   "soldOut": false,
   "images": [
@@ -3519,7 +3341,7 @@
   "brand": "house-of-ceramics",
   "title": "RedBull Energy Can Sipper",
   "url": "https://www.houseofceramics.in/products/redbull-energy-can-sipper",
-  "price": 650,
+  "price": 525,
   "compareAt": 1199,
   "soldOut": false,
   "images": [
@@ -3537,7 +3359,7 @@
   "brand": "house-of-ceramics",
   "title": "Retro Diet Coke Can Sipper",
   "url": "https://www.houseofceramics.in/products/retro-diet-coke-can-sipper-1",
-  "price": 650,
+  "price": 525,
   "compareAt": 1199,
   "soldOut": false,
   "images": [
@@ -3572,7 +3394,7 @@
   "brand": "house-of-ceramics",
   "title": "Pepsi Retro Can Sipper",
   "url": "https://www.houseofceramics.in/products/pepsi-retro-can-sipper",
-  "price": 675,
+  "price": 525,
   "compareAt": 1199,
   "soldOut": false,
   "images": [
@@ -3600,26 +3422,6 @@
   ],
   "blurb": "Material: Ceramic Color: Multi-color Capacity: Mug: 250ml approx. Package Content : 1 Coffee Mug & 1 Snack Plate Item Dimensions: Coffee Mug: 4.5inc. Dia X 2.5inc ht. approx. Snack Plate: 5.5inc. Dia approx. Finish: Glos",
   "vibes": [
-   "chai & coffee",
-   "sets & combos"
-  ]
- },
- {
-  "id": "house-of-ceramics-8706334359701",
-  "brand": "house-of-ceramics",
-  "title": "Pink & White Lilly Flower Pinterest Coffee Mugs Combo (Set of 2)",
-  "url": "https://www.houseofceramics.in/products/pink-white-3d-lily-flower-pinterest-coffee-mugs-cobo-set-of-2",
-  "price": 699,
-  "compareAt": 1499,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250131-WA0066.jpg?v=1741583193",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250131-WA0069.jpg?v=1741583193",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250131-WA0067.jpg?v=1741583194"
-  ],
-  "blurb": "Material: Ceramic Color: Multi-color Capacity: 300 ML Package Content: 2 Coffee Mug Item Dimensions - LxWxH: Mug: 5inc. Diameter X 4inc ht. Finish: Gloss Feature: Freezer, Dishwasher & Microwave Safe Disclaimer: The actu",
-  "vibes": [
-   "florals",
    "chai & coffee",
    "sets & combos"
   ]
@@ -3737,25 +3539,6 @@
   ]
  },
  {
-  "id": "house-of-ceramics-8907966087317",
-  "brand": "house-of-ceramics",
-  "title": "Bow-tiful Sips Coffee Mugs Combo Set (Set of 2)",
-  "url": "https://www.houseofceramics.in/products/bow-tiful-sips-coffee-mugs-combo-set-set-of-2",
-  "price": 725,
-  "compareAt": 1799,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Bow-tiful_Sips.jpg?v=1758297522",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Minty_Bow-tiful_Coffee_Mug.jpg?v=1758297522",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Pinky_Bow-tiful_Coffee_Mug.jpg?v=1775034112"
-  ],
-  "blurb": "Material: Ceramic Color: Multi-color Capacity: Mug: 300ml Package Content: 2 Coffee Mug Item Dimensions - LxWxH: Mug: 4.5inc. Diameter, 3.5inc. Ht. Finish: Glossy Feature: Freezer, Dishwasher & Microwave Safe Disclaimer:",
-  "vibes": [
-   "chai & coffee",
-   "sets & combos"
-  ]
- },
- {
   "id": "house-of-ceramics-8700776251541",
   "brand": "house-of-ceramics",
   "title": "Red Heart Coffee Mug, Snack Bowl & Snack Plate Combo Set of 3",
@@ -3836,7 +3619,7 @@
   "url": "https://www.houseofceramics.in/products/azure-citrus-combo-set-set-of-2",
   "price": 875,
   "compareAt": 1799,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Azure_Citrus_Combo_Set_Set_of_2_3.jpg?v=1780580394",
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Azure_Citrus_Coffee_Mug.jpg?v=1780580401",
@@ -3908,7 +3691,7 @@
   "brand": "house-of-ceramics",
   "title": "Classic Cinema Popcorn Bucket",
   "url": "https://www.houseofceramics.in/products/classic-cinema-popcorn-bucket",
-  "price": 950,
+  "price": 899,
   "compareAt": 1899,
   "soldOut": false,
   "images": [
@@ -3953,26 +3736,6 @@
   "blurb": "Material: Ceramic Colour: Multi-color Capacity: Mug: 300ml Package Content: 2 Coffee Mugs & 2 Saucer Item Dimensions - LxWxH: Coffee Mug: 5.5inc. Diameter, Saucer: 6.5inc. Dia. Feature: Freezer, Dishwasher & Microwave Sa",
   "vibes": [
    "chai & coffee",
-   "sets & combos",
-   "pastel"
-  ]
- },
- {
-  "id": "house-of-ceramics-8899939696789",
-  "brand": "house-of-ceramics",
-  "title": "Bloom Pink Mugs & Jar Combo Set (Set of 3)",
-  "url": "https://www.houseofceramics.in/products/bloom-pink-mugs-jar-combo-set-set-of-3",
-  "price": 999,
-  "compareAt": 1999,
-  "soldOut": false,
-  "images": [
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250907-WA0133.jpg?v=1757513626",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250907-WA0116.jpg?v=1757608760",
-   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250907-WA0143.jpg?v=1757607934"
-  ],
-  "blurb": "Material: Ceramic Color: Multi-color Capacity: Mug: 300ml, Jar: 500ml Package Content: 2 Coffee Mug, 1 Jar Item Dimensions - LxWxH: Mug: 4.5inc. Diameter, 3.5inc. Ht. , Jar: 4.5dia X 5.5inc. ht. Finish: Glossy Feature: F",
-  "vibes": [
-   "florals",
    "sets & combos",
    "pastel"
   ]
@@ -4111,7 +3874,7 @@
   "brand": "house-of-ceramics",
   "title": "Classic Popcorn & Diet Coke Fizz Sipper Set",
   "url": "https://www.houseofceramics.in/products/classic-popcorn-diet-coke-fizz-sipper-set",
-  "price": 1375,
+  "price": 1299,
   "compareAt": 2199,
   "soldOut": false,
   "images": [
@@ -4148,8 +3911,8 @@
   "brand": "house-of-ceramics",
   "title": "Iconic Can Collection",
   "url": "https://www.houseofceramics.in/products/iconic-can-collection",
-  "price": 2199,
-  "compareAt": 4199,
+  "price": 1999,
+  "compareAt": 2999,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Iconic_Can_Collection_Sipper_Set_of_4_Combo_Sipper_Cover.jpg?v=1788967543",
@@ -4186,7 +3949,7 @@
   "url": "https://klaylist.com/products/orb-coffee-mug-with-splatter-effect",
   "price": 490,
   "compareAt": null,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/coffee-mug-with-splatter-effect.jpg?v=1775475647",
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/coffee-mug-white-and-black.jpg?v=1775475679",
@@ -4258,7 +4021,7 @@
   "url": "https://klaylist.com/products/sunflower-cup-set",
   "price": 545,
   "compareAt": null,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/sunflowersetpurple.jpg?v=1713461215",
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/purplesunflowersettopview.jpg?v=1713461232",
@@ -4533,7 +4296,7 @@
   "url": "https://klaylist.com/products/ceramic-breakfast-bowl-mug-set-with-coaster",
   "price": 1395,
   "compareAt": null,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/ceramic-breakfast-set-by-klaylist.jpg?v=1763447570",
    "https://cdn.shopify.com/s/files/1/0555/8314/6033/files/ceramic-mug-and-coaster-for-breakfast.jpg?v=1763447570",
@@ -4900,7 +4663,7 @@
   "brand": "craftribal",
   "title": "Handpainted LOVE Mug",
   "url": "https://craftribal.com/products/handpainted-love-mug",
-  "price": 329,
+  "price": 299,
   "compareAt": 449,
   "soldOut": false,
   "images": [
@@ -5158,7 +4921,7 @@
   "brand": "craftribal",
   "title": "Koala Bear Mug",
   "url": "https://craftribal.com/products/koala-bear-mug",
-  "price": 399,
+  "price": 379,
   "compareAt": 1599,
   "soldOut": false,
   "images": [
@@ -5233,7 +4996,7 @@
   "brand": "craftribal",
   "title": "Lady Mug",
   "url": "https://craftribal.com/products/lady-mug",
-  "price": 399,
+  "price": 349,
   "compareAt": 650,
   "soldOut": false,
   "images": [
@@ -6155,7 +5918,7 @@
   "brand": "craftribal",
   "title": "Cherry Kiss Mug",
   "url": "https://craftribal.com/products/cherry-kiss-mug",
-  "price": 399,
+  "price": 369,
   "compareAt": 450,
   "soldOut": false,
   "images": [
@@ -6213,7 +5976,7 @@
   "url": "https://craftribal.com/products/the-snow-tree-collectionred",
   "price": 399,
   "compareAt": null,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_5775.jpg?v=1763129294"
   ],
@@ -6246,7 +6009,7 @@
   "url": "https://craftribal.com/products/green-tree-mug",
   "price": 399,
   "compareAt": null,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/41_b5ae0b4a-c394-4285-a3b6-526055dadfa1.jpg?v=1763129577"
   ],
@@ -6579,7 +6342,7 @@
   "brand": "craftribal",
   "title": "Morning Daisy Mug- Yellow",
   "url": "https://craftribal.com/products/morning-daisy-mug-yellow",
-  "price": 419,
+  "price": 380,
   "compareAt": 2999,
   "soldOut": false,
   "images": [
@@ -6597,7 +6360,7 @@
   "brand": "craftribal",
   "title": "LOVE XO Cappuccino cup",
   "url": "https://craftribal.com/products/love-xo-cappuccino-cup",
-  "price": 429,
+  "price": 399,
   "compareAt": 499,
   "soldOut": false,
   "images": [
@@ -6651,7 +6414,7 @@
   "brand": "craftribal",
   "title": "Cute Puppy Mug",
   "url": "https://craftribal.com/products/cute-puppy-mug",
-  "price": 449,
+  "price": 399,
   "compareAt": 599,
   "soldOut": false,
   "images": [
@@ -6669,7 +6432,7 @@
   "brand": "craftribal",
   "title": "Mushroom Mug with lid (Yellow)",
   "url": "https://craftribal.com/products/mushroom-mug-with-lid-yellow",
-  "price": 449,
+  "price": 499,
   "compareAt": 4200,
   "soldOut": false,
   "images": [
@@ -7037,7 +6800,7 @@
   "brand": "craftribal",
   "title": "Mushroom Mug with lid (Brown)",
   "url": "https://craftribal.com/products/mushroom-mug-with-lid-brown",
-  "price": 599,
+  "price": 499,
   "compareAt": 4200,
   "soldOut": false,
   "images": [
@@ -7190,7 +6953,7 @@
   "url": "https://craftribal.com/products/cookie-house-sipper",
   "price": 699,
   "compareAt": 1199,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/32_a7feb12c-dfe6-4e71-8249-4a8af99bdda7.jpg?v=1763193958",
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/33_eb3f6126-72eb-42e1-9ff4-c194e5c0b1f9.jpg?v=1763193958"
@@ -7262,7 +7025,7 @@
   "url": "https://craftribal.com/products/green-snow-tree-mug-duo",
   "price": 599,
   "compareAt": 799,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/40_67ec5de5-a47f-4b8a-a223-304171e97df5.jpg?v=1763129749"
   ],
@@ -7296,7 +7059,7 @@
   "brand": "craftribal",
   "title": "'LITTLE SPOON' 'BIG SPOON' Coffee Mug Combo",
   "url": "https://craftribal.com/products/little-spoon-big-spoon-coffee-mug-combo",
-  "price": 775,
+  "price": 699,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -7388,7 +7151,7 @@
   "brand": "craftribal",
   "title": "Ghost Mug & Dessert Plate Combo",
   "url": "https://craftribal.com/products/ghost-mug-dessert-plate-combo",
-  "price": 799,
+  "price": 749,
   "compareAt": 1999,
   "soldOut": false,
   "images": [
@@ -7407,7 +7170,7 @@
   "brand": "craftribal",
   "title": "Pinteresty Face Cup Combo",
   "url": "https://craftribal.com/products/pinteresty-face-cup-combo",
-  "price": 799,
+  "price": 749,
   "compareAt": 1199,
   "soldOut": false,
   "images": [
@@ -7445,7 +7208,7 @@
   "brand": "craftribal",
   "title": "Love Letter Coffee Mug & XOXO Dessert Plate Combo",
   "url": "https://craftribal.com/products/love-letter-coffee-mug-xoxo-dessert-plate-combo",
-  "price": 799,
+  "price": 699,
   "compareAt": 1199,
   "soldOut": false,
   "images": [
@@ -7740,7 +7503,7 @@
   "brand": "craftribal",
   "title": "Set 3 Handpainted Coffee Mugs",
   "url": "https://craftribal.com/products/set-3-handpainted-coffee-mugs",
-  "price": 1049,
+  "price": 999,
   "compareAt": 1349,
   "soldOut": false,
   "images": [
@@ -7921,7 +7684,7 @@
   "brand": "craftribal",
   "title": "All About Love Mug Set",
   "url": "https://craftribal.com/products/all-about-love-mug-set",
-  "price": 1899,
+  "price": 1699,
   "compareAt": 2599,
   "soldOut": false,
   "images": [
@@ -8323,7 +8086,7 @@
   "url": "https://saabihouse.in/products/blue-citrus-ceramic-mug",
   "price": 399,
   "compareAt": 599,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Blue-Citrus-Ceramic-Mug.jpg?v=1780391287",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Blue-Citrus-Ceramic-Mug-02.jpg?v=1780391303",
@@ -8359,7 +8122,7 @@
   "url": "https://saabihouse.in/products/evil-eye-nazar-na-lage-mug",
   "price": 399,
   "compareAt": 619,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Gemini_Generated_Image_d1idjkd1idjkd1id.jpg?v=1771965697",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/saabi-house-product-care.webp?v=1773340592",
@@ -8431,7 +8194,7 @@
   "url": "https://saabihouse.in/products/the-buttercup-check-mug",
   "price": 399,
   "compareAt": null,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/pomelli_image_20.jpg?v=1770563695",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/pomelli_image_14.jpg?v=1770563695",
@@ -8576,7 +8339,7 @@
   "url": "https://saabihouse.in/products/handmade-aesthetic-ceramic-mug-pomegranate",
   "price": 399,
   "compareAt": 619,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/AA5C67F0-20BE-464C-9844-F258356FEF30_1_105_c.jpg?v=1750949515",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/WhatsApp_Image_2025-05-11_at_1.54.40_AM_92b856f6-23e9-48c7-a7d0-aec8761f1aa5.jpg?v=1773914844",
@@ -8775,7 +8538,7 @@
   "url": "https://saabihouse.in/products/classic-cream-chunky-mug",
   "price": 419,
   "compareAt": 599,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/Gemini_Generated_Image_8n48hc8n48hc8n48.jpg?v=1777638887",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/saabi-house-product-care_607b8a53-2226-472f-8553-93aad95908cb.webp?v=1776667854",
@@ -9511,7 +9274,7 @@
   "url": "https://saabihouse.in/products/coca-cola-ceramic-tumbler-with-straw",
   "price": 699,
   "compareAt": 999,
-  "soldOut": false,
+  "soldOut": true,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/ChatGPTImageAug27_2026_12_48_12AM.png?v=1787771911",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/ChatGPTImageAug27_2026_12_46_15AM.png?v=1787771909",
@@ -9654,7 +9417,7 @@
   "url": "https://saabihouse.in/products/sunshine-pop-vacuum-insulated-tumbler-1-2l",
   "price": 1699,
   "compareAt": 4999,
-  "soldOut": true,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/9130C322-A6BF-44C8-8325-1575BD83E03B_1_201_a.jpg?v=1782212947",
    "https://cdn.shopify.com/s/files/1/0670/7960/2336/files/ChatGPTImageJun22_2026_07_22_19PM.png?v=1782137831",
@@ -9704,8 +9467,8 @@
   "brand": "house-of-ceramics",
   "title": "Verdant Bloom Mug",
   "url": "https://www.houseofceramics.in/products/verdant-bloom-mug",
-  "price": 399,
-  "compareAt": 1799,
+  "price": 375,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Verdant_Bloom_Mug.jpg?v=1772185933",
@@ -9811,8 +9574,8 @@
   "brand": "house-of-ceramics",
   "title": "Polka Bow Mug",
   "url": "https://www.houseofceramics.in/products/polka-bow-mug",
-  "price": 399,
-  "compareAt": 999,
+  "price": 370,
+  "compareAt": 699,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Polka_Bow_Mug.jpg?v=1772185873",
@@ -9845,7 +9608,7 @@
   "brand": "craftribal",
   "title": "XOXO Coffee Mug",
   "url": "https://craftribal.com/products/xoxo-coffee-mug",
-  "price": 385,
+  "price": 349,
   "compareAt": 3599,
   "soldOut": false,
   "images": [
@@ -10039,7 +9802,7 @@
   "title": "Rustic Ember Kulhad",
   "url": "https://www.houseofceramics.in/products/rustic-ember-kulhad",
   "price": 425,
-  "compareAt": 899,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Rustic_Ember_Kulhad_3.jpg?v=1791040850",
@@ -10057,7 +9820,7 @@
   "title": "Rose Mocha Kulhad",
   "url": "https://www.houseofceramics.in/products/rose-mocha-kulhad",
   "price": 425,
-  "compareAt": 899,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Rose_Mocha_Kulhad_3.jpg?v=1791040850",
@@ -10075,7 +9838,7 @@
   "title": "Midnight Indigo Kulhad",
   "url": "https://www.houseofceramics.in/products/midnight-indigo-kulhad",
   "price": 425,
-  "compareAt": 899,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Midnight_Indigo_Kulhad_3.jpg?v=1791040850",
@@ -10093,7 +9856,7 @@
   "title": "Honey Mist Kulhad",
   "url": "https://www.houseofceramics.in/products/honey-mist-kulhad",
   "price": 425,
-  "compareAt": 899,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Honey_Mist_Kulhad_3.jpg?v=1791040850",
@@ -10110,9 +9873,9 @@
   "brand": "house-of-ceramics",
   "title": "Cocoa Buddy Sack Mug",
   "url": "https://www.houseofceramics.in/products/cocoa-buddy-sack-mug",
-  "price": 425,
-  "compareAt": 899,
-  "soldOut": true,
+  "price": 385,
+  "compareAt": 799,
+  "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Cocoa_Buddy_Mug_3.jpg?v=1791039778",
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Cocoa_Buddy_Mug_1.jpg?v=1791039778",
@@ -10128,8 +9891,8 @@
   "brand": "house-of-ceramics",
   "title": "Partners in Crime Brother Sister – Sage Mug Duo",
   "url": "https://www.houseofceramics.in/products/partners-in-crime-brother-sister-sage-mug-duo",
-  "price": 850,
-  "compareAt": 1799,
+  "price": 785,
+  "compareAt": 1699,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Partners_in_Crime_Brother_Sister_Sage_Mug_Duo_5.jpg?v=1791039778",
@@ -10147,8 +9910,8 @@
   "brand": "house-of-ceramics",
   "title": "Like Father, Like Son – Blue Mug Duo",
   "url": "https://www.houseofceramics.in/products/like-father-like-son-blue-mug-duo",
-  "price": 850,
-  "compareAt": 1799,
+  "price": 785,
+  "compareAt": 1699,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Like_Father_Like_Son_Blue_Mug_Duo_6.jpg?v=1791039778",
@@ -10166,8 +9929,8 @@
   "brand": "house-of-ceramics",
   "title": "Like Mother, Like Daughter – Blush Mug Duo",
   "url": "https://www.houseofceramics.in/products/like-mother-like-daughter-blush-mug-duo",
-  "price": 850,
-  "compareAt": 1799,
+  "price": 785,
+  "compareAt": 1699,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Like_Mother_Like_Daughter_Blush_Mug_Duo_6.jpg?v=1791039778",
@@ -10543,7 +10306,7 @@
   "brand": "craftribal",
   "title": "Vintage Reel Mug",
   "url": "https://craftribal.com/products/vintage-reel-mug",
-  "price": 499,
+  "price": 449,
   "compareAt": 3900,
   "soldOut": false,
   "images": [
@@ -10985,7 +10748,7 @@
   "brand": "house-of-ceramics",
   "title": "Black Monster Energy Can Sipper",
   "url": "https://www.houseofceramics.in/products/black-monster-energy-can-sipper",
-  "price": 650,
+  "price": 525,
   "compareAt": 1199,
   "soldOut": false,
   "images": [
@@ -11003,7 +10766,7 @@
   "brand": "house-of-ceramics",
   "title": "Sorrento Lemon Coffee Mug",
   "url": "https://www.houseofceramics.in/products/sorrento-lemon-coffee-mug",
-  "price": 425,
+  "price": 385,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -11021,7 +10784,7 @@
   "brand": "house-of-ceramics",
   "title": "Pink Daydream Mug",
   "url": "https://www.houseofceramics.in/products/pink-daydream-mug",
-  "price": 425,
+  "price": 395,
   "compareAt": 899,
   "soldOut": false,
   "images": [
@@ -11076,7 +10839,7 @@
   "brand": "house-of-ceramics",
   "title": "Bonjour Bloom Mug",
   "url": "https://www.houseofceramics.in/products/bonjour-bloom-mug",
-  "price": 399,
+  "price": 395,
   "compareAt": 799,
   "soldOut": false,
   "images": [
@@ -11844,7 +11607,7 @@
   "brand": "house-of-ceramics",
   "title": "Vintage Coca-Cola Can Sipper",
   "url": "https://www.houseofceramics.in/products/retro-diet-coke-can-sipper",
-  "price": 650,
+  "price": 525,
   "compareAt": 1199,
   "soldOut": false,
   "images": [
@@ -11899,8 +11662,8 @@
   "brand": "house-of-ceramics",
   "title": "Kiwi Coffee Mug",
   "url": "https://www.houseofceramics.in/products/kiwi-coffee-mug",
-  "price": 385,
-  "compareAt": 899,
+  "price": 370,
+  "compareAt": 799,
   "soldOut": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/WhatsApp_Image_2025-09-17_at_11.50.07_PM_1.jpg?v=1758303980",
@@ -12000,6 +11763,407 @@
   "blurb": "Red Striped Heart Pinterest Ceramic Mug Make every sip feel special with this uniquely crafted striped heart mug. This beautifully shaped ceramic piece features sweet pink stripes, tiny painted hearts, and an aesthetic h",
   "vibes": [
    "hearts & love"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15552898793621",
+  "brand": "house-of-ceramics",
+  "title": "Golden Petals Ceramic Coffee Mug",
+  "url": "https://www.houseofceramics.in/products/golden-petals-ceramic-coffee-mug",
+  "price": 385,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Golden_Petals_Ceramic_Coffee_Mug.jpg?v=1795441574"
+  ],
+  "blurb": "A cheerful, handcrafted ceramic coffee mug with a golden petals theme. Bright and floral, it is perfect for your morning coffee, evening chai or a happy break, and it makes a lovely gift for birthdays, housewarmings and ",
+  "vibes": [
+   "chai & coffee"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15552898760853",
+  "brand": "house-of-ceramics",
+  "title": "Tulip Whispers Ceramic Coffee Mug",
+  "url": "https://www.houseofceramics.in/products/tulip-whispers-ceramic-coffee-mug",
+  "price": 385,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Tulip_Whispers_Ceramic_Coffee_Mug.jpg?v=1795441574"
+  ],
+  "blurb": "A gentle, handcrafted ceramic coffee mug with a hand-painted tulip theme. Soft and floral, it is perfect for your morning coffee, evening chai or a quiet moment, and it makes a lovely gift for birthdays, housewarmings an",
+  "vibes": [
+   "florals",
+   "chai & coffee"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15552898728085",
+  "brand": "house-of-ceramics",
+  "title": "Aqua Pinstripe Ceramic Coffee Mug",
+  "url": "https://www.houseofceramics.in/products/aqua-pinstripe-ceramic-coffee-mug",
+  "price": 395,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Aqua_Pinstripe_Ceramic_Coffee_Mug_1.jpg?v=1795441574",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Aqua_Pinstripe_Ceramic_Coffee_Mug_2.jpg?v=1795441574",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Aqua_Pinstripe_Ceramic_Coffee_Mug_4.jpg?v=1795441574"
+  ],
+  "blurb": "A fresh, handcrafted ceramic coffee mug with a clean aqua pinstripe look. Crisp and stylish, it is perfect for your morning coffee, evening chai or office desk, and it makes a smart gift for birthdays, housewarmings and ",
+  "vibes": [
+   "chai & coffee"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15552898695317",
+  "brand": "house-of-ceramics",
+  "title": "Ember Glow Ceramic Coffee Mug",
+  "url": "https://www.houseofceramics.in/products/ember-glow-ceramic-coffee-mug",
+  "price": 385,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Ember_Glow_Ceramic_Coffee_Mug_1.jpg?v=1795441574",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Ember_Glow_Ceramic_Coffee_Mug_3.jpg?v=1795441574",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Ember_Glow_Ceramic_Coffee_Mug_4.jpg?v=1795441574"
+  ],
+  "blurb": "A warm, handcrafted ceramic coffee mug with a glowing ember-inspired look. Cosy and inviting, it is perfect for your morning coffee, evening chai or a relaxed winter break, and it makes a thoughtful gift for birthdays, h",
+  "vibes": [
+   "chai & coffee"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15552898662549",
+  "brand": "house-of-ceramics",
+  "title": "Ocean Drift Coffee Mug",
+  "url": "https://www.houseofceramics.in/products/ocean-drift-coffee-mug",
+  "price": 385,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Ocean_Drift_Coffee_Mug_1.jpg?v=1795441574",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Ocean_Drift_Coffee_Mug_3.jpg?v=1795441574",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Ocean_Drift_Coffee_Mug_2.jpg?v=1795441574"
+  ],
+  "blurb": "A handcrafted ceramic coffee mug inspired by the calm, flowing colours of the ocean. Relaxed and refreshing, it is perfect for your morning coffee, evening chai or a quiet break, and it makes a thoughtful gift for birthd",
+  "vibes": [
+   "chai & coffee",
+   "bold & blue"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15552898629781",
+  "brand": "house-of-ceramics",
+  "title": "Blush Harmony Ceramic Coffee Mug",
+  "url": "https://www.houseofceramics.in/products/blush-harmony-ceramic-coffee-mug",
+  "price": 385,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Blush_Harmony_Ceramic_Coffee_Mug_1.jpg?v=1795441574",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Blush_Harmony_Ceramic_Coffee_Mug_4.jpg?v=1795441574",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Blush_Harmony_Ceramic_Coffee_Mug_2.jpg?v=1795441574"
+  ],
+  "blurb": "A soft, handcrafted ceramic coffee mug in gentle blush tones. Calm, pretty and easy to love, it is perfect for your morning coffee, evening chai or a cosy break, and it makes a lovely gift for birthdays, housewarmings an",
+  "vibes": [
+   "chai & coffee",
+   "pastel"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15552898597013",
+  "brand": "house-of-ceramics",
+  "title": "Blue Lagoon Belly Mug",
+  "url": "https://www.houseofceramics.in/products/blue-lagoon-belly-mug",
+  "price": 385,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Blue_Lagoon_Belly_Mug_1.jpg?v=1795441574",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Blue_Lagoon_Belly_Mug_2.jpg?v=1795441574",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Blue_Lagoon_Belly_Mug_3.jpg?v=1795441574"
+  ],
+  "blurb": "A handcrafted ceramic belly-shaped mug in a cool blue lagoon tone. The rounded, cosy shape sits comfortably in your hands, making it perfect for coffee, chai or hot chocolate. A cheerful gift for birthdays, housewarmings",
+  "vibes": [
+   "bold & blue"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15552898564245",
+  "brand": "house-of-ceramics",
+  "title": "Espresso Noir Ceramic Coffee Mug",
+  "url": "https://www.houseofceramics.in/products/espresso-noir-ceramic-coffee-mug",
+  "price": 385,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Espresso_Noir_Ceramic_Coffee_Mug_1.jpg?v=1795441574",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Espresso_Noir_Ceramic_Coffee_Mug_3.jpg?v=1795441574",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Espresso_Noir_Ceramic_Coffee_Mug_2.jpg?v=1795441574"
+  ],
+  "blurb": "A bold, handcrafted ceramic coffee mug in a deep espresso noir mood. Sleek and stylish, it is perfect for your strong morning coffee, evening chai or office desk, and it makes a smart gift for coffee lovers. A glossy, ea",
+  "vibes": [
+   "chai & coffee"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15552898498709",
+  "brand": "house-of-ceramics",
+  "title": "Vintage Ocean Ribbed Ceramic Mug",
+  "url": "https://www.houseofceramics.in/products/vintage-ocean-ribbed-ceramic-mug",
+  "price": 375,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Vintage_Ocean_Ribbed_Ceramic_Mug_1.jpg?v=1795441574",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Vintage_Ocean_Ribbed_Ceramic_Mug_3.jpg?v=1795441574",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Vintage_Ocean_Ribbed_Ceramic_Mug_2.jpg?v=1795441574"
+  ],
+  "blurb": "A handcrafted ceramic mug in a vintage ocean-inspired tone with a textured ribbed finish. The ribbed body feels lovely in the hand and gives a stylish, cosy look, making it perfect for your morning coffee, evening chai o",
+  "vibes": [
+   "bold & blue"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15552898433173",
+  "brand": "house-of-ceramics",
+  "title": "Ivory Latte Ribbed Ceramic Mug",
+  "url": "https://www.houseofceramics.in/products/ivory-latte-ribbed-ceramic-mug",
+  "price": 385,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Ivory_Latte_Ribbed_Ceramic_Mug_1.jpg?v=1795441574",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Ivory_Latte_Ribbed_Ceramic_Mug_2.jpg?v=1795441573",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Ivory_Latte_Ribbed_Ceramic_Mug_3.jpg?v=1795441574"
+  ],
+  "blurb": "A warm, handcrafted ceramic mug in a creamy ivory latte tone with a textured ribbed finish. The ribbed body feels lovely in the hand and gives a stylish, cosy look, making it perfect for your morning coffee, evening chai",
+  "vibes": [
+   "chai & coffee",
+   "minimal"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15552898400405",
+  "brand": "house-of-ceramics",
+  "title": "Blush Rosé Ribbed Ceramic Mug",
+  "url": "https://www.houseofceramics.in/products/blush-rose-ribbed-ceramic-mug",
+  "price": 385,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Blush_Rose_Ribbed_Ceramic_Mug_1.jpg?v=1795441574",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Blush_Rose_Ribbed_Ceramic_Mug_2.jpg?v=1795441574",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Blush_Rose_Ribbed_Ceramic_Mug_3.jpg?v=1795441574"
+  ],
+  "blurb": "A soft, handcrafted ceramic mug in a blush rosé tone with a textured ribbed finish. The ribbed body feels lovely in the hand and gives a stylish, cosy look, making it perfect for your morning coffee, evening chai or a qu",
+  "vibes": [
+   "pastel"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15542666494101",
+  "brand": "house-of-ceramics",
+  "title": "Blue Heart Handle Mug",
+  "url": "https://www.houseofceramics.in/products/blue-heart-handle-mug",
+  "price": 350,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Blue_Heart_Handle_Mug.jpg?v=1795078050"
+  ],
+  "blurb": "A lovely handcrafted ceramic mug in blue with a heart-shaped handle. Simple, sweet and full of character, it brings a touch of love to every sip and makes a heartfelt gift for family and friends. Material: Ceramic Color:",
+  "vibes": [
+   "hearts & love",
+   "bold & blue"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15542666526869",
+  "brand": "house-of-ceramics",
+  "title": "Puppy Love Mug",
+  "url": "https://www.houseofceramics.in/products/puppy-love-mug",
+  "price": 385,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Puppy_Love_Mug.jpg?v=1795078050"
+  ],
+  "blurb": "An adorable handcrafted ceramic mug made for puppy lovers. Cute, cheerful and full of personality, it makes every coffee or chai break a little happier and is a perfect gift for dog lovers. Material: Ceramic Color: Multi",
+  "vibes": [
+   "hearts & love"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15542666461333",
+  "brand": "house-of-ceramics",
+  "title": "Blue Daisy Heart Handle Mug",
+  "url": "https://www.houseofceramics.in/products/blue-daisy-heart-handle-mug",
+  "price": 350,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Blue_Daisy_Heart_Handle_Mug.jpg?v=1795078050"
+  ],
+  "blurb": "A charming handcrafted ceramic mug with hand-painted blue daisies and a sweet heart-shaped handle. Pretty, playful and easy to hold, it is a lovely everyday mug and a gift that always brings a smile. Material: Ceramic Co",
+  "vibes": [
+   "florals",
+   "hearts & love",
+   "bold & blue"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15542666363029",
+  "brand": "house-of-ceramics",
+  "title": "Hot Stuff Chilli Mug",
+  "url": "https://www.houseofceramics.in/products/hot-stuff-chilli-mug",
+  "price": 370,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Hot_Stuff_Chilli_Mug.jpg?v=1795078050"
+  ],
+  "blurb": "A fun, handcrafted ceramic mug with a hot and spicy chilli theme. Bold and quirky, it adds a pinch of masala to your coffee or chai time and is a great gift for friends who love a little fire in their day. Material: Cera",
+  "vibes": [
+   "everyday"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15542666330261",
+  "brand": "house-of-ceramics",
+  "title": "Blush Pink Cozy Mug",
+  "url": "https://www.houseofceramics.in/products/blush-pink-cozy-mug",
+  "price": 350,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Blush_Pink_Cozy_Mug.jpg?v=1795078049"
+  ],
+  "blurb": "A soft, handcrafted ceramic mug in a gentle blush pink mood. Cozy to hold and lovely to look at, it is made for slow mornings, comforting chai and quiet coffee evenings, and it makes a pretty gift too. Material: Ceramic ",
+  "vibes": [
+   "pastel"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15542666297493",
+  "brand": "house-of-ceramics",
+  "title": "Little Love Hearts Mug",
+  "url": "https://www.houseofceramics.in/products/little-love-hearts-mug",
+  "price": 370,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Little_Love_Hearts_Mug.jpg?v=1795078050"
+  ],
+  "blurb": "A sweet handcrafted ceramic mug decorated with little hand-painted hearts. Warm, romantic and cosy, it is a perfect everyday mug and a thoughtful gift for birthdays, anniversaries and Valentine's Day. Material: Ceramic C",
+  "vibes": [
+   "hearts & love"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15542666231957",
+  "brand": "house-of-ceramics",
+  "title": "Blue Daisy Doodle Mug",
+  "url": "https://www.houseofceramics.in/products/blue-daisy-doodle-mug",
+  "price": 350,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Blue_Daisy_Doodle_Mug.jpg?v=1795078050"
+  ],
+  "blurb": "A cheerful handcrafted ceramic mug with playful, hand-painted blue daisy doodles. Fresh, fun and full of charm, it turns your everyday tea or coffee into a little moment of joy and makes a lovely gift too. Material: Cera",
+  "vibes": [
+   "florals",
+   "quirky",
+   "bold & blue"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15542666166421",
+  "brand": "house-of-ceramics",
+  "title": "Mini Love Espresso Cup",
+  "url": "https://www.houseofceramics.in/products/mini-love-espresso-cup",
+  "price": 350,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Mini_Love_Espresso_Cup.jpg?v=1795078050"
+  ],
+  "blurb": "A cute, handcrafted ceramic espresso cup with a hand-painted love theme. The compact, easy-to-hold shape makes it perfect for a strong morning espresso, a quick coffee break or a small sweet gift for someone you love. Ma",
+  "vibes": [
+   "chai & coffee",
+   "hearts & love"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-15542148661397",
+  "brand": "house-of-ceramics",
+  "title": "Ghost Coffee Mug",
+  "url": "https://www.houseofceramics.in/products/ghost-coffee-mug",
+  "price": 395,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Ghost_Coffee_Mug.jpg?v=1795069533"
+  ],
+  "blurb": "Material: Ceramic Color: Multi-color Capacity: Mug: 300ml Package Content: 1 Coffee Mug Item Dimensions - LxWxH: Mug: 5inc. Diameter, 3.5inc. Ht. Finish: Glossy Feature: Freezer, Dishwasher & Microwave Safe Disclaimer: T",
+  "vibes": [
+   "chai & coffee",
+   "quirky"
+  ]
+ },
+ {
+  "id": "house-of-ceramics-8791913070741",
+  "brand": "house-of-ceramics",
+  "title": "Mornings with Ellie",
+  "url": "https://www.houseofceramics.in/products/mornings-with-ellie-mug",
+  "price": 370,
+  "compareAt": 799,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/Mornings_with_Ellie_coffee_mug.jpg?v=1795069220",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250601-WA0022.jpg?v=1748773982",
+   "https://cdn.shopify.com/s/files/1/0691/2406/3381/files/IMG-20250601-WA0025.jpg?v=1748773982"
+  ],
+  "blurb": "Material: Ceramic Color: Multi-color Capacity: Mug: 300ml Package Content: 1 Coffee Mug Item Dimensions - LxWxH: Mug: 5inc. Diameter X 4inc ht. Finish: Glossy Feature: Freezer, Dishwasher & Microwave Safe Disclaimer: The",
+  "vibes": [
+   "everyday"
+  ]
+ },
+ {
+  "id": "craftribal-8610740437281",
+  "brand": "craftribal",
+  "title": "Panda Mug",
+  "url": "https://craftribal.com/products/panda-mug",
+  "price": 499,
+  "compareAt": 3899,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_0362.jpg?v=1737536792",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_3363.jpg?v=1737536792",
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/IMG_3362.jpg?v=1694443392"
+  ],
+  "blurb": "Size: Capacity- 240 ML Material: Ceramic Package Inclusion: 1 Mug Finish- Gloss Description - Handmade Pottery, crafted with utmost care and expertise in India. These delicate creations are not only visually stunning but",
+  "vibes": [
+   "cats & critters"
+  ]
+ },
+ {
+  "id": "craftribal-10755709534497",
+  "brand": "craftribal",
+  "title": "Cute Kitty Ceramic Mug",
+  "url": "https://craftribal.com/products/cute-kitty-ceramic-mug",
+  "price": 365,
+  "compareAt": 499,
+  "soldOut": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0789/1333/9681/files/CozyCatMugStillLife.webp?v=1794576025"
+  ],
+  "blurb": "Cute Kitty Ceramic Mug Make every sip extra special with this adorable Cute Kitty Ceramic Mug! Featuring a charming 3D cat face design, cute closed eyes, tiny whiskers, a pretty pink nose, and a unique cat-tail-inspired ",
+  "vibes": [
+   "cats & critters"
   ]
  }
 ]
